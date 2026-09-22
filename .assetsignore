@@ -1,0 +1,16 @@
+**/.git
+**/node_modules
+**/.DS_Store
+
+.gitignore
+README.md
+
+package.json
+package-lock.json
+wrangler.json
+wrangler.jsonc
+wrangler.toml
+
+scripts/
+content/
+esboco/
