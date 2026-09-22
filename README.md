@@ -20,6 +20,7 @@ O site também funciona em qualquer servidor de arquivos estáticos, como `pytho
 index.html                 Home pronta para servir
 sobre/index.html           Página institucional
 acoes/index.html           Formas de atuação e arquivo
+acoes/setembro-amarelo-2026/  Página da 9ª Campanha Setembro Amarelo
 acoes/reenconcavo-2023/    Página de uma ação documentada
 acoes/saude-mental-psicoeducacao-2022/  Webconferência documentada
 publicacoes/index.html     Publicações, documentos e canais

@@ -12,6 +12,7 @@ const routes = [
   "/agenda/",
   "/contato/",
   "/conteudos/",
+  "/acoes/setembro-amarelo-2026/",
   "/acoes/reenconcavo-2023/",
   "/acoes/saude-mental-psicoeducacao-2022/",
 ];
@@ -86,6 +87,21 @@ assert.match(
   "O ELO em atividade é título de seção",
 );
 assert.match(
+  pages.get("/acoes/"),
+  /href="\/acoes\/setembro-amarelo-2026\/">Conheça a atividade/,
+  "Destaque da campanha aponta para a página interna",
+);
+assert.match(
+  pages.get("/acoes/setembro-amarelo-2026/"),
+  /href="https:\/\/www\.instagram\.com\/p\/Db_rIESqtqY\//,
+  "Página da campanha aponta para o post específico",
+);
+assert.equal(
+  (pages.get("/acoes/setembro-amarelo-2026/").match(/<h1[ >]/g) || []).length,
+  1,
+  "Campanha possui um único h1",
+);
+assert.match(
   pages.get("/contato/"),
   /href="\/contato\/" aria-current="page">Contato<\/a>/,
   "Contato é página interna ativa",
@@ -131,6 +147,26 @@ for (const event of events)
     event.url || event.sourceStatus === "pending_exact_post_url",
     `Evento possui URL específica ou pendência explícita: ${event.slug}`,
   );
+for (const action of actions)
+  assert.ok(
+    action.url || action.sourceStatus === "pending_exact_post_url",
+    `Ação possui URL específica ou pendência explícita: ${action.slug}`,
+  );
+assert.match(
+  pages.get("/"),
+  /class="agenda-label"[\s\S]*?<svg[^>]+aria-hidden="true"/,
+  "Agenda da home possui ícone SVG",
+);
+assert.match(
+  pages.get("/"),
+  /class="context-heading">Campanha · 2026<\/p>/,
+  "Campanha de 2026 possui cabeçalho contextual",
+);
+assert.match(
+  pages.get("/"),
+  /class="section-kicker">Publicações<\/p>/,
+  "Publicações possui cabeçalho contextual",
+);
 console.log(
   `OK: ${pages.size} páginas; ${links} referências locais; headings, metadados, âncoras, JSON-LD e integridade editorial.`,
 );
