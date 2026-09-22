@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "setembro-amarelo-2026",
+    "title": "9ª Campanha Setembro Amarelo",
+    "type": "Campanha",
+    "year": "2026",
+    "location": "Cachoeira, BA",
+    "description": "Registro público da participação do ELO.UFRB com a Câmara de Vereadores de Cachoeira na nona edição da campanha.",
+    "image": "/assets/img/acoes/elo-camara-cachoeira-setembro-amarelo.webp",
+    "imageAvif": "/assets/img/acoes/elo-camara-cachoeira-setembro-amarelo.avif",
+    "imageWidth": 504,
+    "imageHeight": 640,
+    "alt": "Representantes do ELO.UFRB e da Câmara de Vereadores de Cachoeira na 9ª Campanha Setembro Amarelo de 2026",
+    "sourceId": "instagram-setembro-amarelo-2026"
+  },
+  {
+    "slug": "reenconcavo-2023",
+    "title": "Movimentos Sociais e Universidade",
+    "subtitle": "Projeto ELO.UFRB, interação em redes",
+    "type": "Painel",
+    "date": "2023-03-09",
+    "time": "14h às 16h",
+    "year": "2023",
+    "location": "Sala 16, CAHL/UFRB, Cachoeira, BA",
+    "description": "Painel do Reencôncavo 2023 com representantes de movimentos sociais e mediação de docentes da Licenciatura em Ciências Sociais.",
+    "image": "/assets/img/acoes/reenconcavo-2023.webp",
+    "imageAvif": "/assets/img/acoes/reenconcavo-2023.avif",
+    "imageWidth": 1000,
+    "imageHeight": 1000,
+    "alt": "Arte oficial do Reencôncavo 2023 com a Ponte Dom Pedro II e as datas 7, 8 e 9 de março",
+    "url": "/acoes/reenconcavo-2023/",
+    "sourceId": "cahl-reenconcavo-2023"
+  },
+  {
+    "slug": "saude-mental-psicoeducacao-2022",
+    "title": "Saúde Mental e Psicoeducação",
+    "type": "Webconferência",
+    "date": "2022-09-29",
+    "time": "19h às 21h",
+    "year": "2022",
+    "location": "Online, TV UFRB",
+    "description": "Debate sobre preservação da vida e prevenção ao suicídio, com atenção às relações entre saúde mental, pandemia, escola, família, relações abusivas e autocuidado.",
+    "image": "/assets/img/acoes/saude-mental-psicoeducacao-2022.webp",
+    "imageAvif": "/assets/img/acoes/saude-mental-psicoeducacao-2022.avif",
+    "imageWidth": 1000,
+    "imageHeight": 1000,
+    "alt": "Arte oficial da webconferência Saúde Mental e Psicoeducação, realizada em 29 de setembro de 2022",
+    "url": "/acoes/saude-mental-psicoeducacao-2022/",
+    "sourceId": "ufrb-saude-mental-psicoeducacao-2022"
+  }
+]

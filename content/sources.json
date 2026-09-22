@@ -1,0 +1,80 @@
+[
+  {
+    "id": "projeto-elo-2025-2027",
+    "title": "Projeto ELO.UFRB 2025–2027",
+    "type": "documento institucional",
+    "source": "Material original fornecido em /esboço",
+    "originUrl": "/esboço/Projeto Elo UFRB 2025- 2027.pdf",
+    "verified": true,
+    "notes": "Fonte principal para história, conceito, objetivos, metodologia, vínculo institucional e período de renovação."
+  },
+  {
+    "id": "instagram-profile",
+    "title": "Perfil oficial @elo.ufrb.oficial",
+    "type": "canal oficial",
+    "source": "Instagram oficial do ELO.UFRB",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/",
+    "verified": true,
+    "notes": "Perfil e descrição pública confirmados. O Instagram restringiu permalinks e legendas na consulta sem autenticação."
+  },
+  {
+    "id": "instagram-setembro-amarelo-2026",
+    "title": "ELO.UFRB e Câmara de Vereadores de Cachoeira-BA na 9ª Campanha do Setembro Amarelo — 2026",
+    "type": "ação",
+    "source": "Publicação visível no perfil oficial @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/",
+    "sourceStatus": "pending_exact_post_url",
+    "imageOrigin": "Imagem pública carregada pelo perfil oficial; cópia local preservada e otimizada.",
+    "verified": true,
+    "notes": "Título e parceria são legíveis na própria peça. Data específica e permalink não foram disponibilizados sem autenticação e não são publicados."
+  },
+  {
+    "id": "instagram-curso-extensao-2026",
+    "title": "Curso de Extensão — Pesquisa Social Aplicada na Educação Básica",
+    "type": "evento",
+    "source": "Publicação visível no perfil oficial @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/",
+    "sourceStatus": "pending_exact_post_url",
+    "verified": true,
+    "notes": "Peça pública informa 22 de setembro de 2026, 19h–19h45, Google Meet, Prof.ª Taiane Almeida e mediação do Prof. Antonio Mateus Soares. Buscas pelo título, data, participantes e tema não localizaram um permalink oficial indexado. O perfil geral não é publicado como substituto; solicitar o permalink exato ao projeto."
+  },
+  {
+    "id": "instagram-registro-publico",
+    "title": "Registro fotográfico de atividade do ELO.UFRB com público",
+    "type": "fotografia",
+    "source": "Imagem visível no perfil oficial @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/",
+    "imageOrigin": "Imagem pública carregada pelo perfil oficial; cópia local preservada e otimizada.",
+    "verified": true,
+    "notes": "Usada apenas como registro geral do projeto em atividade; evento, data e pessoas não são identificados no site."
+  },
+  {
+    "id": "cahl-reenconcavo-2023",
+    "title": "Reencôncavo 2023",
+    "type": "evento institucional",
+    "source": "Centro de Artes, Humanidades e Letras, UFRB",
+    "originUrl": "https://ufrb.edu.br/cahl/eventos/2506-reenconcavo-2023",
+    "imageOrigin": "https://ufrb.edu.br/cahl/images/reenconcavo.png",
+    "verified": true,
+    "notes": "Programa oficial confirma o Reencôncavo de 7 a 9 de março e o painel de 9 de março de 2023, das 14h às 16h, na Sala 16 do CAHL, com participantes e mediação. A arte oficial do evento foi preservada e otimizada localmente."
+  },
+  {
+    "id": "ufrb-saude-mental-psicoeducacao-2022",
+    "title": "Saúde Mental e Psicoeducação",
+    "type": "webconferência",
+    "source": "Portal UFRB",
+    "originUrl": "https://ufrb.edu.br/portal1/component/chronoforms5/?chronoform=ver-evento&id=1736",
+    "imageOrigin": "https://ufrb.edu.br/portal1/components/com_chronoforms5/chronoforms/uploads/evento/20220926160716_mente.jpg",
+    "verified": true,
+    "notes": "Evento publicado em 26 de setembro de 2022. A página confirma realização em 29 de setembro, das 19h às 21h, na TV UFRB, objetivo, temas, mediação e participantes. A arte oficial foi preservada e otimizada localmente."
+  },
+  {
+    "id": "instagram-posts-pending",
+    "title": "Publicações recentes do Instagram ainda sem permalink",
+    "type": "pendência editorial",
+    "source": "Perfil oficial @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/",
+    "verified": false,
+    "notes": "Solicitar ao responsável os arquivos originais, legendas completas, datas e permalinks antes de ampliar o arquivo de ações e a galeria."
+  }
+]

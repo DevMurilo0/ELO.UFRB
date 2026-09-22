@@ -1,0 +1,63 @@
+{
+  "origin": "",
+  "name": "ELO.UFRB",
+  "fullName": "Sociabilidades Virtuais em Rede e Interatividades Coletivas com a Sociedade Civil",
+  "description": "O ELO.UFRB aproxima Universidade, Comunidade e Território por meio da extensão, do diálogo e da circulação de conhecimentos. Conheça o projeto e seus canais.",
+  "document": "/esboço/Projeto Elo UFRB 2025- 2027.pdf",
+  "channels": [
+    {
+      "name": "Instagram",
+      "label": "@elo.ufrb.oficial",
+      "description": "Novidades e registros",
+      "url": "https://www.instagram.com/elo.ufrb.oficial/"
+    },
+    {
+      "name": "YouTube",
+      "label": "@ELOUFRB",
+      "description": "Vídeos e transmissões",
+      "url": "https://www.youtube.com/@ELOUFRB"
+    },
+    {
+      "name": "WhatsApp",
+      "label": "+55 75 98245-4138",
+      "description": "Informações e contato",
+      "url": "https://wa.me/5575982454138"
+    },
+    {
+      "name": "E-mail",
+      "label": "canal.eloufrb@gmail.com",
+      "description": "Fale conosco",
+      "url": "mailto:canal.eloufrb@gmail.com"
+    },
+    {
+      "name": "X (Twitter)",
+      "label": "@eloufrb",
+      "description": "Debates e atualizações",
+      "url": "https://x.com/eloufrb"
+    },
+    {
+      "name": "TikTok",
+      "label": "@elo.ufrb",
+      "description": "Conteúdos em movimento",
+      "url": "https://www.tiktok.com/@elo.ufrb"
+    },
+    {
+      "name": "Threads",
+      "label": "@elo.ufrb.oficial",
+      "description": "Ideias e conversas",
+      "url": "https://www.threads.net/@elo.ufrb.oficial"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Projeto ELO.UFRB 2025 a 2027",
+      "type": "Documento institucional",
+      "description": "A proposta de renovação do projeto: objetivos, fundamentos e metodologia para a construção de uma universidade em rede.",
+      "period": "Dezembro de 2025 a dezembro de 2027",
+      "url": "/esboço/Projeto Elo UFRB 2025- 2027.pdf",
+      "format": "PDF · 18 páginas",
+      "source": "Documento original fornecido em esboço."
+    }
+  ],
+  "contents": []
+}
