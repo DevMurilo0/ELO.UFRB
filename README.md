@@ -19,12 +19,14 @@ O site também funciona em qualquer servidor de arquivos estáticos, como `pytho
 ```text
 index.html                 Home pronta para servir
 sobre/index.html           Página institucional
+idealizador/index.html     Trajetória do idealizador
 acoes/index.html           Formas de atuação e arquivo
 acoes/setembro-amarelo-2026/  Página da 9ª Campanha Setembro Amarelo
 acoes/reenconcavo-2023/    Página de uma ação documentada
 acoes/saude-mental-psicoeducacao-2022/  Webconferência documentada
-publicacoes/index.html     Publicações, documentos e canais
-agenda/index.html          Agenda
+publicacoes/index.html     Publicações, documentos e registros
+agenda/index.html          Agendas
+parceira/index.html        Parcerias, redes e interlocuções
 contato/index.html         Contato e canais oficiais
 conteudos/index.html       Rota complementar preservada
 404.html                   Página de endereço não encontrado
@@ -34,7 +36,11 @@ assets/fonts/              Fontes locais e licenças OFL
 assets/img/                Marca e fotografias locais otimizadas
 content/site.json          Configuração, canais e publicação institucional
 content/actions.json       Ações confirmadas
-content/events.json        Agenda confirmada
+content/events.json        Agendas confirmadas
+content/idealizador.json   Trajetória e seleção acadêmica do idealizador
+content/publications.json  Arquivo editorial de publicações
+content/partners.json      Parcerias, vínculos e interlocuções
+content/media.json         Vídeos e entrevistas selecionados
 content/people.json        Pessoas (vazio até existir lista oficial)
 content/sources.json       Proveniência e pendências editoriais
 scripts/build.mjs          Templates e geração das páginas
@@ -53,7 +59,7 @@ npm run check
 
 Não edite apenas os HTMLs gerados: eles serão substituídos pelo próximo build. O gerador usa somente módulos nativos do Node e mantém todo conteúdo e navegação disponíveis sem JavaScript no navegador.
 
-A transição em faixas está preservada, mas temporariamente desativada. Para reativá-la, altere `PAGE_TRANSITIONS_ENABLED` para `true` no início de `assets/js/main.js`.
+A transição em faixas entre páginas está ativa e respeita `prefers-reduced-motion`. A configuração permanece em `assets/js/main.js`.
 
 ## Cadastrar conteúdo real
 

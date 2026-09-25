@@ -7,9 +7,11 @@ const root = fileURLToPath(new URL("../", import.meta.url));
 const routes = [
   "/",
   "/sobre/",
+  "/idealizador/",
   "/acoes/",
   "/publicacoes/",
   "/agenda/",
+  "/parceira/",
   "/contato/",
   "/conteudos/",
   "/acoes/setembro-amarelo-2026/",
@@ -108,8 +110,8 @@ assert.match(
 );
 assert.match(
   await readFile(join(root, "assets/js/main.js"), "utf8"),
-  /const PAGE_TRANSITIONS_ENABLED = false;/,
-  "Transição temporariamente desativada",
+  /const PAGE_TRANSITIONS_ENABLED = true;/,
+  "Transição entre páginas reativada",
 );
 const config = JSON.parse(
   await readFile(join(root, "content/site.json"), "utf8"),

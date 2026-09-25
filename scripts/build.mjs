@@ -1,3 +1,4 @@
+import { editorialPages } from "./editorial.mjs";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { join } from "node:path";
@@ -12,6 +13,11 @@ data.actions = JSON.parse(
 data.events = JSON.parse(
   await readFile(join(root, "content/events.json"), "utf8"),
 );
+data.idealizador = JSON.parse(await readFile(join(root, "content/idealizador.json"), "utf8"));
+data.publicationArchive = JSON.parse(await readFile(join(root, "content/publications.json"), "utf8"));
+data.partners = JSON.parse(await readFile(join(root, "content/partners.json"), "utf8"));
+data.media = JSON.parse(await readFile(join(root, "content/media.json"), "utf8"));
+data.sources = JSON.parse(await readFile(join(root, "content/sources.json"), "utf8"));
 const esc = (s = "") =>
   String(s).replace(
     /[&<>"']/g,
@@ -26,9 +32,11 @@ const pdf = encodeURI(data.document);
 const nav = [
   ["/", "Início"],
   ["/sobre/", "O ELO"],
+  ["/idealizador/", "Idealizador"],
   ["/acoes/", "Ações"],
-  ["/agenda/", "Agenda"],
-  ["/publicacoes/", "Publicações"],
+  ["/agenda/", "Agendas"],
+  ["/publicacoes/", "Publicação"],
+  ["/parceira/", "Parceira"],
   ["/contato/", "Contato"],
 ];
 const link = (href, title, cls = "text-link") =>
@@ -108,7 +116,7 @@ function footer() {
     .filter((channel) => ["Instagram", "YouTube", "X (Twitter)", "E-mail"].includes(channel.name))
     .map((channel) => `<a href="${esc(channel.url)}"${/^https?:/i.test(channel.url) ? ' target="_blank" rel="noopener noreferrer"' : ""}><span class="footer-social-icon">${channelIcons[channel.name]}</span>${esc(channel.name)}</a>`)
     .join("");
-  return `<footer class="site-footer"><div class="container"><div class="footer-main"><div class="footer-brand"><img src="/assets/img/elo-original.jpeg" alt="Logomarca do ELO.UFRB" width="92" height="97" loading="lazy"><div><strong>ELO.UFRB</strong><p>${esc(data.fullName)}.</p></div></div><div><p class="footer-label">Vínculo institucional</p><p>Universidade Federal do Recôncavo da Bahia<br>Licenciatura em Ciências Sociais · CAHL/UFRB</p><a class="footer-contact" href="/contato/">Contato</a></div><div class="footer-nav"><p class="footer-label">Navegação</p><a href="/sobre/">O ELO</a><a href="/acoes/">Ações</a><a href="/agenda/">Agenda</a><a href="/publicacoes/">Publicações</a><a href="/contato/">Contato</a></div><div class="footer-socials"><p class="footer-label">Canais oficiais</p>${footerChannels}</div></div><div class="footer-bottom"><span>ELO.UFRB, projeto de extensão criado em 2022.</span><a href="#topo">Voltar ao início <span aria-hidden="true">↑</span></a></div><div class="footer-credit"><span>© ELO.UFRB</span><span>Desenvolvido por <a href="https://murilogabriel.com.br" target="_blank" rel="noopener noreferrer">Murilo Gabriel</a></span></div></div></footer>`;
+  return `<footer class="site-footer"><div class="container"><div class="footer-main"><div class="footer-brand"><img src="/assets/img/elo-original.jpeg" alt="Logomarca do ELO.UFRB" width="92" height="97" loading="lazy"><div><strong>ELO.UFRB</strong><p>${esc(data.fullName)}.</p></div></div><div><p class="footer-label">Vínculo institucional</p><p>Universidade Federal do Recôncavo da Bahia<br>Licenciatura em Ciências Sociais · CAHL/UFRB</p><a class="footer-contact" href="/contato/">Contato</a></div><div class="footer-nav"><p class="footer-label">Navegação</p><a href="/sobre/">O ELO</a><a href="/idealizador/">Idealizador</a><a href="/acoes/">Ações</a><a href="/agenda/">Agendas</a><a href="/publicacoes/">Publicação</a><a href="/parceira/">Parceira</a><a href="/contato/">Contato</a></div><div class="footer-socials"><p class="footer-label">Canais oficiais</p>${footerChannels}</div></div><div class="footer-bottom"><span>ELO.UFRB, projeto de extensão criado em 2022.</span><a href="#topo">Voltar ao início <span aria-hidden="true">↑</span></a></div><div class="footer-credit"><span>© ELO.UFRB</span><span>Desenvolvido por <a href="https://murilogabriel.com.br" target="_blank" rel="noopener noreferrer">Murilo Gabriel</a></span></div></div></footer>`;
 }
 
 function page(path, title, description, body) {
@@ -164,15 +172,19 @@ const heroImage = {
 };
 const featuredAction = data.actions[0];
 const nextEvent = data.events[0];
+const nextEventDate = new Date(nextEvent.date + "T00:00:00Z");
+const nextEventDay = String(nextEventDate.getUTCDate()).padStart(2, "0");
+const nextEventMonth = new Intl.DateTimeFormat("pt-BR", { month: "short", timeZone: "UTC" }).format(nextEventDate).replace(".", "");
+const nextEventYear = nextEventDate.getUTCFullYear();
 const featuredActionSource = featuredAction.sourceUrl
   ? externalLink(featuredAction.sourceUrl, "Ver publicação no Instagram", "Instagram")
   : `<div class="featured-source-pending"><span>Fonte</span><strong>${esc(featuredAction.sourceLabel || "Publicação oficial do ELO.UFRB")}</strong></div>`;
-const home = `<section class="hero hero-centered"><div class="hero-orbits" aria-hidden="true"><i></i><i></i><i></i></div><div class="container hero-center-copy">${tag("Projeto de extensão da UFRB · Desde 2022")}<h1 class="hero-brand">ELO<span>.</span>UFRB</h1><p class="hero-kicker">Universidade em rede</p><p class="hero-fullname">${esc(data.fullName)}.</p><p class="hero-triad">Universidade <i></i> Comunidade <i></i> Território</p><a class="hero-scroll" href="#em-movimento"><span>Conheça o projeto</span><b aria-hidden="true">↓</b></a></div></section>
+let home = `<section class="hero hero-centered"><div class="hero-orbits" aria-hidden="true"><i></i><i></i><i></i></div><div class="container hero-center-copy">${tag("Projeto de extensão da UFRB · Desde 2022")}<h1 class="hero-brand">ELO<span>.</span>UFRB</h1><p class="hero-kicker">Universidade em rede</p><p class="hero-fullname">${esc(data.fullName)}.</p><p class="hero-triad">Universidade <i></i> Comunidade <i></i> Território</p><a class="hero-scroll" href="#em-movimento"><span>Conheça o projeto</span><b aria-hidden="true">↓</b></a></div></section>
 <section class="reality-bridge" id="em-movimento" aria-labelledby="movement-title"><div class="container reality-grid"><div class="reality-photo" data-parallax>${picture(heroImage, { eager: true })}<span class="photo-credit">Registro do projeto · Canal oficial do ELO.UFRB</span></div><div class="reality-copy"><h2 id="movement-title">O ELO em atividade</h2><p class="section-statement">Extensão dentro e fora da Universidade.</p><p>Atividades, campanhas e formações aproximam a comunidade acadêmica, a sociedade civil e os territórios.</p>${link("/acoes/", "Conheça as ações")}</div></div></section>
 <section class="section featured-action"><div class="container featured-action-grid"><div class="featured-action-photo">${picture(featuredAction)}<span class="image-source">Imagem publicada pelo canal oficial do ELO.UFRB</span></div><div class="featured-action-copy"><p class="context-heading">Campanha · ${esc(featuredAction.year)}</p><p class="place">${esc(featuredAction.location)}</p><h2>${esc(featuredAction.title)}</h2><p>${esc(featuredAction.description)}</p><div class="featured-action-links">${link(featuredAction.url, "Conheça a atividade")}${featuredActionSource}</div></div></div></section>
 <section class="section home-about"><div class="container home-about-grid"><div>${tag("O que é o ELO")}<h2>Uma universidade<br><em>em rede.</em></h2><p class="lead">Um projeto de extensão da UFRB criado para aproximar Universidade, Comunidade e Território.</p>${link("/sobre/", "Conheça o projeto")}</div><div class="triad" aria-label="Universidade, Comunidade e Território conectados"><span>Universidade</span><b aria-hidden="true">↕</b><span>Comunidade</span><b aria-hidden="true">↕</b><span>Território</span></div></div></section>
-<section class="section home-actions"><div class="container"><div class="section-heading"><div>${tag("Memória do projeto")}<h2>Ações registradas</h2></div>${link("/acoes/", "Ver todas as ações")}</div><div class="editorial-list"><a href="${esc(featuredAction.url)}"><span class="list-date">${featuredAction.year}</span><span><small>${esc(featuredAction.type)} · ${esc(featuredAction.location)}</small><strong>${esc(featuredAction.title)}</strong></span>${next}</a><a href="/acoes/reenconcavo-2023/"><span class="list-date">09<br>MAR<br>2023</span><span><small>Painel · CAHL/UFRB</small><strong>Movimentos Sociais e Universidade: interação em redes</strong></span>${next}</a></div></div></section>
-<section class="section home-agenda"><div class="container agenda-strip"><div><div class="agenda-label">${sectionIcon("calendar", "blue")}<span>Agenda</span></div><time datetime="${esc(nextEvent.date)}"><strong>22</strong><span>set<br>2026</span></time></div><div><p class="event-type">${esc(nextEvent.type)} · ${esc(nextEvent.location)}</p><h2>${esc(nextEvent.title)}</h2><p>${esc(nextEvent.time)} · com ${esc(nextEvent.speaker)}</p></div>${link("/agenda/", "Ver detalhes")}</div></section>
+__HOME_FOUNDER__<section class="section home-actions"><div class="container"><div class="section-heading"><div>${tag("Memória do projeto")}<h2>Ações registradas</h2></div>${link("/acoes/", "Ver todas as ações")}</div><div class="editorial-list"><a href="${esc(featuredAction.url)}"><span class="list-date">${featuredAction.year}</span><span><small>${esc(featuredAction.type)} · ${esc(featuredAction.location)}</small><strong>${esc(featuredAction.title)}</strong></span>${next}</a><a href="/acoes/reenconcavo-2023/"><span class="list-date">09<br>MAR<br>2023</span><span><small>Painel · CAHL/UFRB</small><strong>Movimentos Sociais e Universidade: interação em redes</strong></span>${next}</a></div></div></section>
+<section class="section home-agenda"><div class="container agenda-strip"><div><div class="agenda-label">${sectionIcon("calendar", "blue")}<span>Agenda</span></div><time datetime="${esc(nextEvent.date)}"><strong>${esc(nextEventDay)}</strong><span>${esc(nextEventMonth)}<br>${esc(nextEventYear)}</span></time></div><div><p class="event-type">${esc(nextEvent.type)} · ${esc(nextEvent.location)}</p><h2>${esc(nextEvent.title)}</h2><p>${nextEvent.time ? esc(nextEvent.time) : "Horário a confirmar"}${nextEvent.speaker ? " · com " + esc(nextEvent.speaker) : ""}</p></div>${link("/agenda/", "Ver detalhes")}</div></section>
 <section class="section home-acervo"><div class="container home-acervo-grid"><div><p class="section-kicker">Publicações</p><h2>Documentos e materiais</h2><p>Produções do projeto reunidas para consulta.</p>${link("/publicacoes/", "Ver publicações")}</div><a class="document-feature" href="${pdf}" download><span>Documento institucional</span><strong>Projeto ELO.UFRB<br>2025 a 2027</strong><small>PDF · 18 páginas</small>${arrow}</a></div></section>
 ${channels()}`;
 
@@ -265,16 +277,31 @@ const actions = `${intro("Ações", "Ações do ELO.UFRB", "Atividades, campanha
 
 const publications = `${intro("Publicações", "Publicações e materiais", "Documentos institucionais, vídeos e registros reunidos em um mesmo lugar.")}<section class="section" aria-labelledby="acervo-title"><div class="container"><div class="major-section-heading">${sectionIcon("file", "orange")}<div>${tag("Repositório institucional")}<h2 id="acervo-title">Documentos e materiais</h2><p>Arquivos publicados e verificados pelo projeto.</p></div></div>${data.publications.map(publicationCard).join("")}<p class="source-note">Novas produções serão incluídas quando publicadas pelos canais oficiais.</p><div class="content-paths"><a href="https://www.youtube.com/@ELOUFRB" target="_blank" rel="noopener noreferrer"><span>${sectionIcon("video", "red")}${tag("Vídeos")}<h3>YouTube do ELO.UFRB</h3><p>Transmissões e registros audiovisuais</p></span>${arrow}</a><a href="https://www.instagram.com/elo.ufrb.oficial/" target="_blank" rel="noopener noreferrer"><span><span class="section-icon icon-blue">${channelIcons.Instagram}</span>${tag("Atualizações")}<h3>Instagram oficial</h3><p>Ações, campanhas e chamadas públicas</p></span>${arrow}</a></div></div></section>`;
 
+const editorial = editorialPages({ data, esc, tag, link, externalLink, picture, intro, formatDate });
+const idealizadorPage = editorial.idealizador;
+const publicationPage = editorial.publicacao;
+const partnerPage = editorial.parceira;
+home = home.replace("__HOME_FOUNDER__", editorial.homeFounder);
+
 const actionsPage = actions.replace(
   featuredActionSource,
   `<div class="featured-action-links">${link(featuredAction.url, "Conheça a atividade")}</div>`,
 );
 
 const agendaEntries = data.events
-  .map(
-    (item) =>
-      `<article class="agenda-entry"><time datetime="${esc(item.date)}"><strong>${new Date(item.date + "T00:00:00Z").getUTCDate()}</strong><span>set<br>2026</span></time><div>${tag(esc(item.type))}<h3>${esc(item.title)}</h3><p>${esc(item.description)}</p><dl><div><dt>Quando</dt><dd>${esc(formatDate(item.date))}, ${esc(item.time)}</dd></div><div><dt>Onde</dt><dd>${esc(item.location)}</dd></div><div><dt>Convidada</dt><dd>${esc(item.speaker)}</dd></div><div><dt>Mediação</dt><dd>${esc(item.mediation)}</dd></div></dl><div class="event-source"><p class="eyebrow">Fonte</p>${item.url ? externalLink(item.url, "Ver publicação no Instagram", "Instagram") : `<p>${esc(item.sourceLabel || "Publicação oficial do ELO.UFRB")}</p>`}</div></div></article>`,
-  )
+  .map((item) => {
+    const eventDate = new Date(item.date + "T00:00:00Z");
+    const day = String(eventDate.getUTCDate()).padStart(2, "0");
+    const month = new Intl.DateTimeFormat("pt-BR", { month: "short", timeZone: "UTC" }).format(eventDate).replace(".", "");
+    const year = eventDate.getUTCFullYear();
+    const details = [
+      ["Quando", `${formatDate(item.date)}${item.time ? ", " + item.time : ""}`],
+      ["Onde", item.location],
+      item.speaker ? ["Convidada", item.speaker] : null,
+      item.mediation ? ["Mediação", item.mediation] : null,
+    ].filter(Boolean);
+    return `<article class="agenda-entry"><time datetime="${esc(item.date)}"><strong>${esc(day)}</strong><span>${esc(month)}<br>${esc(year)}</span></time><div>${tag(esc(item.type))}<h3>${esc(item.title)}</h3><p>${esc(item.description)}</p><dl>${details.map(([label, value]) => `<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>`).join("")}</dl><div class="event-source"><p class="eyebrow">Fonte</p>${item.url ? externalLink(item.url, "Ver publicação no Instagram", "Instagram") : `<p>${esc(item.sourceLabel || "Publicação oficial do ELO.UFRB")}</p>`}</div></div></article>`;
+  })
   .join("");
 const agendaPast = data.actions.slice(1).map((item) => `<a class="past-event" href="${esc(item.url)}"><time datetime="${esc(item.date)}"><strong>${new Date(item.date + "T00:00:00Z").getUTCDate()}</strong><span>${new Intl.DateTimeFormat("pt-BR", { month: "short", year: "numeric", timeZone: "UTC" }).format(new Date(item.date))}</span></time><span><small>${esc(item.type)}</small><strong>${esc(item.title)}</strong><em>${esc(item.location)}</em></span>${arrow}</a>`).join("");
 const agenda = `${intro("Agenda", "Agenda do ELO.UFRB", "Datas, horários e locais das atividades confirmadas do projeto.")}<section class="section"><div class="container"><div class="major-section-heading">${sectionIcon("calendar", "blue")}<div>${tag("Programação confirmada")}<h2>Próximas atividades</h2><p>Informações essenciais para acompanhar a programação.</p></div></div><div class="agenda-list">${agendaEntries}</div></div></section><section class="section past-events"><div class="container"><div class="section-heading"><div>${tag("Memória")}<h2>Atividades realizadas</h2></div><p>Registros anteriores permanecem disponíveis no arquivo de ações.</p></div><div class="past-event-list">${agendaPast}</div></div></section>${channels()}`;
@@ -308,6 +335,12 @@ const pages = [
     about,
   ],
   [
+    "/idealizador/",
+    "Antônio Mateus de Carvalho Soares | Idealizador do ELO.UFRB",
+    "Conheça Antônio Mateus de Carvalho Soares, idealizador do ELO.UFRB, sua trajetória acadêmica e os eixos Violência, Educação e Direitos Humanos.",
+    idealizadorPage,
+  ],
+  [
     "/acoes/",
     "Ações e extensão universitária | ELO.UFRB",
     "Conheça as formas de atuação previstas no ELO.UFRB: encontros, formações, campanhas, comunicação em rede e ações territoriais.",
@@ -317,13 +350,19 @@ const pages = [
     "/publicacoes/",
     "Publicações e materiais | ELO.UFRB",
     "Consulte documentos, materiais e canais de conteúdo do ELO.UFRB.",
-    publications,
+    publicationPage,
   ],
   [
     "/agenda/",
     "Agenda de encontros e atividades | ELO.UFRB",
     "Espaço para a programação de seminários, cursos, rodas de conversa e atividades presenciais, virtuais e híbridas do ELO.UFRB.",
     agenda,
+  ],
+  [
+    "/parceira/",
+    "Parcerias e redes | ELO.UFRB",
+    "Conheça parcerias confirmadas, vínculos institucionais e interlocuções construídas nas atividades do ELO.UFRB.",
+    partnerPage,
   ],
   [
     "/contato/",

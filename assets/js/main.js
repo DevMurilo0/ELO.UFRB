@@ -1,7 +1,7 @@
 (() => {
   "use strict";
   // Ative somente quando a assinatura de navegação voltar a ser necessária.
-  const PAGE_TRANSITIONS_ENABLED = false;
+  const PAGE_TRANSITIONS_ENABLED = true;
   document.documentElement.classList.add("js-enabled");
   document.documentElement.classList.toggle(
     "transition-enabled",
@@ -120,6 +120,21 @@
         sessionStorage.removeItem(transitionKey);
       } catch {}
     }
+  });
+
+  document.addEventListener("click", (event) => {
+    const videoButton = event.target.closest(".video-load");
+    if (!videoButton) return;
+    const player = videoButton.closest("[data-video]");
+    if (!player) return;
+    const iframe = document.createElement("iframe");
+    iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(player.dataset.video)}?autoplay=1`;
+    iframe.title = player.dataset.videoTitle || "Vídeo";
+    iframe.loading = "lazy";
+    iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+    iframe.allowFullscreen = true;
+    player.replaceChildren(iframe);
+    player.classList.add("is-loaded");
   });
 
   const hero = document.querySelector(".hero-centered");
