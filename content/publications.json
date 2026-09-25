@@ -1,0 +1,73 @@
+[
+  {
+    "id": "encerramento-setembro-2026",
+    "title": "Um encontro no CAHL em 30 de setembro",
+    "type": "Programação",
+    "date": "2026-09-24",
+    "year": "2026",
+    "description": "A chamada para o encerramento da campanha anuncia atividades culturais e artísticas, palestras e homenagens no Auditório do CAHL/UFRB.",
+    "url": "https://www.instagram.com/elo.ufrb.oficial/p/Ddrwv2fq7dJ/",
+    "sourceId": "instagram-encerramento-2026",
+    "relatedUrl": "/agenda/",
+    "relatedLabel": "Consultar as agendas"
+  },
+  {
+    "id": "parceria-nte21",
+    "title": "Pesquisa e integração com o NTE 21",
+    "type": "Rede de pesquisa",
+    "date": "2026-09-23",
+    "year": "2026",
+    "description": "O ELO registra parceria com o Núcleo Territorial de Educação 21 para pesquisa sobre violência escolar no Recôncavo e participação do núcleo na campanha de setembro.",
+    "url": "https://www.instagram.com/elo.ufrb.oficial/p/DdpTBuIK8bM/",
+    "sourceId": "instagram-nte21-2026",
+    "relatedUrl": "/parceira/",
+    "relatedLabel": "Conhecer a parceria"
+  },
+  {
+    "id": "cahlculturando-2026",
+    "title": "Diálogos com o Festival CAHLCULTURANDO",
+    "type": "Cultura",
+    "date": "2026-09-23",
+    "year": "2026",
+    "description": "Registro de uma iniciativa de autoria estudantil e das intersecções pontuais construídas com o ELO na programação de setembro.",
+    "url": "https://www.instagram.com/elo.ufrb.oficial/p/DdoSlCFx54f/",
+    "sourceId": "instagram-cahlculturando-2026"
+  },
+  {
+    "id": "registro-setembro-amarelo-2026",
+    "title": "9ª Campanha Setembro Amarelo",
+    "type": "Registro de campanha",
+    "date": "2026-08-13",
+    "year": "2026",
+    "description": "O anúncio apresenta a parceria com a Câmara Municipal de Cachoeira para a 9ª edição da campanha, dedicada ao tema Saúde Mental e Ética no Cotidiano.",
+    "url": "https://www.instagram.com/p/Db_rIESqtqY/",
+    "sourceId": "instagram-setembro-amarelo-2026",
+    "relatedUrl": "/acoes/setembro-amarelo-2026/",
+    "relatedLabel": "Conheça a atividade",
+    "image": "/assets/img/acoes/elo-camara-cachoeira-setembro-amarelo.webp",
+    "imageAvif": "/assets/img/acoes/elo-camara-cachoeira-setembro-amarelo.avif",
+    "imageWidth": 504,
+    "imageHeight": 640,
+    "alt": "Peça do ELO.UFRB sobre a 9ª Campanha Setembro Amarelo em Cachoeira"
+  },
+  {
+    "id": "cientista-social-2026",
+    "title": "22 de julho: Dia do Cientista Social",
+    "type": "Informativo",
+    "date": "2026-07-22",
+    "year": "2026",
+    "description": "Publicação do ELO dedicada a Florestan Fernandes e à pesquisa em Ciências Sociais.",
+    "url": "https://www.instagram.com/elo.ufrb.oficial/p/DbGRT-hRiaj/",
+    "sourceId": "instagram-cientista-social-2026"
+  },
+  {
+    "id": "pesquisa-escolas-reconcavo-2026",
+    "title": "Violência juvenil e convivência escolar no Recôncavo",
+    "type": "Registro de pesquisa",
+    "date": "2026-06-02",
+    "year": "2026",
+    "description": "Registro de pesquisa em escolas públicas do Território de Identidade do Recôncavo, com colaboração entre UFRB, UFBA e UNEB.",
+    "url": "https://www.instagram.com/elo.ufrb.oficial/p/DZFZ5iUDso-/",
+    "sourceId": "instagram-pesquisa-escolas-2026"
+  }
+]

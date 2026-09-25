@@ -1,0 +1,80 @@
+{
+  "name": "Antônio Mateus de Carvalho Soares",
+  "shortName": "Antônio Mateus",
+  "role": "Sociólogo, educador, professor e pesquisador da UFRB",
+  "description": "Idealizador do ELO.UFRB, atua na pesquisa, na docência e no debate público sobre questões que atravessam a escola, as juventudes, a violência e os direitos humanos.",
+  "axes": [
+    {
+      "title": "Violência",
+      "text": "A violência aparece em sua produção acadêmica e em intervenções públicas sobre escola, juventudes, segurança pública e convivência social."
+    },
+    {
+      "title": "Educação",
+      "text": "A docência, a formação de professores e a investigação sobre cotidiano escolar conectam pesquisa e prática educativa."
+    },
+    {
+      "title": "Direitos Humanos",
+      "text": "O debate sobre cidadania, proteção da vida, juventudes e cultura da paz aproxima a universidade de questões públicas e territoriais."
+    }
+  ],
+  "milestones": [
+    {
+      "year": "2007",
+      "title": "Mestrado na USP",
+      "text": "Defendeu na Escola de Engenharia de São Carlos a dissertação A inserção de conjuntos habitacionais populares no tecido urbano de Salvador, BA.",
+      "sourceId": "usp-mestrado-mateus"
+    },
+    {
+      "year": "2014",
+      "title": "Doutorado em Ciências Sociais",
+      "text": "A tese investigou violência na escola, indisciplina, infração e a mobilização de ações públicas.",
+      "sourceId": "ufba-doutorado-mateus"
+    },
+    {
+      "year": "UFRB",
+      "title": "Docência e pesquisa",
+      "text": "Integra o corpo docente de Ciências Sociais e aparece vinculado ao Observatório Social da Juventude em páginas institucionais da Universidade.",
+      "sourceId": "ufrb-docentes-ciso"
+    }
+  ],
+  "works": [
+    {
+      "title": "A inserção de conjuntos habitacionais populares no tecido urbano de Salvador, BA",
+      "meta": "Dissertação de mestrado · USP · 2007",
+      "credit": "Antônio Mateus de Carvalho Soares",
+      "sourceId": "usp-mestrado-mateus"
+    },
+    {
+      "title": "Violência na escola: transformação do ato de indisciplina em ato de infração e a mobilização de ações públicas",
+      "meta": "Tese de doutorado · Ciências Sociais · 2014",
+      "credit": "Antônio Mateus de Carvalho Soares",
+      "sourceId": "ufba-doutorado-mateus"
+    },
+    {
+      "title": "Juventudes, violências na escola e direitos humanos",
+      "meta": "Artigo acadêmico",
+      "credit": "Antônio Mateus Soares",
+      "sourceId": "juventude-direitos-humanos"
+    },
+    {
+      "title": "Trilhando percursos na docência em Ciências Sociais",
+      "meta": "Livro · EDUFRB · 2021",
+      "credit": "Obra coletiva organizada por Luís Flávio Reis Godinho, Bruno José Rodrigues Durães, Dyane Brito Reis Santos e Antônio Mateus Soares",
+      "sourceId": "edufrb-trilhando-2021"
+    }
+  ],
+  "profiles": [
+    {
+      "label": "Currículo Lattes",
+      "sourceId": "lattes-mateus"
+    },
+    {
+      "label": "Docência na UFRB",
+      "sourceId": "ufrb-docentes-ciso"
+    },
+    {
+      "label": "Instagram @ams.dialogos",
+      "sourceId": "instagram-ams"
+    }
+  ]
+}

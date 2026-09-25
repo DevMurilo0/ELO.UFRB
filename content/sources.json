@@ -76,5 +76,167 @@
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/",
     "verified": false,
     "notes": "Solicitar ao responsável os arquivos originais, legendas completas, datas e permalinks antes de ampliar o arquivo de ações e a galeria."
+  },
+  {
+    "id": "portfolio-ams-2026",
+    "title": "Portfólio Ilustrado · Dr. Antonio Mateus Soares · 2026",
+    "type": "portfólio fornecido",
+    "source": "Material fornecido ao projeto",
+    "originUrl": null,
+    "verified": true,
+    "notes": "Fonte para seleção de registros de trajetória. Vínculos históricos não são publicados como cargos atuais sem confirmação institucional."
+  },
+  {
+    "id": "idealizador-informacao-projeto",
+    "title": "Identificação do idealizador do ELO.UFRB",
+    "type": "informação fornecida pelo projeto",
+    "source": "Orientação editorial do responsável pelo portal",
+    "originUrl": null,
+    "verified": true,
+    "notes": "Antônio Mateus de Carvalho Soares foi identificado pelo projeto como idealizador do ELO.UFRB."
+  },
+  {
+    "id": "ufrb-docentes-ciso",
+    "title": "Docentes da Licenciatura em Ciências Sociais",
+    "type": "página institucional",
+    "source": "UFRB",
+    "originUrl": "https://www.ufrb.edu.br/licciso/docentes",
+    "verified": true,
+    "notes": "Confirma Antônio Mateus de Carvalho Soares entre os docentes de Ciências Sociais."
+  },
+  {
+    "id": "ufrb-osj",
+    "title": "Observatório Social da Juventude",
+    "type": "página institucional",
+    "source": "UFRB · Programa de Pós-Graduação em Ciências Sociais",
+    "originUrl": "https://www.ufrb.edu.br/pgcienciassociais/grupos-de-pesquisa",
+    "verified": true,
+    "notes": "A página institucional associa Antônio Mateus ao Observatório Social da Juventude."
+  },
+  {
+    "id": "lattes-mateus",
+    "title": "Currículo Lattes · Antonio Mateus de Carvalho Soares",
+    "type": "perfil acadêmico",
+    "source": "CNPq",
+    "originUrl": "http://lattes.cnpq.br/5592333054837843",
+    "verified": true,
+    "notes": "Link nominal associado ao docente em páginas institucionais."
+  },
+  {
+    "id": "usp-mestrado-mateus",
+    "title": "A inserção de conjuntos habitacionais populares no tecido urbano de Salvador - BA",
+    "type": "dissertação de mestrado",
+    "source": "Biblioteca Digital de Teses e Dissertações da USP",
+    "originUrl": "https://teses.usp.br/teses/disponiveis/18/18142/tde-09042008-105930/pt-br.html",
+    "verified": true,
+    "notes": "Dissertação defendida em 26 de novembro de 2007 na EESC/USP."
+  },
+  {
+    "id": "ufba-doutorado-mateus",
+    "title": "Violência na escola: transformação do ato de indisciplina em ato de infração e a mobilização de ações públicas",
+    "type": "tese de doutorado",
+    "source": "Programa de Pós-Graduação em Ciências Sociais da UFBA",
+    "originUrl": "https://ppgcs.ufba.br/sites/ppgcs.ufba.br/files/violencia_na_escola_transformacao_do_ato_de_indisciplina_em_ato_de_infracao_e_a_mobilizacao_de_acoes_publicas.pdf",
+    "verified": true,
+    "notes": "Documento do programa confirma a tese apresentada em 2014."
+  },
+  {
+    "id": "instagram-ams",
+    "title": "Antonio Mateus Soares · @ams.dialogos",
+    "type": "perfil pessoal",
+    "source": "Instagram",
+    "originUrl": "https://www.instagram.com/ams.dialogos/",
+    "verified": true,
+    "notes": "Perfil pessoal; não é canal institucional do ELO."
+  },
+  {
+    "id": "juventude-direitos-humanos",
+    "title": "Juventudes, violências na escola e direitos humanos",
+    "type": "artigo acadêmico",
+    "source": "Revista Juventude.br",
+    "originUrl": "https://juventudebr.emnuvens.com.br/juventudebr/article/view/202",
+    "verified": true,
+    "notes": "Artigo de Antônio Mateus Soares sobre violência, escola e direitos humanos."
+  },
+  {
+    "id": "edufrb-trilhando-2021",
+    "title": "Trilhando percursos na docência em Ciências Sociais",
+    "type": "livro acadêmico",
+    "source": "EDUFRB",
+    "originUrl": "https://www1.ufrb.edu.br/editora/component/phocadownload/category/2-e-books?download=275:trilhando-percursos-na-docencia-em-ciencias-sociais",
+    "verified": true,
+    "notes": "Obra coletiva de 2021; Antônio Mateus aparece entre os organizadores."
+  },
+  {
+    "id": "holiste-existencia-2018",
+    "title": "(In) Existência, Cultura, Suicídio",
+    "type": "debate e vídeo institucional",
+    "source": "Holiste",
+    "originUrl": "https://holiste.com.br/in-existencia-cultura-suicidio-video/",
+    "verified": true,
+    "notes": "A página registra o debate em Cachoeira e identifica Antônio Mateus como idealizador."
+  },
+  {
+    "id": "globoplay-4750195",
+    "title": "Jornal da Manhã · entrevista sobre violência e segurança pública",
+    "type": "entrevista televisiva",
+    "source": "TV Bahia · Globoplay",
+    "originUrl": "https://globoplay.globo.com/v/4750195/",
+    "verified": true,
+    "notes": "Participação de Antônio Mateus como especialista; mantido como link externo."
+  },
+  {
+    "id": "youtube-conexao-sociedade-pendente",
+    "title": "Conexão Sociedade · 13/04/2023",
+    "type": "vídeo em verificação",
+    "source": "YouTube",
+    "originUrl": "https://www.youtube.com/live/N1BZwAJ1t8o",
+    "verified": false,
+    "notes": "A participação de Antônio Mateus não foi confirmada com segurança; o vídeo não é publicado na página Idealizador."
+  },
+  {
+    "id": "instagram-encerramento-2026",
+    "title": "Encontro de encerramento no CAHL em 30 de setembro",
+    "type": "publicação e chamada de evento",
+    "source": "ELO.UFRB · Instagram",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/Ddrwv2fq7dJ/",
+    "verified": true,
+    "notes": "Publicação de 24/09/2026 anuncia programação no Auditório do CAHL em 30/09/2026. Horário não informado."
+  },
+  {
+    "id": "instagram-nte21-2026",
+    "title": "ELO.UFRB · Parceria e integração com NTE 21",
+    "type": "parceria documentada",
+    "source": "ELO.UFRB · Instagram",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/DdpTBuIK8bM/",
+    "verified": true,
+    "notes": "A publicação afirma parceria para pesquisa sobre violência escolar em 2026. Não se infere convênio ou duração permanente."
+  },
+  {
+    "id": "instagram-cahlculturando-2026",
+    "title": "Festival CAHLCULTURANDO",
+    "type": "publicação cultural",
+    "source": "ELO.UFRB · Instagram",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/DdoSlCFx54f/",
+    "verified": true,
+    "notes": "A publicação atribui a concepção ao movimento estudantil e registra intersecções pontuais com o ELO."
+  },
+  {
+    "id": "instagram-cientista-social-2026",
+    "title": "Dia do Cientista Social",
+    "type": "publicação informativa",
+    "source": "ELO.UFRB · Instagram",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/DbGRT-hRiaj/",
+    "verified": true,
+    "notes": "Publicação de 22/07/2026 sobre Florestan Fernandes e Ciências Sociais."
+  },
+  {
+    "id": "instagram-pesquisa-escolas-2026",
+    "title": "Pesquisa sobre violência juvenil nas escolas do Recôncavo",
+    "type": "registro de pesquisa",
+    "source": "ELO.UFRB · Instagram",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/DZFZ5iUDso-/",
+    "verified": true,
+    "notes": "Publicação de 02/06/2026 registra pesquisa em escolas e colaboração entre UFRB, UFBA e UNEB."
   }
 ]

@@ -1,0 +1,62 @@
+{
+  "title": "Relações que fazem o ELO",
+  "description": "Universidade, instituições, movimentos e iniciativas se encontram em atividades de extensão, pesquisa, formação e debate público.",
+  "institutional": [
+    {
+      "name": "Universidade Federal do Recôncavo da Bahia",
+      "shortName": "UFRB",
+      "text": "Universidade à qual o projeto de extensão ELO.UFRB está vinculado.",
+      "sourceId": "projeto-elo-2025-2027"
+    },
+    {
+      "name": "Centro de Artes, Humanidades e Letras",
+      "shortName": "CAHL",
+      "text": "O projeto está vinculado à Licenciatura em Ciências Sociais do CAHL/UFRB, em Cachoeira, Bahia.",
+      "sourceId": "projeto-elo-2025-2027"
+    }
+  ],
+  "confirmed": [
+    {
+      "name": "Núcleo Territorial de Educação 21",
+      "context": "Pesquisa sobre violência escolar · 2026",
+      "text": "O canal oficial do ELO informa parceria com o NTE 21 para desenvolver pesquisa sobre violência escolar no Território do Recôncavo.",
+      "sourceId": "instagram-nte21-2026"
+    },
+    {
+      "name": "Câmara Municipal de Cachoeira",
+      "context": "9ª Campanha Setembro Amarelo · 2026",
+      "text": "Parceria anunciada pelo ELO para a campanha Saúde Mental e Ética no Cotidiano. A relação apresentada aqui se refere a essa campanha.",
+      "sourceId": "instagram-setembro-amarelo-2026",
+      "actionUrl": "/acoes/setembro-amarelo-2026/"
+    }
+  ],
+  "networks": [
+    {
+      "name": "Festival CAHLCULTURANDO",
+      "context": "Cultura e movimento estudantil · 2026",
+      "text": "Iniciativa de autoria estudantil com intersecções pontuais registradas pelo ELO na programação de setembro.",
+      "sourceId": "instagram-cahlculturando-2026"
+    },
+    {
+      "name": "Levante Popular da Juventude",
+      "context": "Reencôncavo · 2023",
+      "text": "Participação de Daniel Bispo no painel Movimentos Sociais e Universidade.",
+      "sourceId": "cahl-reenconcavo-2023",
+      "actionUrl": "/acoes/reenconcavo-2023/"
+    },
+    {
+      "name": "Movimento Mulheres do Axé do Brasil",
+      "context": "Reencôncavo · 2023",
+      "text": "Participação de Yalaxé Juçara Lopes no painel do ELO.",
+      "sourceId": "cahl-reenconcavo-2023",
+      "actionUrl": "/acoes/reenconcavo-2023/"
+    },
+    {
+      "name": "Movimento dos Trabalhadores Sem Teto",
+      "context": "Reencôncavo · 2023",
+      "text": "Participação de Dinho Oliveira no painel Movimentos Sociais e Universidade.",
+      "sourceId": "cahl-reenconcavo-2023",
+      "actionUrl": "/acoes/reenconcavo-2023/"
+    }
+  ]
+}

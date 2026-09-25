@@ -1,0 +1,25 @@
+[
+  {
+    "id": "in-existencia-2018",
+    "scope": "idealizador",
+    "title": "(In) Existência, Cultura, Suicídio",
+    "vehicle": "UFRB · Holiste",
+    "year": "2018",
+    "description": "Debate realizado em Cachoeira sobre saúde mental, cultura e suicídio. A fonte registra Antônio Mateus como idealizador da iniciativa.",
+    "provider": "youtube",
+    "videoId": "XJhqUxYRl1k",
+    "url": "https://holiste.com.br/in-existencia-cultura-suicidio-video/",
+    "sourceId": "holiste-existencia-2018"
+  },
+  {
+    "id": "jornal-da-manha-2016",
+    "scope": "idealizador",
+    "title": "Violência e segurança pública em Salvador",
+    "vehicle": "Jornal da Manhã · TV Bahia",
+    "year": "2016",
+    "description": "Participação de Antônio Mateus em uma conversa sobre o cenário de homicídios em Salvador e Região Metropolitana.",
+    "provider": "external",
+    "url": "https://globoplay.globo.com/v/4750195/",
+    "sourceId": "globoplay-4750195"
+  }
+]
