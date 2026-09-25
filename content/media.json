@@ -12,6 +12,18 @@
     "sourceId": "holiste-existencia-2018"
   },
   {
+    "id": "youtube-conexao-sociedade-2023",
+    "scope": "idealizador",
+    "title": "Conexão Sociedade · vídeo indicado pelo projeto",
+    "vehicle": "YouTube",
+    "year": "2023",
+    "description": "Material audiovisual indicado pelo projeto para compor a apresentação pública da trajetória e da atuação de Antônio Mateus.",
+    "provider": "youtube",
+    "videoId": "N1BZwAJ1t8o",
+    "url": "https://www.youtube.com/live/N1BZwAJ1t8o",
+    "sourceId": "youtube-conexao-sociedade-pendente"
+  },
+  {
     "id": "jornal-da-manha-2016",
     "scope": "idealizador",
     "title": "Violência e segurança pública em Salvador",

@@ -105,13 +105,18 @@ assert.equal(
 );
 assert.match(
   pages.get("/contato/"),
-  /href="\/contato\/" aria-current="page">Contato<\/a>/,
+  /href="\/contato\/" aria-current="page">CONTATO<\/a>/,
   "Contato é página interna ativa",
 );
 assert.match(
   await readFile(join(root, "assets/js/main.js"), "utf8"),
   /const PAGE_TRANSITIONS_ENABLED = true;/,
   "Transição entre páginas reativada",
+);
+assert.match(
+  pages.get("/idealizador/"),
+  /N1BZwAJ1t8o/,
+  "Vídeo fornecido pelo projeto está disponível na página Idealizador",
 );
 const config = JSON.parse(
   await readFile(join(root, "content/site.json"), "utf8"),

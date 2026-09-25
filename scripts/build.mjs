@@ -30,14 +30,14 @@ const arrow = '<span aria-hidden="true">↗</span>';
 const next = '<span aria-hidden="true">→</span>';
 const pdf = encodeURI(data.document);
 const nav = [
-  ["/", "Início"],
+  ["/", "INÍCIO"],
   ["/sobre/", "O ELO"],
-  ["/idealizador/", "Idealizador"],
-  ["/acoes/", "Ações"],
-  ["/agenda/", "Agendas"],
-  ["/publicacoes/", "Publicação"],
-  ["/parceira/", "Parceira"],
-  ["/contato/", "Contato"],
+  ["/idealizador/", "IDEALIZADOR"],
+  ["/acoes/", "AÇÕES"],
+  ["/agenda/", "AGENDAS"],
+  ["/publicacoes/", "PUBLICAÇÃO"],
+  ["/parceira/", "PARCEIRA"],
+  ["/contato/", "CONTATO"],
 ];
 const link = (href, title, cls = "text-link") =>
   `<a class="${cls}" href="${esc(href)}">${title}${next}</a>`;

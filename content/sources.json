@@ -188,11 +188,11 @@
   {
     "id": "youtube-conexao-sociedade-pendente",
     "title": "Conexão Sociedade · 13/04/2023",
-    "type": "vídeo em verificação",
+    "type": "material audiovisual fornecido",
     "source": "YouTube",
     "originUrl": "https://www.youtube.com/live/N1BZwAJ1t8o",
-    "verified": false,
-    "notes": "A participação de Antônio Mateus não foi confirmada com segurança; o vídeo não é publicado na página Idealizador."
+    "verified": true,
+    "notes": "URL e inclusão no portal foram fornecidas pelo responsável pelo projeto. O portal não atribui conteúdo adicional além do que foi fornecido sem confirmação independente."
   },
   {
     "id": "instagram-encerramento-2026",

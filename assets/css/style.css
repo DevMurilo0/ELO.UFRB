@@ -305,8 +305,10 @@ strong {
 #primary-nav {
   display: flex;
   align-items: center;
-  gap: 27px;
-  font-size: 15px;
+  gap: clamp(14px, 1.55vw, 24px);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.035em;
 }
 #primary-nav > a {
   padding: 18px 0;
