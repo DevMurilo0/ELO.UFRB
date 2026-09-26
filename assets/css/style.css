@@ -5053,3 +5053,174 @@ body .footer-main > div.footer-socials > a {
     bottom: -10vw;
   }
 }
+
+
+/* Entrada institucional do ELO */
+.elo-entry {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: var(--paper);
+  opacity: 1;
+  pointer-events: none;
+}
+.elo-entry::before {
+  content: "ELO.UFRB";
+  position: absolute;
+  left: 50%;
+  top: calc(50% + 104px);
+  transform: translateX(-50%);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .2em;
+  opacity: 0;
+  color: var(--ink);
+}
+.elo-entry.is-formed::before {
+  animation: eloEntryWord .55s cubic-bezier(.22,.72,.22,1) forwards;
+}
+.elo-entry-orbit {
+  position: relative;
+  width: 330px;
+  height: 330px;
+}
+.elo-entry-ball {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 112px;
+  height: 112px;
+  margin: -56px 0 0 -56px;
+  border-radius: 50%;
+  opacity: 0;
+  will-change: transform, opacity, filter;
+}
+.elo-entry-ball.ball-white {
+  background: #fff;
+  border: 1px solid rgba(65,66,62,.38);
+  box-shadow: 0 12px 44px rgba(39,40,37,.08);
+}
+.elo-entry-ball.ball-red {
+  background: #c80d23;
+}
+.elo-entry-ball.ball-blue {
+  background: #42aad2;
+}
+html.elo-entry-running {
+  overflow: hidden;
+}
+@keyframes eloEntryWord {
+  from { opacity: 0; filter: blur(9px); transform: translateX(-50%) translateY(7px); }
+  to { opacity: .88; filter: blur(0); transform: translateX(-50%) translateY(0); }
+}
+
+/* O hero recebe a composição final das três esferas depois da entrada. */
+.hero-orbits i {
+  width: clamp(330px, 37vw, 610px);
+  opacity: .84;
+}
+.hero-orbits i:nth-child(1) {
+  left: -7vw;
+  top: 5%;
+  background: rgba(255,255,255,.99);
+  border-color: rgba(70,71,67,.42);
+  box-shadow: 0 16px 60px rgba(50,50,45,.055);
+}
+.hero-orbits i:nth-child(2) {
+  right: -6vw;
+  top: 8%;
+  background: rgba(200,13,35,.72);
+}
+.hero-orbits i:nth-child(3) {
+  left: 35%;
+  bottom: 2%;
+  background: rgba(66,170,210,.78);
+}
+.hero-centered.hero-orbits-settled .hero-orbits i {
+  opacity: .84;
+}
+
+/* Texto entra depois das bolas: borrado, leve e então totalmente nítido. */
+.js-enabled .hero-entry-copy,
+.js-enabled .header-entry-copy {
+  opacity: 0;
+  filter: blur(11px);
+  transform: translateY(9px);
+}
+
+/* Desktop: menu começa logo após a marca e os nomes respiram mais. */
+@media (min-width: 1081px) {
+  .header-inner {
+    justify-content: flex-start !important;
+    gap: 0 !important;
+  }
+  #primary-nav {
+    margin-left: clamp(34px, 4vw, 62px) !important;
+    gap: clamp(22px, 2.05vw, 34px) !important;
+    font-size: clamp(12px, .9vw, 14px) !important;
+    letter-spacing: .018em !important;
+  }
+}
+@media (max-width: 1080px) {
+  .menu-toggle {
+    display: flex !important;
+    margin-left: auto;
+  }
+  #primary-nav {
+    display: none !important;
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    padding: 12px var(--gutter) 25px !important;
+    background: var(--paper) !important;
+    border-bottom: 1px solid var(--line) !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0 !important;
+    font-size: 18px !important;
+  }
+  #primary-nav.is-open {
+    display: flex !important;
+  }
+  #primary-nav > a {
+    width: 100% !important;
+    min-height: 50px !important;
+    display: flex !important;
+    align-items: center !important;
+    border-bottom: 1px solid var(--line) !important;
+  }
+}
+@media (max-width: 760px) {
+  .elo-entry-orbit {
+    width: 260px;
+    height: 260px;
+  }
+  .elo-entry-ball {
+    width: 88px;
+    height: 88px;
+    margin: -44px 0 0 -44px;
+  }
+  .elo-entry::before {
+    top: calc(50% + 84px);
+  }
+  .hero-orbits i:nth-child(3) {
+    bottom: 8%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .elo-entry {
+    display: none !important;
+  }
+  .js-enabled .hero-entry-copy,
+  .js-enabled .header-entry-copy {
+    opacity: 1 !important;
+    filter: none !important;
+    transform: none !important;
+  }
+}

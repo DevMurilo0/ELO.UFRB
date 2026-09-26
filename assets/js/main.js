@@ -47,7 +47,7 @@
   document.addEventListener("click", (event) => {
     if (!event.target.closest(".site-header")) closeMenu();
   });
-  const desktop = matchMedia("(min-width: 951px)");
+  const desktop = matchMedia("(min-width: 1081px)");
   desktop.addEventListener("change", () => closeMenu());
 
   const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)");
@@ -177,69 +177,152 @@
   });
 
   const hero = document.querySelector(".hero-centered");
-  if (hero) {
-    const circles = [...hero.querySelectorAll(".hero-orbits i")];
-    const enableHeroParallax = () => {
-      if (reducedMotion.matches) return;
-      hero.addEventListener("pointermove", (event) => {
-        if (event.pointerType === "touch") return;
-        const x = event.clientX / innerWidth - 0.5;
-        const y = event.clientY / innerHeight - 0.5;
-        circles.forEach((circle, index) => {
-          const amount = (index + 1) * 5;
-          circle.style.transform = `translate(${x * amount}px, ${y * amount}px)`;
-        });
-      });
-      hero.addEventListener("pointerleave", () =>
-        circles.forEach((circle) => (circle.style.transform = "")),
+  const entry = document.querySelector(".elo-entry");
+
+  const revealPageCopy = () => {
+    const targets = [
+      document.querySelector(".brand"),
+      ...document.querySelectorAll("#primary-nav > a"),
+      ...(hero ? [...hero.querySelectorAll(".hero-center-copy > *")] : []),
+    ].filter(Boolean);
+
+    targets.forEach((target, index) => {
+      target.classList.add(index < 1 + document.querySelectorAll("#primary-nav > a").length ? "header-entry-copy" : "hero-entry-copy");
+      const animation = target.animate(
+        [
+          { opacity: 0, filter: "blur(12px)", transform: "translateY(10px)" },
+          { opacity: .72, filter: "blur(4px)", transform: "translateY(3px)", offset: .62 },
+          { opacity: 1, filter: "blur(0px)", transform: "translateY(0px)" },
+        ],
+        {
+          duration: 680,
+          delay: index * 58,
+          easing: "cubic-bezier(.2,.72,.18,1)",
+          fill: "forwards",
+        },
       );
-    };
+      animation.finished.finally(() => {
+        target.classList.remove("header-entry-copy", "hero-entry-copy");
+        target.style.opacity = "";
+        target.style.filter = "";
+        target.style.transform = "";
+      });
+    });
+  };
 
-    if (reducedMotion.matches || !circles.length || !("animate" in Element.prototype)) {
-      hero.classList.add("hero-orbits-settled");
-      enableHeroParallax();
-    } else {
-      const heroRect = hero.getBoundingClientRect();
-      const centerX = heroRect.left + heroRect.width / 2;
-      const centerY = heroRect.top + heroRect.height / 2;
-      const orbitRadius = Math.min(heroRect.width, heroRect.height) * 0.105;
+  const settleHeroCircles = () => {
+    if (!hero) return;
+    const circles = [...hero.querySelectorAll(".hero-orbits i")];
+    hero.classList.add("hero-orbits-settled");
+    if (reducedMotion.matches) return;
+    circles.forEach((circle, index) => {
+      circle.animate(
+        [
+          { opacity: 0, transform: "scale(.9)", filter: "blur(8px)" },
+          { opacity: .84, transform: "scale(1)", filter: "blur(0px)" },
+        ],
+        {
+          duration: 760,
+          delay: index * 80,
+          easing: "cubic-bezier(.2,.78,.18,1)",
+        },
+      );
+    });
+  };
 
-      const animations = circles.map((circle, index) => {
-        const rect = circle.getBoundingClientRect();
-        const dx = centerX - (rect.left + rect.width / 2);
-        const dy = centerY - (rect.top + rect.height / 2);
-        const phase = index * ((Math.PI * 2) / 3);
-        const p1x = dx + Math.cos(phase) * orbitRadius;
-        const p1y = dy + Math.sin(phase) * orbitRadius;
-        const p2x = dx + Math.cos(phase + Math.PI * .78) * orbitRadius * 1.18;
-        const p2y = dy + Math.sin(phase + Math.PI * .78) * orbitRadius * 1.18;
-        const p3x = dx + Math.cos(phase + Math.PI * 1.55) * orbitRadius * .72;
-        const p3y = dy + Math.sin(phase + Math.PI * 1.55) * orbitRadius * .72;
+  const enableHeroParallax = () => {
+    if (!hero || reducedMotion.matches) return;
+    const circles = [...hero.querySelectorAll(".hero-orbits i")];
+    hero.addEventListener("pointermove", (event) => {
+      if (event.pointerType === "touch") return;
+      const x = event.clientX / innerWidth - 0.5;
+      const y = event.clientY / innerHeight - 0.5;
+      circles.forEach((circle, index) => {
+        const amount = (index + 1) * 4;
+        circle.style.transform = `translate(${x * amount}px, ${y * amount}px)`;
+      });
+    });
+    hero.addEventListener("pointerleave", () =>
+      circles.forEach((circle) => (circle.style.transform = "")),
+    );
+  };
 
-        return circle.animate(
+  if (entry && !reducedMotion.matches && "animate" in Element.prototype) {
+    document.documentElement.classList.add("elo-entry-running");
+    const balls = [...entry.querySelectorAll(".elo-entry-ball")];
+    const radius = Math.min(innerWidth, innerHeight) < 700 ? 72 : 108;
+    const loops = 2.35;
+    const finalOffsets = [
+      [0, -34],
+      [-37, 22],
+      [37, 22],
+    ];
+
+    const animations = balls.map((ball, index) => {
+      const phase = index * ((Math.PI * 2) / 3);
+      const frames = [];
+      const steps = 14;
+      for (let step = 0; step <= steps; step++) {
+        const progress = step / steps;
+        const spinProgress = Math.min(progress / .76, 1);
+        const angle = phase + spinProgress * Math.PI * 2 * loops;
+        const radiusNow = radius * (1 - Math.pow(spinProgress, 1.35) * .44);
+        let x = Math.cos(angle) * radiusNow;
+        let y = Math.sin(angle) * radiusNow;
+        let scale = .18 + Math.min(progress / .24, 1) * .82;
+        let opacity = Math.min(progress / .12, 1);
+
+        if (progress > .76) {
+          const settle = (progress - .76) / .24;
+          const ease = 1 - Math.pow(1 - settle, 3);
+          x = x * (1 - ease) + finalOffsets[index][0] * ease;
+          y = y * (1 - ease) + finalOffsets[index][1] * ease;
+          scale = scale * (1 - ease) + .72 * ease;
+        }
+
+        frames.push({
+          transform: `translate(${x}px, ${y}px) scale(${scale})`,
+          opacity,
+          filter: progress < .12 ? `blur(${(1 - progress / .12) * 8}px)` : "blur(0px)",
+          offset: progress,
+        });
+      }
+
+      return ball.animate(frames, {
+        duration: 2300,
+        delay: index * 45,
+        easing: "linear",
+        fill: "forwards",
+      });
+    });
+
+    Promise.all(animations.map((animation) => animation.finished.catch(() => {}))).then(() => {
+      entry.classList.add("is-formed");
+      setTimeout(() => {
+        settleHeroCircles();
+        revealPageCopy();
+        entry.animate(
           [
-            { transform: `translate(${dx}px, ${dy}px) scale(.06)`, opacity: 0, filter: "blur(10px)" },
-            { transform: `translate(${dx}px, ${dy}px) scale(.34)`, opacity: .92, filter: "blur(0px)", offset: .18 },
-            { transform: `translate(${p1x}px, ${p1y}px) scale(.48)`, opacity: 1, offset: .38 },
-            { transform: `translate(${p2x}px, ${p2y}px) scale(.56)`, opacity: 1, offset: .57 },
-            { transform: `translate(${p3x}px, ${p3y}px) scale(.68)`, opacity: .96, offset: .74 },
-            { transform: "translate(0px, 0px) scale(1)", opacity: .72, filter: "blur(0px)" },
+            { opacity: 1, filter: "blur(0px)" },
+            { opacity: 0, filter: "blur(7px)" },
           ],
           {
-            duration: 2450,
-            delay: index * 85,
-            easing: "cubic-bezier(.2,.78,.16,1)",
-            fill: "both",
+            duration: 620,
+            easing: "cubic-bezier(.3,.7,.2,1)",
+            fill: "forwards",
           },
-        );
-      });
-
-      Promise.all(animations.map((animation) => animation.finished.catch(() => {}))).then(() => {
-        animations.forEach((animation) => animation.cancel());
-        hero.classList.add("hero-orbits-settled");
-        enableHeroParallax();
-      });
-    }
+        ).finished.finally(() => {
+          entry.remove();
+          document.documentElement.classList.remove("elo-entry-running");
+          enableHeroParallax();
+        });
+      }, 360);
+    });
+  } else {
+    entry?.remove();
+    settleHeroCircles();
+    revealPageCopy();
+    enableHeroParallax();
   }
 
   const archive = document.querySelector("[data-archive]");
