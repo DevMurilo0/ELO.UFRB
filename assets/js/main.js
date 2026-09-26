@@ -122,15 +122,54 @@
     }
   });
 
+  const videoPlayers = [...document.querySelectorAll("[data-video]")];
+  let videoConnectionsWarmed = false;
+  const warmVideoConnections = () => {
+    if (videoConnectionsWarmed || !videoPlayers.length) return;
+    videoConnectionsWarmed = true;
+    for (const href of ["https://www.youtube-nocookie.com", "https://i.ytimg.com"]) {
+      const node = document.createElement("link");
+      node.rel = "preconnect";
+      node.href = href;
+      node.crossOrigin = "anonymous";
+      document.head.append(node);
+    }
+  };
+  for (const player of videoPlayers) {
+    const videoId = player.dataset.video;
+    if (videoId) {
+      player.style.setProperty(
+        "--video-poster",
+        `url("https://i.ytimg.com/vi/${encodeURIComponent(videoId)}/hqdefault.jpg")`,
+      );
+    }
+  }
+  if ("requestIdleCallback" in window)
+    requestIdleCallback(warmVideoConnections, { timeout: 1400 });
+  else setTimeout(warmVideoConnections, 650);
+  if ("IntersectionObserver" in window && videoPlayers.length) {
+    const videoObserver = new IntersectionObserver(
+      (entries, observer) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          warmVideoConnections();
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "450px" },
+    );
+    videoPlayers.forEach((player) => videoObserver.observe(player));
+  }
+
   document.addEventListener("click", (event) => {
     const videoButton = event.target.closest(".video-load");
     if (!videoButton) return;
     const player = videoButton.closest("[data-video]");
     if (!player) return;
+    warmVideoConnections();
     const iframe = document.createElement("iframe");
-    iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(player.dataset.video)}?autoplay=1`;
+    iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(player.dataset.video)}?autoplay=1&rel=0`;
     iframe.title = player.dataset.videoTitle || "Vídeo";
-    iframe.loading = "lazy";
+    iframe.loading = "eager";
     iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
     iframe.allowFullscreen = true;
     player.replaceChildren(iframe);
