@@ -4994,3 +4994,62 @@ body .footer-main > div.footer-socials > a {
     top: 92px;
   }
 }
+
+
+/* Hero ELO: bolas mais presentes + composição final mais próxima */
+.hero-orbits i {
+  width: clamp(320px, 36vw, 590px);
+  opacity: .72;
+  will-change: transform, opacity;
+}
+.hero-orbits i:nth-child(1) {
+  left: -9vw;
+  top: 7%;
+  background: rgba(255,255,255,.97);
+  border: 1px solid rgba(78,79,74,.36);
+  box-shadow: 0 0 0 1px rgba(255,255,255,.45) inset;
+}
+.hero-orbits i:nth-child(2) {
+  right: -8vw;
+  top: 10%;
+  background: rgba(200,13,35,.68);
+}
+.hero-orbits i:nth-child(3) {
+  left: 34%;
+  bottom: -7vw;
+  background: rgba(66,170,210,.72);
+}
+
+/* Evita mostrar a posição final antes da animação inicial. */
+.js-enabled .hero-centered:not(.hero-orbits-settled) .hero-orbits i {
+  opacity: 0;
+}
+.hero-centered.hero-orbits-settled .hero-orbits i {
+  opacity: .72;
+}
+
+/* Mais respiro entre os oito itens sem sacrificar o encaixe. */
+@media (min-width: 941px) {
+  #primary-nav {
+    gap: clamp(15px, 1.55vw, 24px) !important;
+    font-size: clamp(12.5px, .96vw, 14.5px) !important;
+    letter-spacing: .018em !important;
+  }
+}
+@media (max-width: 760px) {
+  .hero-orbits i {
+    width: clamp(260px, 72vw, 390px);
+  }
+  .hero-orbits i:nth-child(1) {
+    left: -33vw;
+    top: 11%;
+  }
+  .hero-orbits i:nth-child(2) {
+    right: -34vw;
+    top: 16%;
+  }
+  .hero-orbits i:nth-child(3) {
+    left: 20%;
+    bottom: -10vw;
+  }
+}

@@ -177,20 +177,69 @@
   });
 
   const hero = document.querySelector(".hero-centered");
-  if (hero && !reducedMotion.matches) {
+  if (hero) {
     const circles = [...hero.querySelectorAll(".hero-orbits i")];
-    hero.addEventListener("pointermove", (event) => {
-      if (event.pointerType === "touch") return;
-      const x = event.clientX / innerWidth - 0.5;
-      const y = event.clientY / innerHeight - 0.5;
-      circles.forEach((circle, index) => {
-        const amount = (index + 1) * 5;
-        circle.style.transform = `translate(${x * amount}px, ${y * amount}px)`;
+    const enableHeroParallax = () => {
+      if (reducedMotion.matches) return;
+      hero.addEventListener("pointermove", (event) => {
+        if (event.pointerType === "touch") return;
+        const x = event.clientX / innerWidth - 0.5;
+        const y = event.clientY / innerHeight - 0.5;
+        circles.forEach((circle, index) => {
+          const amount = (index + 1) * 5;
+          circle.style.transform = `translate(${x * amount}px, ${y * amount}px)`;
+        });
       });
-    });
-    hero.addEventListener("pointerleave", () =>
-      circles.forEach((circle) => (circle.style.transform = "")),
-    );
+      hero.addEventListener("pointerleave", () =>
+        circles.forEach((circle) => (circle.style.transform = "")),
+      );
+    };
+
+    if (reducedMotion.matches || !circles.length || !("animate" in Element.prototype)) {
+      hero.classList.add("hero-orbits-settled");
+      enableHeroParallax();
+    } else {
+      const heroRect = hero.getBoundingClientRect();
+      const centerX = heroRect.left + heroRect.width / 2;
+      const centerY = heroRect.top + heroRect.height / 2;
+      const orbitRadius = Math.min(heroRect.width, heroRect.height) * 0.105;
+
+      const animations = circles.map((circle, index) => {
+        const rect = circle.getBoundingClientRect();
+        const dx = centerX - (rect.left + rect.width / 2);
+        const dy = centerY - (rect.top + rect.height / 2);
+        const phase = index * ((Math.PI * 2) / 3);
+        const p1x = dx + Math.cos(phase) * orbitRadius;
+        const p1y = dy + Math.sin(phase) * orbitRadius;
+        const p2x = dx + Math.cos(phase + Math.PI * .78) * orbitRadius * 1.18;
+        const p2y = dy + Math.sin(phase + Math.PI * .78) * orbitRadius * 1.18;
+        const p3x = dx + Math.cos(phase + Math.PI * 1.55) * orbitRadius * .72;
+        const p3y = dy + Math.sin(phase + Math.PI * 1.55) * orbitRadius * .72;
+
+        return circle.animate(
+          [
+            { transform: `translate(${dx}px, ${dy}px) scale(.06)`, opacity: 0, filter: "blur(10px)" },
+            { transform: `translate(${dx}px, ${dy}px) scale(.34)`, opacity: .92, filter: "blur(0px)", offset: .18 },
+            { transform: `translate(${p1x}px, ${p1y}px) scale(.48)`, opacity: 1, offset: .38 },
+            { transform: `translate(${p2x}px, ${p2y}px) scale(.56)`, opacity: 1, offset: .57 },
+            { transform: `translate(${p3x}px, ${p3y}px) scale(.68)`, opacity: .96, offset: .74 },
+            { transform: "translate(0px, 0px) scale(1)", opacity: .72, filter: "blur(0px)" },
+          ],
+          {
+            duration: 2450,
+            delay: index * 85,
+            easing: "cubic-bezier(.2,.78,.16,1)",
+            fill: "both",
+          },
+        );
+      });
+
+      Promise.all(animations.map((animation) => animation.finished.catch(() => {}))).then(() => {
+        animations.forEach((animation) => animation.cancel());
+        hero.classList.add("hero-orbits-settled");
+        enableHeroParallax();
+      });
+    }
   }
 
   const archive = document.querySelector("[data-archive]");
