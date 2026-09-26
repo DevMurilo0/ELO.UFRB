@@ -247,76 +247,89 @@
     );
   };
 
-  if (entry && !reducedMotion.matches && "animate" in Element.prototype) {
+  if (entry && hero && !reducedMotion.matches && "animate" in Element.prototype) {
     document.documentElement.classList.add("elo-entry-running");
     const balls = [...entry.querySelectorAll(".elo-entry-ball")];
-    const radius = Math.min(innerWidth, innerHeight) < 700 ? 72 : 108;
-    const loops = 2.35;
-    const finalOffsets = [
-      [0, -34],
-      [-37, 22],
-      [37, 22],
-    ];
+    const heroCircles = [...hero.querySelectorAll(".hero-orbits i")];
+    const viewportCenterX = innerWidth / 2;
+    const viewportCenterY = innerHeight / 2;
+    const orbitRadius = Math.min(innerWidth, innerHeight) < 700 ? 54 : 76;
+    const baseBallSize = balls[0]?.getBoundingClientRect().width || 112;
 
     const animations = balls.map((ball, index) => {
+      const target = heroCircles[index];
+      const targetRect = target?.getBoundingClientRect();
+      const targetX = targetRect
+        ? targetRect.left + targetRect.width / 2 - viewportCenterX
+        : 0;
+      const targetY = targetRect
+        ? targetRect.top + targetRect.height / 2 - viewportCenterY
+        : 0;
+      const targetScale = targetRect
+        ? Math.max(1, targetRect.width / baseBallSize)
+        : 3.5;
+
       const phase = index * ((Math.PI * 2) / 3);
-      const frames = [];
-      const steps = 14;
-      for (let step = 0; step <= steps; step++) {
-        const progress = step / steps;
-        const spinProgress = Math.min(progress / .76, 1);
-        const angle = phase + spinProgress * Math.PI * 2 * loops;
-        const radiusNow = radius * (1 - Math.pow(spinProgress, 1.35) * .44);
-        let x = Math.cos(angle) * radiusNow;
-        let y = Math.sin(angle) * radiusNow;
-        let scale = .18 + Math.min(progress / .24, 1) * .82;
-        let opacity = Math.min(progress / .12, 1);
+      const orbitA = phase + Math.PI * 1.05;
+      const orbitB = phase + Math.PI * 2.15;
 
-        if (progress > .76) {
-          const settle = (progress - .76) / .24;
-          const ease = 1 - Math.pow(1 - settle, 3);
-          x = x * (1 - ease) + finalOffsets[index][0] * ease;
-          y = y * (1 - ease) + finalOffsets[index][1] * ease;
-          scale = scale * (1 - ease) + .72 * ease;
-        }
-
-        frames.push({
-          transform: `translate(${x}px, ${y}px) scale(${scale})`,
-          opacity,
-          filter: progress < .12 ? `blur(${(1 - progress / .12) * 8}px)` : "blur(0px)",
-          offset: progress,
-        });
-      }
-
-      return ball.animate(frames, {
-        duration: 2300,
-        delay: index * 45,
-        easing: "linear",
-        fill: "forwards",
-      });
+      return ball.animate(
+        [
+          {
+            transform: `translate(${Math.cos(phase) * 12}px, ${Math.sin(phase) * 12}px) scale(.12)`,
+            opacity: 0,
+            filter: "blur(8px)",
+          },
+          {
+            transform: `translate(${Math.cos(phase) * orbitRadius}px, ${Math.sin(phase) * orbitRadius}px) scale(.72)`,
+            opacity: 1,
+            filter: "blur(0px)",
+            offset: .22,
+          },
+          {
+            transform: `translate(${Math.cos(orbitA) * orbitRadius}px, ${Math.sin(orbitA) * orbitRadius}px) scale(.86)`,
+            opacity: 1,
+            offset: .42,
+          },
+          {
+            transform: `translate(${Math.cos(orbitB) * orbitRadius * .72}px, ${Math.sin(orbitB) * orbitRadius * .72}px) scale(1)`,
+            opacity: 1,
+            offset: .58,
+          },
+          {
+            transform: `translate(${targetX}px, ${targetY}px) scale(${targetScale})`,
+            opacity: .96,
+            filter: "blur(0px)",
+          },
+        ],
+        {
+          duration: 1120,
+          delay: index * 28,
+          easing: "cubic-bezier(.2,.78,.16,1)",
+          fill: "forwards",
+        },
+      );
     });
 
+    setTimeout(() => revealPageCopy(), 640);
+
     Promise.all(animations.map((animation) => animation.finished.catch(() => {}))).then(() => {
-      entry.classList.add("is-formed");
-      setTimeout(() => {
-        settleHeroCircles();
-        revealPageCopy();
-        entry.animate(
-          [
-            { opacity: 1, filter: "blur(0px)" },
-            { opacity: 0, filter: "blur(7px)" },
-          ],
-          {
-            duration: 620,
-            easing: "cubic-bezier(.3,.7,.2,1)",
-            fill: "forwards",
-          },
-        ).finished.finally(() => {
-          entry.remove();
-          document.documentElement.classList.remove("elo-entry-running");
-          enableHeroParallax();
-        });
-      }, 360);
+      hero.classList.add("hero-orbits-settled");
+      entry.animate(
+        [
+          { opacity: 1 },
+          { opacity: 0 },
+        ],
+        {
+          duration: 140,
+          easing: "linear",
+          fill: "forwards",
+        },
+      ).finished.finally(() => {
+        entry.remove();
+        document.documentElement.classList.remove("elo-entry-running");
+        enableHeroParallax();
+      });
     });
   } else {
     entry?.remove();

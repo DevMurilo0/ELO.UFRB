@@ -5224,3 +5224,29 @@ html.elo-entry-running {
     transform: none !important;
   }
 }
+
+
+/* Entrada rápida: as bolas crescem e ocupam diretamente o hero. */
+.elo-entry::before {
+  display: none;
+}
+.elo-entry-orbit {
+  width: 220px;
+  height: 220px;
+}
+.elo-entry-ball {
+  width: 96px;
+  height: 96px;
+  margin: -48px 0 0 -48px;
+}
+@media (max-width: 760px) {
+  .elo-entry-orbit {
+    width: 180px;
+    height: 180px;
+  }
+  .elo-entry-ball {
+    width: 76px;
+    height: 76px;
+    margin: -38px 0 0 -38px;
+  }
+}
