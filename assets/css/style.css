@@ -448,6 +448,10 @@ strong {
 }
 
 @media (max-width: 1180px) {
+  .site-header {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
   .header-inner {
     position: relative;
     justify-content: space-between;
@@ -474,7 +478,7 @@ strong {
     display: block;
     left: 0;
     z-index: 1;
-    background: rgba(20, 20, 18, .20);
+    background: rgba(20, 20, 18, .34);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -3379,15 +3383,20 @@ html:not(.transition-enabled) .page-transition {
   pointer-events: none;
 }
 .elo-entry-orbit {
-  position: absolute;
+  position: fixed;
   inset: 0;
+  width: 100vw;
+  height: 100dvh;
+  display: grid;
+  place-items: center;
 }
 .elo-entry-ball {
   position: absolute;
-  left: calc(50% - 44px);
-  top: calc(50% - 44px);
+  left: 50%;
+  top: 50%;
   width: 88px;
   height: 88px;
+  transform: translate(-50%, -50%);
   visibility: hidden;
 }
 .elo-entry-running .elo-entry {
@@ -3449,10 +3458,8 @@ html:not(.transition-enabled) .page-transition {
     top: 40%;
   }
   .elo-entry-ball {
-    left: calc(50% - 32px);
-    top: calc(50% - 32px);
-    width: 64px;
-    height: 64px;
+    width: clamp(58px, 16vw, 68px);
+    height: clamp(58px, 16vw, 68px);
   }
 }
 

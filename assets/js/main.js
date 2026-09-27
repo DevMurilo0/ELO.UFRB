@@ -260,6 +260,8 @@
       cancelAnimationFrame(resizeFrame);
       removeEventListener("resize", queueMeasure);
       removeEventListener("scroll", queueMeasure);
+      window.visualViewport?.removeEventListener("resize", queueMeasure);
+      window.visualViewport?.removeEventListener("scroll", queueMeasure);
       removeEventListener("pagehide", finish);
       reducedMotion.removeEventListener("change", onMotionChange);
       animations.forEach((animation) => animation.cancel());
@@ -272,20 +274,36 @@
     const onMotionChange = () => { if (reducedMotion.matches) finish(); };
 
     // Read LAST without cancelling the current transforms (also works during resize).
-    const measure = () => circles.map((node, index) => {
-      const first = markers[index].getBoundingClientRect();
-      const last = node.getBoundingClientRect();
-      const style = getComputedStyle(node);
-      const matrix = new DOMMatrixReadOnly(style.transform === "none" ? undefined : style.transform);
+    const getEntryCenter = () => {
+      const viewport = window.visualViewport;
+      if (viewport) {
+        return {
+          x: viewport.offsetLeft + viewport.width / 2,
+          y: viewport.offsetTop + viewport.height / 2,
+        };
+      }
       return {
-        x: last.left + last.width / 2 - matrix.m41,
-        y: last.top + last.height / 2 - matrix.m42,
-        width: parseFloat(style.width), height: parseFloat(style.height),
-        firstX: first.left + first.width / 2, firstY: first.top + first.height / 2,
-        firstWidth: first.width, firstHeight: first.height,
-        opacity: finalOpacities?.[index] ?? Number(style.opacity),
+        x: document.documentElement.clientWidth / 2,
+        y: document.documentElement.clientHeight / 2,
       };
-    });
+    };
+    const measure = () => {
+      const center = getEntryCenter();
+      return circles.map((node, index) => {
+        const first = markers[index].getBoundingClientRect();
+        const last = node.getBoundingClientRect();
+        const style = getComputedStyle(node);
+        const matrix = new DOMMatrixReadOnly(style.transform === "none" ? undefined : style.transform);
+        return {
+          x: last.left + last.width / 2 - matrix.m41,
+          y: last.top + last.height / 2 - matrix.m42,
+          width: parseFloat(style.width), height: parseFloat(style.height),
+          firstX: center.x, firstY: center.y,
+          firstWidth: first.width, firstHeight: first.height,
+          opacity: finalOpacities?.[index] ?? Number(style.opacity),
+        };
+      });
+    };
     const pose = (geometry, index, t) => {
       const mobile = innerWidth <= 760;
       const radius = mobile ? Math.max(75, Math.min(95, innerWidth * .22)) : Math.max(110, Math.min(135, innerWidth * .085));
@@ -413,6 +431,8 @@
       circles.forEach((circle) => observer.observe(circle));
       addEventListener("resize", queueMeasure, { passive: true });
       addEventListener("scroll", queueMeasure, { passive: true });
+      window.visualViewport?.addEventListener("resize", queueMeasure, { passive: true });
+      window.visualViewport?.addEventListener("scroll", queueMeasure, { passive: true });
       addEventListener("pagehide", finish, { once: true });
       reducedMotion.addEventListener("change", onMotionChange);
       // Fonts may settle later; retarget without delaying the introduction.
