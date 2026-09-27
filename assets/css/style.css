@@ -4815,6 +4815,18 @@ body .footer-main > div.footer-socials > a {
   width: 24px;
   height: 24px;
 }
+.profile-links .platform-link-icon-image {
+  display: grid;
+  place-items: center;
+  overflow: visible;
+}
+.profile-links .platform-link-icon-image img {
+  width: 26px;
+  height: 26px;
+  max-width: none;
+  object-fit: contain;
+  display: block;
+}
 
 .feature-links {
   display: grid;

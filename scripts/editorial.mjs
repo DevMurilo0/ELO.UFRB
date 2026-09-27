@@ -6,9 +6,13 @@ export function editorialPages({ data, esc, tag, link, externalLink, picture, in
     const haystack = `${source.source || ""} ${source.title || ""} ${source.originUrl}`.toLowerCase();
     const isInstagram = haystack.includes("instagram");
     const isYouTube = haystack.includes("youtube");
+    const isLattes = haystack.includes("lattes.cnpq.br") || haystack.includes("currículo lattes");
     const isAcademic = /ufrb|usp|ufba|edufrb|cnpq|lattes/.test(haystack);
-    const icon = isInstagram ? "Instagram" : isYouTube ? "YouTube" : isAcademic ? "graduation" : "external";
     const smartLabel = label === "Consultar fonte" && isInstagram ? "Ver fonte no Instagram" : label;
+    if (isLattes) {
+      return `<a class="platform-link" href="${esc(source.originUrl)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(smartLabel)} (abre em nova aba)"><span class="platform-link-icon platform-link-icon-image"><img src="/assets/img/unnamed.png" alt="" aria-hidden="true" loading="lazy" decoding="async"></span><span>${esc(smartLabel)}</span><span aria-hidden="true">↗</span></a>`;
+    }
+    const icon = isInstagram ? "Instagram" : isYouTube ? "YouTube" : isAcademic ? "graduation" : "external";
     return externalLink(source.originUrl, smartLabel, icon);
   };
   const eloMiniMark = '<span class="mini-elo-mark" aria-hidden="true"><i></i><i></i><i></i></span>';
