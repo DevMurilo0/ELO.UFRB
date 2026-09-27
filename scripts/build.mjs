@@ -98,12 +98,23 @@ const network = (
 </div>`;
 
 function header(path) {
+  const menuSocials = data.channels
+    .filter((channel) => ["Instagram", "YouTube", "X (Twitter)", "E-mail"].includes(channel.name))
+    .map((channel) => {
+      const label = channel.name === "X (Twitter)" ? "X" : channel.name;
+      return `<a href="${esc(channel.url)}"${/^https?:/i.test(channel.url) ? ' target="_blank" rel="noopener noreferrer"' : ""}><span aria-hidden="true">${channelIcons[channel.name] || ""}</span><span>${label}</span></a>`;
+    })
+    .join("");
+  const menuItems = nav
+    .map(([url, label], index) => `<li><a href="${url}"${path === url || (path.startsWith("/acoes/") && url === "/acoes/") || (path === "/conteudos/" && url === "/publicacoes/") ? ' aria-current="page"' : ""}><span class="menu-number">${String(index + 1).padStart(2, "0")}</span><span class="menu-item-label">${label}</span></a></li>`)
+    .join("");
   return `<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   <header class="site-header"><div class="institution-bar"><div class="container"><span>Universidade Federal do Recôncavo da Bahia</span><span>Ensino · Pesquisa · Extensão</span></div></div>
   <div class="container header-inner">
     <a class="brand" href="/" aria-label="ELO.UFRB, início">${mark}<span>ELO<span class="brand-dot">.</span>UFRB<small>Universidade em rede</small></span></a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav"><span>Menu</span><span class="menu-icon" aria-hidden="true"></span></button>
-    <nav id="primary-nav" aria-label="Navegação principal">${nav.map(([url, label]) => `<a href="${url}"${path === url || (path.startsWith("/acoes/") && url === "/acoes/") || (path === "/conteudos/" && url === "/publicacoes/") ? ' aria-current="page"' : ""}>${label}</a>`).join("")}</nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span class="menu-toggle-copy" aria-hidden="true"><span class="menu-label">MENU</span><span class="menu-close-label">FECHAR</span></span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span></button>
+    <div class="menu-backdrop" aria-hidden="true"></div><div class="menu-layers" aria-hidden="true"><i class="menu-layer-orange"></i><i class="menu-layer-blue"></i></div>
+    <nav id="primary-nav" aria-label="Navegação principal"><div class="menu-panel-header"><span>MENU</span><span>ELO.UFRB</span></div><ol class="menu-list">${menuItems}</ol><div class="menu-socials"><p>CANAIS</p><div>${menuSocials}</div></div><div class="menu-panel-mark" aria-hidden="true">${mark}</div></nav>
   </div></header>`;
 }
 
@@ -179,7 +190,7 @@ const nextEventYear = nextEventDate.getUTCFullYear();
 const featuredActionSource = featuredAction.sourceUrl
   ? externalLink(featuredAction.sourceUrl, "Ver publicação no Instagram", "Instagram")
   : `<div class="featured-source-pending"><span>Fonte</span><strong>${esc(featuredAction.sourceLabel || "Publicação oficial do ELO.UFRB")}</strong></div>`;
-let home = `<div class="elo-entry" aria-hidden="true"><div class="elo-entry-orbit"><i class="elo-entry-ball ball-white"></i><i class="elo-entry-ball ball-red"></i><i class="elo-entry-ball ball-blue"></i></div></div><section class="hero hero-centered"><div class="hero-orbits" aria-hidden="true"><i></i><i></i><i></i></div><div class="container hero-center-copy">${tag("Projeto de extensão da UFRB · Desde 2022")}<h1 class="hero-brand">ELO<span>.</span>UFRB</h1><p class="hero-kicker">Universidade em rede</p><p class="hero-fullname">${esc(data.fullName)}.</p><p class="hero-triad">Universidade <i></i> Comunidade <i></i> Território</p></div></section>
+let home = `<div class="elo-entry" aria-hidden="true"><div class="elo-entry-orbit"><i class="elo-entry-ball ball-white"></i><i class="elo-entry-ball ball-orange"></i><i class="elo-entry-ball ball-blue"></i></div></div><section class="hero hero-centered"><div class="hero-orbits" aria-hidden="true"><i></i><i></i><i></i></div><div class="container hero-center-copy">${tag("Projeto de extensão da UFRB · Desde 2022")}<h1 class="hero-brand">ELO<span>.</span>UFRB</h1><p class="hero-kicker">Universidade em rede</p><p class="hero-fullname">${esc(data.fullName)}.</p><div class="hero-triad"><span><i aria-hidden="true"></i>Universidade</span><span><i aria-hidden="true"></i>Comunidade</span><span><i aria-hidden="true"></i>Território</span></div></div></section>
 <section class="reality-bridge" id="em-movimento" aria-labelledby="movement-title"><div class="container reality-grid"><div class="reality-photo" data-parallax>${picture(heroImage, { eager: true })}<span class="photo-credit">Registro do projeto · Canal oficial do ELO.UFRB</span></div><div class="reality-copy"><h2 id="movement-title">O ELO em atividade</h2><p class="section-statement">Extensão dentro e fora da Universidade.</p><p>Atividades, campanhas e formações aproximam a comunidade acadêmica, a sociedade civil e os territórios.</p>${link("/acoes/", "Conheça as ações")}</div></div></section>
 <section class="section featured-action"><div class="container featured-action-grid"><div class="featured-action-photo">${picture(featuredAction)}<span class="image-source">Imagem publicada pelo canal oficial do ELO.UFRB</span></div><div class="featured-action-copy"><p class="context-heading">Campanha · ${esc(featuredAction.year)}</p><p class="place">${esc(featuredAction.location)}</p><h2>${esc(featuredAction.title)}</h2><p>${esc(featuredAction.description)}</p><div class="featured-action-links">${link(featuredAction.url, "Conheça a atividade")}</div></div></div></section>
 <section class="section home-about"><div class="container home-about-grid"><div>${tag("O que é o ELO")}<h2>Uma universidade<br><em>em rede.</em></h2><p class="lead">Um projeto de extensão da UFRB criado para aproximar Universidade, Comunidade e Território.</p>${link("/sobre/", "Conheça o projeto")}</div><div class="triad" aria-label="Universidade, Comunidade e Território conectados"><span>Universidade</span><b aria-hidden="true">↕</b><span>Comunidade</span><b aria-hidden="true">↕</b><span>Território</span></div></div></section>

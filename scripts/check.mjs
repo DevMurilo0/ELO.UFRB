@@ -105,7 +105,7 @@ assert.equal(
 );
 assert.match(
   pages.get("/contato/"),
-  /href="\/contato\/" aria-current="page">CONTATO<\/a>/,
+  /href="\/contato\/" aria-current="page">.*?CONTATO<\/span>/,
   "Contato é página interna ativa",
 );
 assert.match(
