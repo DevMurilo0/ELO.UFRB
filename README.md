@@ -25,7 +25,7 @@ acoes/setembro-amarelo-2026/  Página da 9ª Campanha Setembro Amarelo
 acoes/reenconcavo-2023/    Página de uma ação documentada
 acoes/saude-mental-psicoeducacao-2022/  Webconferência documentada
 publicacoes/index.html     Publicações, documentos e registros
-agenda/index.html          Agendas
+agenda/index.html          Agenda e histórico
 parceira/index.html        Parcerias, redes e interlocuções
 contato/index.html         Contato e canais oficiais
 conteudos/index.html       Rota complementar preservada
@@ -36,7 +36,7 @@ assets/fonts/              Fontes locais e licenças OFL
 assets/img/                Marca e fotografias locais otimizadas
 content/site.json          Configuração, canais e publicação institucional
 content/actions.json       Ações confirmadas
-content/events.json        Agendas confirmadas
+content/events.json        Programação datada e status editorial
 content/idealizador.json   Trajetória e seleção acadêmica do idealizador
 content/publications.json  Arquivo editorial de publicações
 content/partners.json      Parcerias, vínculos e interlocuções
@@ -73,7 +73,7 @@ Novos layouts de detalhes podem reutilizar `page()` no gerador. Esta versão nã
 
 As fotografias atuais foram publicadas pelo perfil oficial `@elo.ufrb.oficial`, recebidas pela visualização pública, salvas localmente e convertidas para WebP e AVIF. As artes do Reencôncavo 2023 e da webconferência Saúde Mental e Psicoeducação vieram de páginas oficiais da UFRB. O HTML não depende de URLs temporárias. Os arquivos obtidos publicamente também foram preservados ao lado das versões otimizadas.
 
-O Instagram não disponibilizou, sem autenticação, as legendas completas e os permalinks dos posts. Solicite ao responsável pelo ELO:
+Na curadoria anterior, o Instagram restringiu legendas e permalinks. Na revisão de outubro, metadados públicos de posts específicos permitiram conferir várias legendas e datas; o feed e os vídeos integrais continuam parcialmente disponíveis. Solicite ao responsável pelo ELO:
 
 - arquivos fotográficos originais em alta resolução;
 - permalinks e legendas completas das publicações recentes;
@@ -84,7 +84,7 @@ Essas pendências estão registradas em `content/sources.json`. Nenhuma pessoa v
 
 ## Publicação e SEO
 
-O domínio oficial não foi fornecido. `origin` fica vazio para evitar canonical e URLs estruturadas fictícias. Quando o domínio estiver definido, preencha esse campo com a origem HTTPS real, sem caminho. Execute o build para gerar canonical, `og:url`, `og:image` absoluto e sitemap. Title, descrição, demais metadados Open Graph, favicon e JSON-LD institucional já estão presentes.
+O endereço publicado informado pelo responsável está configurado em `origin`. Se houver mudança de domínio, preencha esse campo com a nova origem HTTPS real, sem caminho, e gere novamente canonical, `og:url`, `og:image` absoluto e sitemap. Title, descrição, demais metadados Open Graph, favicon e JSON-LD institucional já estão presentes.
 
 Sirva o portal na raiz do domínio. No host estático, configure `404.html` como página de erro com status 404. Publique os HTMLs, `assets/`, o PDF em `esboço/`, `robots.txt` e o sitemap quando gerado. Não é necessário publicar `scripts/`, `content/`, `docs/` ou `package.json`. O servidor local é somente para desenvolvimento, vinculado a `127.0.0.1`.
 
@@ -94,3 +94,20 @@ Veja [decisões editoriais](docs/decisoes-editoriais.md) para a proveniência do
 
 Foram preparados foco visível, link de salto, navegação por teclado, menu com Escape, HTML semântico, alternativas para imagens, fontes locais e respeito a `prefers-reduced-motion`. A navegação e os textos permanecem disponíveis sem JavaScript.
 # ELO.UFRB
+
+## Revisão editorial de outubro de 2026
+
+A pesquisa, as decisões e as pendências estão em [auditoria de conteúdo](docs/auditoria-conteudo-elo-2026.md). A ação sobre violência escolar tem documentação em `/acoes/pesquisa-escolas-reconcavo-2026/`. As fontes novas distinguem legenda pública conferida, cobertura de imprensa, documento institucional e informação pendente. A data de um post não é automaticamente a data da atividade.
+
+A agenda usa datas civis no fuso `America/Bahia`. O build separa próximos e históricos; o navegador reclassifica os cards quando a data passa, inclusive em abas abertas e páginas restauradas. Sem JavaScript, a programação tem rótulo datado e data de conferência. Não cadastrar como evento futuro uma atividade sem data confirmada. `status: "cancelled"` e `"postponed"` retiram o item da programação futura; `endDate` opcional permite atividades de vários dias. A classificação considera o dia inteiro, sem inferir horário de término.
+
+Para reproduzir uma data no build e na checagem:
+
+```sh
+ELO_BUILD_DATE=2026-10-18 npm run build
+ELO_BUILD_DATE=2026-10-18 npm run check
+```
+
+Execute depois `npm run build` sem a variável para restaurar a classificação pela data real. Publique também `assets/js/agenda.mjs` e `assets/js/calendar.mjs`, servidos como JavaScript. `editorialReferenceDate` em `site.json` registra a data da pesquisa; não congela o relógio da agenda. O `origin` agora corresponde ao endereço publicado informado pelo responsável, com canonical e sitemap gerados; atualize-o se o domínio mudar.
+
+Publicações usa `category` para as quatro áreas do arquivo e `type` para o filtro. `featured` identifica a seleção editorial; a home seleciona a ação por `featuredAction`, sem usar a ordem da lista. Seções documentais das ações ficam no próprio registro de `actions.json` e referenciam fontes por ID.

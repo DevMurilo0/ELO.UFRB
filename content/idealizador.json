@@ -31,10 +31,28 @@
       "sourceId": "ufba-doutorado-mateus"
     },
     {
-      "year": "UFRB",
-      "title": "Docência e pesquisa",
-      "text": "Integra o corpo docente de Ciências Sociais e aparece vinculado ao Observatório Social da Juventude em páginas institucionais da Universidade.",
-      "sourceId": "ufrb-docentes-ciso"
+      "year": "2021",
+      "title": "Formação docente em Ciências Sociais",
+      "text": "Participa da organização da obra coletiva Trilhando percursos na docência em Ciências Sociais, publicada pela EDUFRB.",
+      "sourceId": "edufrb-trilhando-2021"
+    },
+    {
+      "year": "2022",
+      "title": "Criação do ELO.UFRB",
+      "text": "A proposta institucional registra o início do projeto em 2022. A identificação de Antônio Mateus como idealizador foi fornecida pelo responsável pelo portal.",
+      "sourceId": "projeto-elo-2025-2027"
+    },
+    {
+      "year": "2023",
+      "title": "Juventudes, pesquisa e formação política",
+      "text": "A programação do Reencôncavo registra sua participação no debate Balanço 10 anos de Observatório Social da Juventude, ao lado de Nilson Weisheimer. É um registro da atuação acadêmica do professor, distinto do painel do ELO no mesmo evento.",
+      "sourceId": "cahl-reenconcavo-2023"
+    },
+    {
+      "year": "2026",
+      "title": "Juventudes e desigualdades no X JUBRA",
+      "text": "Publicação pessoal de agosto anuncia mediação e debate, com Misael França, no lançamento de livro sobre juventudes brasileiras durante o X JUBRA, em Salvador. Registro de participação anunciada; a fonte não comprova a realização.",
+      "sourceId": "instagram-jubra-2026"
     }
   ],
   "works": [
@@ -75,6 +93,22 @@
     {
       "label": "Instagram @ams.dialogos",
       "sourceId": "instagram-ams"
+    },
+    {
+      "label": "Instagram @ams.2020 · perfil pessoal",
+      "sourceId": "instagram-ams-2020"
     }
+  ],
+  "portrait": {
+    "image": "/assets/img/idealizador/antonio-mateus.webp",
+    "width": 320,
+    "height": 318,
+    "sourceId": "portfolio-ams-2026",
+    "credit": "Retrato do acervo já fornecido ao portal.",
+    "rightsStatus": "existing_supplied_asset"
+  },
+  "trajectory": [
+    "Seu percurso aproxima o estudo da cidade, das sociabilidades e das desigualdades das questões vividas na escola. O mestrado em Arquitetura e Urbanismo, na USP, investigou a inserção de conjuntos habitacionais populares em Salvador; no doutorado em Ciências Sociais, na UFBA, o foco passou às relações entre violência escolar e ação pública.",
+    "Na UFRB, atua na formação em Ciências Sociais. A produção coletiva sobre docência e as interlocuções com o Observatório Social da Juventude ajudam a compreender o lugar da escola, das juventudes e do território em sua trajetória. No ELO, esses temas encontram uma proposta de extensão e comunicação com a sociedade civil."
   ]
 }

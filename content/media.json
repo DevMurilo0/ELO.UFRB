@@ -33,5 +33,32 @@
     "provider": "external",
     "url": "https://globoplay.globo.com/v/4750195/",
     "sourceId": "globoplay-4750195"
+  },
+  {
+    "id": "alba-entrevista-indexada",
+    "scope": "idealizador",
+    "title": "Universidade pública e interiorização · ALBA Entrevista",
+    "vehicle": "ALBA Entrevista · registro indexado",
+    "year": "2025",
+    "description": "Em postagem de março de 2025, Antônio Mateus apresenta sua participação na ALBA Entrevista e destaca a relação entre interiorização da universidade pública, democratização do conhecimento e inclusão territorial. O link leva ao vídeo; a data indicada é a da publicação.",
+    "provider": "external",
+    "url": "https://www.instagram.com/reel/DH1XwaBJlai/",
+    "sourceId": "alba-entrevista-indexada",
+    "verificationStatus": "public_metadata_verified",
+    "date": "2025-03-30",
+    "kind": "Referência audiovisual"
+  },
+  {
+    "id": "massa-2025",
+    "scope": "idealizador",
+    "title": "Crime organizado, território e desigualdades",
+    "vehicle": "Portal Massa · Rede A TARDE",
+    "year": "2025",
+    "date": "2025-10-29",
+    "description": "Entrevista publicada em 29 de outubro de 2025 sobre organização das facções, circulação entre estados e condições sociais de vulnerabilidade. Uma intervenção do pesquisador no debate público, distinta das ações institucionais do ELO.",
+    "provider": "external",
+    "url": "https://jornalmassa.com.br/policia/agindo-como-empresas-faccoes-levam-traficantes-da-bahia-para-o-rio-1325301",
+    "sourceId": "massa-entrevista-2025",
+    "kind": "Entrevista em texto"
   }
 ]

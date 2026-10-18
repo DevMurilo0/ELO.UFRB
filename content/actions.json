@@ -5,17 +5,49 @@
     "type": "Campanha",
     "year": "2026",
     "location": "Cachoeira, BA",
-    "description": "Registro público da participação do ELO.UFRB com a Câmara de Vereadores de Cachoeira na nona edição da campanha.",
+    "description": "Saúde Mental e Ética no Cotidiano: mobilização no Recôncavo e encontro de encerramento no CAHL, com cobertura publicada em outubro.",
     "image": "/assets/img/acoes/elo-camara-cachoeira-setembro-amarelo.webp",
     "imageAvif": "/assets/img/acoes/elo-camara-cachoeira-setembro-amarelo.avif",
     "imageWidth": 504,
     "imageHeight": 640,
     "alt": "Representantes do ELO.UFRB e da Câmara de Vereadores de Cachoeira na 9ª Campanha Setembro Amarelo de 2026",
     "url": "/acoes/setembro-amarelo-2026/",
-    "sourceUrl": "https://www.instagram.com/p/Db_rIESqtqY/?utm_source=ig_web_copy_link&stkn=NTc4MTIwNjQ2YQ==",
+    "sourceUrl": "https://www.instagram.com/p/Db_rIESqtqY/",
     "sourceLabel": "Publicação oficial do ELO.UFRB",
     "sourceStatus": "verified_exact_post_url",
-    "sourceId": "instagram-setembro-amarelo-2026"
+    "sourceId": "instagram-setembro-amarelo-2026",
+    "sourceIds": [
+      "instagram-setembro-amarelo-2026",
+      "tribuna-setembro-2026",
+      "valente-setembro-2026",
+      "atarde-cobertura-2026",
+      "instagram-cobertura-encerramento-2026"
+    ],
+    "status": "documented",
+    "date": "2026-09-30",
+    "dateNote": "Data de realização confirmada pela Secretaria Municipal de Educação em publicação de 01/10/2026.",
+    "sections": [
+      {
+        "title": "Saúde mental, escola e território",
+        "text": "A parceria com a Câmara Municipal de Cachoeira foi divulgada em agosto, com abertura anunciada para 2 de setembro de 2026. O tema da nona edição é Saúde Mental e Ética no Cotidiano. A campanha aproxima debates sobre cuidado, educação e relações sociais. A numeração da campanha corresponde a uma trajetória anterior ao ELO.UFRB, criado em 2022.",
+        "sourceId": "instagram-setembro-amarelo-2026"
+      },
+      {
+        "title": "O encerramento no CAHL",
+        "text": "A Secretaria Municipal de Educação de Cachoeira confirmou, em publicação de 1º de outubro, o encontro realizado na manhã de 30 de setembro de 2026. O registro informa a presença da equipe da Secretaria e a homenagem à secretária Adriana Lima. A coordenação da campanha é atribuída ao professor Antônio Mateus.",
+        "sourceId": "instagram-cobertura-encerramento-2026"
+      },
+      {
+        "title": "Escuta, juventudes e convivência",
+        "text": "A cobertura do A TARDE Educação, publicada em 5 de outubro, relata debates conduzidos por Anamélia Rocha, do NAPE, pela psicanalista Tânia Costa e pelo pesquisador Nilson Weisheimer, da UFRB. O relato aproxima cuidado no ambiente escolar, convivência e desigualdade social.",
+        "sourceId": "atarde-cobertura-2026"
+      },
+      {
+        "title": "Universidade e comunidades em diálogo",
+        "text": "As notícias de divulgação descrevem ações em escolas, câmaras municipais e comunidades tradicionais. O NTE 21 teve participação anunciada no encerramento. Esses registros contextualizam a articulação territorial, sem constituir uma lista completa de atividades realizadas ou de instituições presentes no encontro.",
+        "sourceId": "valente-setembro-2026"
+      }
+    ]
   },
   {
     "slug": "reenconcavo-2023",
@@ -51,5 +83,32 @@
     "alt": "Arte oficial da webconferência Saúde Mental e Psicoeducação, realizada em 29 de setembro de 2022",
     "url": "/acoes/saude-mental-psicoeducacao-2022/",
     "sourceId": "ufrb-saude-mental-psicoeducacao-2022"
+  },
+  {
+    "slug": "pesquisa-escolas-reconcavo-2026",
+    "title": "Violência escolar e juventudes no Recôncavo",
+    "type": "Pesquisa",
+    "year": "2026",
+    "location": "Recôncavo Baiano",
+    "description": "Pesquisa em escolas públicas e interlocução com o NTE 21: registros sobre juventudes, convivência e cotidiano escolar, sem resultados quantitativos publicados no portal.",
+    "url": "/acoes/pesquisa-escolas-reconcavo-2026/",
+    "sourceId": "instagram-pesquisa-escolas-2026",
+    "sourceIds": [
+      "instagram-pesquisa-escolas-2026",
+      "instagram-nte21-2026"
+    ],
+    "sourceStatus": "public_metadata_verified",
+    "sections": [
+      {
+        "title": "A escola como espaço de investigação",
+        "text": "A publicação oficial de 2 de junho de 2026 apresenta uma investigação em escolas públicas do Território de Identidade do Recôncavo, construída em colaboração entre UFRB, UFBA e UNEB. O objetivo divulgado é compreender como a violência juvenil do território afeta a convivência escolar e as relações no ambiente educativo. O anúncio aponta contribuições esperadas para o conhecimento científico e as políticas de juventude e educação; não publica resultados.",
+        "sourceId": "instagram-pesquisa-escolas-2026"
+      },
+      {
+        "title": "Interlocução com a rede de educação",
+        "text": "Uma publicação de setembro registra a parceria com o Núcleo Territorial de Educação 21 para a pesquisa sobre violência escolar. Essa relação é específica do contexto divulgado e não implica um convênio permanente entre as instituições.",
+        "sourceId": "instagram-nte21-2026"
+      }
+    ]
   }
 ]

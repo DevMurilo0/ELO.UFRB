@@ -1,5 +1,35 @@
 # Verificação do portal
 
+## Revisão editorial de 18 de outubro de 2026
+
+Executados `npm run build` e `npm run check`: **13 páginas e 410 referências locais**, sem falhas. O check inclui links e âncoras, fontes locais AVIF/WebP, dimensões e alternativas de imagens, idioma, h1 único, metadados, JSON-LD, fontes editoriais e presença das publicações nos HTMLs finais.
+
+A regra temporal tem testes de lista vazia, ordenação, hoje, eventos passados, intervalo com `endDate`, cancelamento, ano bissexto, data inválida e virada do dia no fuso `America/Bahia`. Um build completo em diretório temporário, com `events.json` vazio, confirma o estado editorial e a ausência de `undefined`/`Invalid Date`. Também passaram build e check com referência histórica `2026-09-20`, restaurando depois o build normal de 18/10.
+
+| Verificação no Chromium headless | Resultado |
+| --- | --- |
+| 13 rotas × 375, 768, 1024, 1366 e 1440 px | 65 combinações, HTTP 200, sem overflow horizontal, sem imagem quebrada e com um h1 por página |
+| Console e recursos locais | Nenhum erro de JavaScript ou resposta HTTP de erro |
+| Teclado | Link de salto primeiro no Tab; menu abre, permite Tab aos links e fecha com Escape, devolvendo foco |
+| JavaScript desativado, 375 px | Menu e navegação visíveis; mudança para Ações funciona por HTML; estado vazio da agenda legível |
+| Busca sem acentos e termo inexistente | Resultados pertinentes, estado vazio, limpeza e foco no campo |
+| Filtro por tipo e recarga | Resultado correto e critério mantido na URL |
+| Transição multipágina com movimento habilitado | Destino correto; classes de chegada removidas após a transição |
+| Passagem de data em build envelhecido | Evento vencido vai ao histórico; segundo evento assume a home; vencidos todos, aparece estado vazio |
+| Ausência de próximos eventos em 18/10 | Home e agenda sem os anúncios de 22 e 30/09 como próximos |
+| axe-core 4.10.3, WCAG 2/2.1 A/AA e boas práticas | 26 avaliações finais sem violações detectadas |
+
+Na primeira execução do axe, anos do arquivo e índices decorativos tinham contraste insuficiente. As cores foram corrigidas e as quatro avaliações afetadas refeitas sem violações; as outras 22 já haviam passado. Ausência de violações automatizadas não substitui revisão humana com leitor de tela. O ambiente foi Chromium em Linux, não dispositivos físicos ou uma matriz de navegadores diferentes.
+
+Inspeção visual da home publicada antes da edição em desktop/mobile e das páginas finais Início, Agenda, Publicações, Idealizador e campanha em 375/1440 px. As imagens tardias foram carregadas antes das capturas finais. A identidade, os três círculos e as animações existentes foram preservados; não foram introduzidos movimentos decorativos.
+
+A skill Taste foi usada para inspeção, com Node 22 e caminho explícito do Chromium. O lint inicial apontou convenções da identidade, incluindo rótulos, linhas e índices; elas foram preservadas conforme o pedido. O inspetor final, com exceções explícitas para esses elementos e para a quebra de títulos em português, mantém avisos de paleta clara, tamanhos, texto pequeno e ausência de vídeo na home. Sua regra `still-page` pede mais elementos em movimento e não foi seguida: acrescentar animação apenas para satisfazer essa métrica contrariaria o escopo. Não se afirma aprovação integral no Taste. O carregador binário do Impeccable recusou execução por permissão; suas instruções de refinamento, clareza e acessibilidade foram lidas diretamente. Os princípios da skill Emil foram aplicados preservando as transições e `prefers-reduced-motion`.
+
+As ferramentas de navegador, axe e conversão de imagem foram usadas fora das dependências do repositório. Nenhuma dependência de runtime ou framework foi adicionada. Screenshots e relatórios temporários da sessão ficaram em `/tmp/elo-audit/`; decisões e resultados duráveis estão nesta documentação e na auditoria editorial. Os testes estruturais e temporais permanecem em `scripts/check.mjs`.
+
+A checagem das fontes usou conteúdo recuperado, metadados e requisições de disponibilidade separadamente. O Instagram responde 200 mesmo quando uma legenda não está disponível; isso não foi usado como prova de execução. Restrições 429 da TV UFRB e certificado da UFBA estão documentados como limites externos; a pista ENANPUR com 404 não foi publicada como leitura nova.
+
+
 ## Terceira rodada, setembro de 2026
 
 - A página Ações foi reorganizada em destaque, formatos de atuação e arquivo por ano.

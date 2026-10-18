@@ -6,7 +6,8 @@
     "source": "Material original fornecido em /esboço",
     "originUrl": "/esboço/Projeto Elo UFRB 2025- 2027.pdf",
     "verified": true,
-    "notes": "Fonte principal para história, conceito, objetivos, metodologia, vínculo institucional e período de renovação."
+    "notes": "Fonte principal para história, conceito, objetivos, metodologia, vínculo institucional e período de renovação.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "instagram-profile",
@@ -15,18 +16,26 @@
     "source": "Instagram oficial do ELO.UFRB",
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/",
     "verified": true,
-    "notes": "Perfil e descrição pública confirmados. O Instagram restringiu permalinks e legendas na consulta sem autenticação."
+    "notes": "Descrição institucional confirmada nos metadados da página pública. O feed completo não foi varrido; a conferência de ações depende dos permalinks específicos.",
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-18",
+    "publicationDate": null,
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado."
   },
   {
     "id": "instagram-setembro-amarelo-2026",
     "title": "ELO.UFRB e Câmara de Vereadores de Cachoeira-BA na 9ª Campanha do Setembro Amarelo — 2026",
     "type": "ação",
     "source": "Publicação visível no perfil oficial @elo.ufrb.oficial",
-    "originUrl": "https://www.instagram.com/p/Db_rIESqtqY/?utm_source=ig_web_copy_link&stkn=NTc4MTIwNjQ2YQ==",
+    "originUrl": "https://www.instagram.com/p/Db_rIESqtqY/",
     "sourceStatus": "verified_exact_post_url",
     "imageOrigin": "Imagem pública carregada pelo perfil oficial; cópia local preservada e otimizada.",
     "verified": true,
-    "notes": "Título e parceria são legíveis na própria peça. Permalink específico fornecido pelo responsável pelo site e publicado como fonte da campanha."
+    "notes": "Legenda pública confirma parceria com Câmara, tema, reunião de Antônio Mateus e coordenação de Ciências Sociais e abertura anunciada para 02/09/2026. Foto não documenta o encerramento.",
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-18",
+    "publicationDate": "2026-08-13",
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado."
   },
   {
     "id": "instagram-curso-extensao-2026",
@@ -36,7 +45,8 @@
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/",
     "sourceStatus": "pending_exact_post_url",
     "verified": true,
-    "notes": "Peça pública informa 22 de setembro de 2026, 19h–19h45, Google Meet, Prof.ª Taiane Almeida e mediação do Prof. Antonio Mateus Soares. Buscas pelo título, data, participantes e tema não localizaram um permalink oficial indexado. O perfil geral não é publicado como substituto; solicitar o permalink exato ao projeto."
+    "notes": "Peça pública informa 22 de setembro de 2026, 19h–19h45, Google Meet, Prof.ª Taiane Almeida e mediação do Prof. Antonio Mateus Soares. Buscas pelo título, data, participantes e tema não localizaram um permalink oficial indexado. O perfil geral não é publicado como substituto; solicitar o permalink exato ao projeto.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "instagram-registro-publico",
@@ -46,7 +56,8 @@
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/",
     "imageOrigin": "Imagem pública carregada pelo perfil oficial; cópia local preservada e otimizada.",
     "verified": true,
-    "notes": "Usada apenas como registro geral do projeto em atividade; evento, data e pessoas não são identificados no site."
+    "notes": "Usada apenas como registro geral do projeto em atividade; evento, data e pessoas não são identificados no site.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "cahl-reenconcavo-2023",
@@ -56,7 +67,8 @@
     "originUrl": "https://ufrb.edu.br/cahl/eventos/2506-reenconcavo-2023",
     "imageOrigin": "https://ufrb.edu.br/cahl/images/reenconcavo.png",
     "verified": true,
-    "notes": "Programa oficial confirma o Reencôncavo de 7 a 9 de março e o painel de 9 de março de 2023, das 14h às 16h, na Sala 16 do CAHL, com participantes e mediação. A arte oficial do evento foi preservada e otimizada localmente."
+    "notes": "Programa oficial confirma o Reencôncavo de 7 a 9 de março e o painel de 9 de março de 2023, das 14h às 16h, na Sala 16 do CAHL, com participantes e mediação. A arte oficial do evento foi preservada e otimizada localmente.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "ufrb-saude-mental-psicoeducacao-2022",
@@ -66,7 +78,8 @@
     "originUrl": "https://ufrb.edu.br/portal1/component/chronoforms5/?chronoform=ver-evento&id=1736",
     "imageOrigin": "https://ufrb.edu.br/portal1/components/com_chronoforms5/chronoforms/uploads/evento/20220926160716_mente.jpg",
     "verified": true,
-    "notes": "Evento publicado em 26 de setembro de 2022. A página confirma realização em 29 de setembro, das 19h às 21h, na TV UFRB, objetivo, temas, mediação e participantes. A arte oficial foi preservada e otimizada localmente."
+    "notes": "Evento publicado em 26 de setembro de 2022. A página confirma realização em 29 de setembro, das 19h às 21h, na TV UFRB, objetivo, temas, mediação e participantes. A arte oficial foi preservada e otimizada localmente.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "instagram-posts-pending",
@@ -75,7 +88,8 @@
     "source": "Perfil oficial @elo.ufrb.oficial",
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/",
     "verified": false,
-    "notes": "Solicitar ao responsável os arquivos originais, legendas completas, datas e permalinks antes de ampliar o arquivo de ações e a galeria."
+    "notes": "Solicitar ao responsável os arquivos originais, legendas completas, datas e permalinks antes de ampliar o arquivo de ações e a galeria.",
+    "verificationStatus": "pending"
   },
   {
     "id": "portfolio-ams-2026",
@@ -84,7 +98,8 @@
     "source": "Material fornecido ao projeto",
     "originUrl": null,
     "verified": true,
-    "notes": "Fonte para seleção de registros de trajetória. Vínculos históricos não são publicados como cargos atuais sem confirmação institucional."
+    "notes": "Fonte para seleção de registros de trajetória. Vínculos históricos não são publicados como cargos atuais sem confirmação institucional.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "idealizador-informacao-projeto",
@@ -93,7 +108,8 @@
     "source": "Orientação editorial do responsável pelo portal",
     "originUrl": null,
     "verified": true,
-    "notes": "Antônio Mateus de Carvalho Soares foi identificado pelo projeto como idealizador do ELO.UFRB."
+    "notes": "Antônio Mateus de Carvalho Soares foi identificado pelo projeto como idealizador do ELO.UFRB.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "ufrb-docentes-ciso",
@@ -102,7 +118,8 @@
     "source": "UFRB",
     "originUrl": "https://www.ufrb.edu.br/licciso/docentes",
     "verified": true,
-    "notes": "Confirma Antônio Mateus de Carvalho Soares entre os docentes de Ciências Sociais."
+    "notes": "Confirma Antônio Mateus de Carvalho Soares entre os docentes de Ciências Sociais.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "ufrb-osj",
@@ -111,7 +128,8 @@
     "source": "UFRB · Programa de Pós-Graduação em Ciências Sociais",
     "originUrl": "https://www.ufrb.edu.br/pgcienciassociais/grupos-de-pesquisa",
     "verified": true,
-    "notes": "A página institucional associa Antônio Mateus ao Observatório Social da Juventude."
+    "notes": "A página institucional associa Antônio Mateus ao Observatório Social da Juventude.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "lattes-mateus",
@@ -120,7 +138,8 @@
     "source": "CNPq",
     "originUrl": "http://lattes.cnpq.br/5592333054837843",
     "verified": true,
-    "notes": "Link nominal associado ao docente em páginas institucionais."
+    "notes": "Link nominal associado ao docente em páginas institucionais.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "usp-mestrado-mateus",
@@ -129,7 +148,8 @@
     "source": "Biblioteca Digital de Teses e Dissertações da USP",
     "originUrl": "https://teses.usp.br/teses/disponiveis/18/18142/tde-09042008-105930/pt-br.html",
     "verified": true,
-    "notes": "Dissertação defendida em 26 de novembro de 2007 na EESC/USP."
+    "notes": "Dissertação defendida em 26 de novembro de 2007 na EESC/USP.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "ufba-doutorado-mateus",
@@ -138,7 +158,8 @@
     "source": "Programa de Pós-Graduação em Ciências Sociais da UFBA",
     "originUrl": "https://ppgcs.ufba.br/sites/ppgcs.ufba.br/files/violencia_na_escola_transformacao_do_ato_de_indisciplina_em_ato_de_infracao_e_a_mobilizacao_de_acoes_publicas.pdf",
     "verified": true,
-    "notes": "Documento do programa confirma a tese apresentada em 2014."
+    "notes": "Documento do programa confirma a tese apresentada em 2014.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "instagram-ams",
@@ -147,7 +168,11 @@
     "source": "Instagram",
     "originUrl": "https://www.instagram.com/ams.dialogos/",
     "verified": true,
-    "notes": "Perfil pessoal; não é canal institucional do ELO."
+    "notes": "Perfil pessoal; não é canal institucional do ELO.",
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-18",
+    "publicationDate": null,
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado."
   },
   {
     "id": "juventude-direitos-humanos",
@@ -156,7 +181,8 @@
     "source": "Revista Juventude.br",
     "originUrl": "https://juventudebr.emnuvens.com.br/juventudebr/article/view/202",
     "verified": true,
-    "notes": "Artigo de Antônio Mateus Soares sobre violência, escola e direitos humanos."
+    "notes": "Artigo de Antônio Mateus Soares sobre violência, escola e direitos humanos.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "edufrb-trilhando-2021",
@@ -165,7 +191,8 @@
     "source": "EDUFRB",
     "originUrl": "https://www1.ufrb.edu.br/editora/component/phocadownload/category/2-e-books?download=275:trilhando-percursos-na-docencia-em-ciencias-sociais",
     "verified": true,
-    "notes": "Obra coletiva de 2021; Antônio Mateus aparece entre os organizadores."
+    "notes": "Obra coletiva de 2021; Antônio Mateus aparece entre os organizadores.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "holiste-existencia-2018",
@@ -174,7 +201,8 @@
     "source": "Holiste",
     "originUrl": "https://holiste.com.br/in-existencia-cultura-suicidio-video/",
     "verified": true,
-    "notes": "A página registra o debate em Cachoeira e identifica Antônio Mateus como idealizador."
+    "notes": "A página registra o debate em Cachoeira e identifica Antônio Mateus como idealizador.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "globoplay-4750195",
@@ -183,7 +211,8 @@
     "source": "TV Bahia · Globoplay",
     "originUrl": "https://globoplay.globo.com/v/4750195/",
     "verified": true,
-    "notes": "Participação de Antônio Mateus como especialista; mantido como link externo."
+    "notes": "Participação de Antônio Mateus como especialista; mantido como link externo.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "youtube-conexao-sociedade-pendente",
@@ -192,7 +221,8 @@
     "source": "YouTube",
     "originUrl": "https://www.youtube.com/live/N1BZwAJ1t8o",
     "verified": true,
-    "notes": "URL e inclusão no portal foram fornecidas pelo responsável pelo projeto. O portal não atribui conteúdo adicional além do que foi fornecido sem confirmação independente."
+    "notes": "URL e inclusão no portal foram fornecidas pelo responsável pelo projeto. O portal não atribui conteúdo adicional além do que foi fornecido sem confirmação independente.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "instagram-encerramento-2026",
@@ -201,7 +231,11 @@
     "source": "ELO.UFRB · Instagram",
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/Ddrwv2fq7dJ/",
     "verified": true,
-    "notes": "Publicação de 24/09/2026 anuncia programação no Auditório do CAHL em 30/09/2026. Horário não informado."
+    "notes": "Publicação de 24/09/2026 anuncia programação no Auditório do CAHL em 30/09/2026. Horário não informado. Horário de 8h–13h confirmado nas chamadas da imprensa regional; ver fontes complementares.",
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-18",
+    "publicationDate": "2026-09-24",
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado."
   },
   {
     "id": "instagram-nte21-2026",
@@ -210,7 +244,11 @@
     "source": "ELO.UFRB · Instagram",
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/DdpTBuIK8bM/",
     "verified": true,
-    "notes": "A publicação afirma parceria para pesquisa sobre violência escolar em 2026. Não se infere convênio ou duração permanente."
+    "notes": "A publicação afirma parceria para pesquisa sobre violência escolar em 2026. Não se infere convênio ou duração permanente.",
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-18",
+    "publicationDate": "2026-09-23",
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado."
   },
   {
     "id": "instagram-cahlculturando-2026",
@@ -219,7 +257,8 @@
     "source": "ELO.UFRB · Instagram",
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/DdoSlCFx54f/",
     "verified": true,
-    "notes": "A publicação atribui a concepção ao movimento estudantil e registra intersecções pontuais com o ELO."
+    "notes": "A publicação atribui a concepção ao movimento estudantil e registra intersecções pontuais com o ELO.",
+    "verificationStatus": "previously_documented"
   },
   {
     "id": "instagram-cientista-social-2026",
@@ -228,7 +267,11 @@
     "source": "ELO.UFRB · Instagram",
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/DbGRT-hRiaj/",
     "verified": true,
-    "notes": "Publicação de 22/07/2026 sobre Florestan Fernandes e Ciências Sociais."
+    "notes": "Publicação de 22/07/2026 sobre Florestan Fernandes e Ciências Sociais.",
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-18",
+    "publicationDate": "2026-07-22",
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado."
   },
   {
     "id": "instagram-pesquisa-escolas-2026",
@@ -237,6 +280,301 @@
     "source": "ELO.UFRB · Instagram",
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/DZFZ5iUDso-/",
     "verified": true,
-    "notes": "Publicação de 02/06/2026 registra pesquisa em escolas e colaboração entre UFRB, UFBA e UNEB."
+    "notes": "Legenda confirma pesquisa em escolas públicas do Recôncavo, colaboração UFRB/UFBA/UNEB e objetivo de compreender impactos da violência juvenil na convivência escolar. Não publica resultados.",
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-18",
+    "publicationDate": "2026-06-02",
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado."
+  },
+  {
+    "id": "tribuna-setembro-2026",
+    "title": "Setembro Amarelo encerra 9ª edição com programação em Cachoeira",
+    "type": "fonte de pesquisa",
+    "source": "Tribuna do Recôncavo · Hélio Alves",
+    "originUrl": "https://tribunadoreconcavo.com/setembro-amarelo-reconcavo-cachoeira-ufrb/",
+    "publicationDate": "2026-09-24",
+    "verificationStatus": "third_party_verified",
+    "verified": true,
+    "checkedAt": "2026-10-18",
+    "notes": "Leitura integral. Anúncio anterior ao encerramento, 8h–13h; não comprova execução integral.",
+    "category": "Notícia de divulgação",
+    "location": "Cachoeira, BA",
+    "institutions": [
+      "ELO.UFRB",
+      "CAHL/UFRB",
+      "NTE 21"
+    ],
+    "imageAvailability": "Imagem disponível na matéria; não reproduzida.",
+    "editorialDecision": "Referência no dossiê da campanha; registro de notícia no arquivo."
+  },
+  {
+    "id": "valente-setembro-2026",
+    "title": "UFRB encerra 9ª edição do Setembro Amarelo com programação sobre saúde mental em Cachoeira",
+    "type": "fonte de pesquisa",
+    "source": "Blog do Valente · Lala Freitas",
+    "originUrl": "https://blogdovalente.com.br/educacao/2026/09/ufrb-encerra-9a-edicao-do-setembro-amarelo-com-programacao-sobre-saude-mental-em-cachoeira/",
+    "publicationDate": "2026-09-25",
+    "verificationStatus": "third_party_verified",
+    "verified": true,
+    "checkedAt": "2026-10-18",
+    "notes": "Leitura integral por busca e navegação pública. Chamada, não cobertura. 8h–13h; NTE 21 anunciado.",
+    "category": "Notícia de divulgação",
+    "location": "Cachoeira, BA",
+    "institutions": [
+      "ELO.UFRB",
+      "CAHL/UFRB",
+      "NTE 21"
+    ],
+    "imageAvailability": "Imagem de divulgação disponível; não reproduzida.",
+    "editorialDecision": "Fonte complementar do dossiê, sem duplicar a ação."
+  },
+  {
+    "id": "voz-movimento-setembro-2026",
+    "title": "9ª Campanha Setembro Amarelo do ELO.UFRB",
+    "type": "fonte de pesquisa",
+    "source": "Voz do Movimento · Jobson Trindade; texto creditado ao ELO.UFRB",
+    "originUrl": "https://vozdomovimento.com/2931-2/",
+    "publicationDate": "2026-09-28",
+    "verificationStatus": "third_party_verified",
+    "verified": true,
+    "checkedAt": "2026-10-18",
+    "notes": "Anuncia Edinaldo Correia Novaes e Jonas Laildo Neves. Diverge no término (12h); confunde antiguidade do projeto com a da campanha. Não adotados números esperados nem afirmação de quase dez anos do ELO.",
+    "category": "Notícia de divulgação",
+    "location": "Cachoeira, BA",
+    "institutions": [
+      "ELO.UFRB",
+      "CAHL/UFRB",
+      "MST/BA"
+    ],
+    "imageAvailability": "Artes de divulgação na fonte; não reproduzidas.",
+    "editorialDecision": "Referência com ressalva de horário e antiguidade do projeto."
+  },
+  {
+    "id": "atarde-cobertura-2026",
+    "title": "Saúde mental é tema de campanha em escolas de Cachoeira",
+    "type": "fonte de pesquisa",
+    "source": "A TARDE Educação",
+    "originUrl": "https://educacao.atarde.com.br/saude-mental-e-tema-de-campanha-em-escolas-de-cachoeira/",
+    "publicationDate": "2026-10-05",
+    "verificationStatus": "third_party_verified",
+    "verified": true,
+    "checkedAt": "2026-10-18",
+    "notes": "Cobertura posterior confirma o encontro no CAHL e participantes citados. Data de publicação confirmada pela API pública /wp-json/wp/v2/posts?slug=saude-mental-e-tema-de-campanha-em-escolas-de-cachoeira (id 7884). Não explicita a data do encontro. Foto creditada à Prefeitura de Cachoeira; reprodução não autorizada explicitamente, não baixada para uso no portal.",
+    "category": "Cobertura jornalística",
+    "location": "CAHL/UFRB, Cachoeira, BA",
+    "institutions": [
+      "ELO.UFRB",
+      "UFRB",
+      "NAPE"
+    ],
+    "imageAvailability": "Foto creditada à Prefeitura de Cachoeira; permissão de reprodução pendente.",
+    "editorialDecision": "Dossiê da campanha e Publicações; sem página duplicada para a mesma atividade."
+  },
+  {
+    "id": "anpur-sociabilidades-2007",
+    "title": "Apropriação do espaço urbano e sociabilidades",
+    "type": "fonte de pesquisa",
+    "source": "ANPUR · Anais do XII ENANPUR",
+    "originUrl": "https://anais.anpur.org.br/index.php/anaisenanpur/article/download/1196/1179/",
+    "publicationDate": null,
+    "verificationStatus": "partial_indexed",
+    "verified": false,
+    "checkedAt": "2026-10-18",
+    "notes": "Título e autoria aparecem em resultado indexado do PDF e em referências acadêmicas. Consulta direta retornou 404; item retirado da seleção publicada até resolver a URL. Não é atividade do ELO."
+  },
+  {
+    "id": "tvufrb-psicoeducacao-2022",
+    "title": "ELO.UFRB — Saúde Mental e Psicoeducação",
+    "type": "fonte de pesquisa",
+    "source": "TV UFRB · YouTube",
+    "originUrl": "https://www.youtube.com/watch?v=e6O80rgJcUU",
+    "publicationDate": "2022-09-29",
+    "verificationStatus": "institutional_verified",
+    "verified": true,
+    "checkedAt": "2026-10-18",
+    "notes": "Transmissão já referenciada no gerador e localizada por busca pública; metadados do evento confirmados pelo Portal UFRB."
+  },
+  {
+    "id": "instagram-ams-2020",
+    "title": "AMS · @ams.2020",
+    "type": "fonte de pesquisa",
+    "source": "Instagram · perfil pessoal",
+    "originUrl": "https://www.instagram.com/ams.2020/",
+    "publicationDate": null,
+    "verificationStatus": "public_metadata_verified",
+    "verified": true,
+    "checkedAt": "2026-10-18",
+    "notes": "Perfil pessoal indicado pelo responsável e confirmado por metadados públicos; sem biografia preenchida. Post FLICA 2022 consultado, mas não demonstra ação do ELO nem autoriza reprodução. Nenhuma nova fotografia utilizada.",
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado."
+  },
+  {
+    "id": "alba-entrevista-indexada",
+    "title": "ALBA Entrevista · Universidade pública e interiorização",
+    "type": "fonte de pesquisa",
+    "source": "Instagram · resultado indexado",
+    "originUrl": "https://www.instagram.com/reel/DH1XwaBJlai/",
+    "publicationDate": "2025-03-30",
+    "verificationStatus": "public_metadata_verified",
+    "verified": true,
+    "checkedAt": "2026-10-18",
+    "notes": "Publicação de Antônio Mateus em 30/03/2025, com identificação ALBA Entrevista e reflexão sobre universidade pública, interiorização e democratização do conhecimento. Data da postagem, não da gravação; vídeo integral não analisado.",
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado.",
+    "category": "Entrevista",
+    "location": null,
+    "institutions": [],
+    "imageAvailability": "Reel na fonte.",
+    "editorialDecision": "Seção de voz pública do idealizador."
+  },
+  {
+    "id": "instagram-homenagem-outubro-2026",
+    "title": "Homenagem do ELO.UFRB a Aline Brandão",
+    "type": "fonte de pesquisa",
+    "source": "Instagram oficial · resultado indexado",
+    "originUrl": "https://www.instagram.com/reel/DebxZcnRIG1/",
+    "publicationDate": "2026-10-13",
+    "verificationStatus": "public_metadata_verified",
+    "verified": true,
+    "checkedAt": "2026-10-18",
+    "notes": "Legenda pública confirma homenageada Aline Brandão, participação de Neta Lira e Sandra Lomba/NACATEA e colaboração musical das filarmônicas Minerva e União Sanfelixta. Data é de publicação; não atribui dia exato da cerimônia nem a vincula automaticamente ao encerramento de 30/09. Vídeo não transcrito.",
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado.",
+    "category": "Homenagem",
+    "location": null,
+    "institutions": [
+      "ELO.UFRB",
+      "NACATEA",
+      "Filarmônica Minerva",
+      "Filarmônica União Sanfelixta"
+    ],
+    "imageAvailability": "Reel no post; não reproduzido localmente.",
+    "editorialDecision": "Apenas publicação independente; dia e local exatos da cerimônia não confirmados."
+  },
+  {
+    "id": "instagram-cobertura-encerramento-2026",
+    "title": "Encerramento da 9ª Campanha Setembro Amarelo no CAHL",
+    "type": "fonte de pesquisa",
+    "source": "Secretaria Municipal de Educação de Cachoeira · @educacachoeira",
+    "originUrl": "https://www.instagram.com/p/Dd-dgPEAMBp/",
+    "publicationDate": "2026-10-01",
+    "verificationStatus": "public_metadata_verified",
+    "verified": true,
+    "checkedAt": "2026-10-18",
+    "notes": "Legenda pública de 01/10 diz na manhã de ontem (30), confirmando 30/09/2026 no CAHL; equipe da Secretaria presente e Adriana Lima homenageada. Autoria e data confirmadas nos metadados. Fotografias disponíveis na publicação; sem autorização expressa de reprodução local.",
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado.",
+    "category": "Registro institucional",
+    "location": "CAHL/UFRB, Cachoeira, BA",
+    "institutions": [
+      "ELO.UFRB",
+      "Secretaria Municipal de Educação de Cachoeira",
+      "UFRB"
+    ],
+    "imageAvailability": "Fotografias no post; permissão e originais pendentes.",
+    "editorialDecision": "Confirmação do encontro no dossiê; referência no arquivo."
+  },
+  {
+    "id": "instagram-convite-willian-2026",
+    "title": "Convite de Willian Tito para 30/09",
+    "type": "fonte de pesquisa",
+    "source": "Instagram oficial · resultado indexado",
+    "originUrl": "https://www.instagram.com/reel/Dd5OF5pNGca/",
+    "publicationDate": "2026-09-29",
+    "verificationStatus": "public_metadata_verified",
+    "verified": true,
+    "checkedAt": "2026-10-18",
+    "notes": "Legenda lida: convite de Willian Tito (CSS/UFRB) para 30/09. Publicado 29/09; não é cobertura posterior.",
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado.",
+    "category": "Convite audiovisual",
+    "location": null,
+    "institutions": [
+      "ELO.UFRB",
+      "UFRB"
+    ],
+    "imageAvailability": "Reel na fonte.",
+    "editorialDecision": "Referência contextual no dossiê, sem tratar como cobertura."
+  },
+  {
+    "id": "instagram-reel-dd-p-pendente",
+    "title": "Reflexão audiovisual sobre Setembro Amarelo e UFRB",
+    "type": "fonte de pesquisa",
+    "source": "Rogério Elegibo · @oluelegibo · Instagram",
+    "originUrl": "https://www.instagram.com/reel/Dd-pTtoINpe/",
+    "publicationDate": "2026-10-01",
+    "verificationStatus": "public_metadata_verified",
+    "verified": true,
+    "checkedAt": "2026-10-18",
+    "notes": "Legenda pública de 01/10 menciona UFRB, Setembro Amarelo, @ams.2020, @elo.ufrb.oficial e Cachoeira. Permite referência audiovisual contextual, mas não confirmação de programação, depoimento ou presença no encontro de 30/09.",
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado.",
+    "category": "Registro audiovisual",
+    "location": "Cachoeira, BA",
+    "institutions": [
+      "UFRB",
+      "ELO.UFRB"
+    ],
+    "imageAvailability": "Reel na fonte.",
+    "editorialDecision": "Referência contextual; sem resumo de vídeo integral."
+  },
+  {
+    "id": "capa-projeto-local",
+    "title": "Capa do projeto ELO.UFRB 2025–2027",
+    "type": "imagem derivada do documento fornecido",
+    "source": "PDF original em esboço · página 1",
+    "originUrl": "/esboço/Projeto Elo UFRB 2025- 2027.pdf",
+    "verified": true,
+    "verificationStatus": "provided_document",
+    "imageOrigin": "Página rasterizada sem alteração de composição; WebP e AVIF 495 × 700. Original preservado no PDF.",
+    "checkedAt": "2026-10-18",
+    "notes": "Miniatura documental, não fotografia de atividade. Permissão de uso no portal implícita no fornecimento do documento para este projeto."
+  },
+  {
+    "id": "instagram-jubra-2026",
+    "title": "X JUBRA: lançamento e debate sobre juventudes",
+    "type": "anúncio pessoal de atividade acadêmica",
+    "source": "Antônio Mateus · @ams.dialogos",
+    "originUrl": "https://www.instagram.com/ams.dialogos/p/DcCLq_8h_WA/",
+    "publicationDate": "2026-08-14",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-18",
+    "notes": "Legenda pública anuncia mediação e debate de Antônio Mateus e Misael França em lançamento de livro no X JUBRA, UFBA/Salvador, em 19/08/2026 às 17h. É anúncio; não há comprovação de execução nesta fonte. Atuação pessoal, não cadastrada como ação do ELO.",
+    "category": "Anúncio de evento acadêmico",
+    "location": "UFBA, Salvador, BA",
+    "institutions": [
+      "UFBA"
+    ],
+    "imageAvailability": "Peça na publicação; não reproduzida.",
+    "editorialDecision": "Linha do tempo do idealizador como participação anunciada."
+  },
+  {
+    "id": "massa-entrevista-2025",
+    "title": "Agindo como empresas, facções levam traficantes da Bahia para o Rio",
+    "type": "entrevista jornalística",
+    "source": "Portal Massa · Rede A TARDE",
+    "originUrl": "https://jornalmassa.com.br/policia/agindo-como-empresas-faccoes-levam-traficantes-da-bahia-para-o-rio-1325301",
+    "publicationDate": "2025-10-29",
+    "verified": true,
+    "verificationStatus": "third_party_verified",
+    "checkedAt": "2026-10-18",
+    "notes": "Matéria integral consultada a partir da indicação do perfil @ciso.ufrb em 31/10/2025, reel DQfGgojEWYm. Metadados do veículo informam 29/10/2025 às 20h03, atualização 30/10. Entrevista sobre organização de facções e desigualdades; não atividade do ELO. Retrato creditado Reprodução/Arquivo pessoal, sem permissão expressa para reuso; mantido apenas o link da matéria.",
+    "category": "Entrevista jornalística",
+    "location": null,
+    "institutions": [],
+    "imageAvailability": "Retrato creditado a arquivo pessoal; autorização de reuso pendente.",
+    "editorialDecision": "Seção de voz pública; não é ação institucional do ELO."
+  },
+  {
+    "id": "instagram-flica-ams-2022",
+    "title": "FLICA 2022 · registro pessoal",
+    "type": "fotografia pessoal",
+    "source": "AMS · @ams.2020",
+    "originUrl": "https://www.instagram.com/p/Ckl98juuohE/",
+    "publicationDate": "2022-11-05",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-18",
+    "notes": "Legenda pública de encontro com conterrâneos. Não especifica atividade acadêmica nem atuação do ELO. Excluído da narrativa institucional e não reproduzido sem autorização.",
+    "category": "Registro pessoal",
+    "location": null,
+    "institutions": [],
+    "imageAvailability": "Fotografia pública; sem autorização de reuso identificada.",
+    "editorialDecision": "Excluído da página institucional; não comprova atividade do ELO."
   }
 ]

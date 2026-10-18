@@ -5,9 +5,20 @@
     "type": "Encontro",
     "date": "2026-09-30",
     "location": "Auditório do CAHL/UFRB, Cachoeira, BA",
-    "description": "A chamada anuncia atividades culturais e artísticas, palestras e homenagens. O horário não foi informado na publicação consultada.",
+    "description": "Encontro de encerramento documentado pela Secretaria de Educação de Cachoeira e por cobertura posterior. A programação anunciada incluía palestras, atividades culturais, homenagens e debates.",
     "url": "https://www.instagram.com/elo.ufrb.oficial/p/Ddrwv2fq7dJ/",
-    "sourceId": "instagram-encerramento-2026"
+    "sourceId": "instagram-encerramento-2026",
+    "time": "8h às 13h (horário anunciado)",
+    "relatedUrl": "/acoes/setembro-amarelo-2026/",
+    "sourceIds": [
+      "instagram-encerramento-2026",
+      "tribuna-setembro-2026",
+      "valente-setembro-2026",
+      "atarde-cobertura-2026",
+      "instagram-cobertura-encerramento-2026"
+    ],
+    "status": "documented",
+    "verificationNote": "Realização em 30/09 confirmada pela Secretaria de Educação em 01/10. O horário acima corresponde à chamada: a Voz do Movimento, de 28/09, anunciou término às 12h."
   },
   {
     "slug": "curso-pesquisa-social-aplicada-2026",
@@ -21,6 +32,7 @@
     "mediation": "Prof. Antonio Mateus Soares",
     "sourceLabel": "Publicação oficial do ELO.UFRB",
     "sourceStatus": "pending_exact_post_url",
-    "sourceId": "instagram-curso-extensao-2026"
+    "sourceId": "instagram-curso-extensao-2026",
+    "status": "announced"
   }
 ]

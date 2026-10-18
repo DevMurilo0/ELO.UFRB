@@ -1,5 +1,5 @@
 {
-  "origin": "",
+  "origin": "https://elo-ufrb.eloprototipo.workers.dev",
   "name": "ELO.UFRB",
   "fullName": "Sociabilidades Virtuais em Rede e Interatividades Coletivas com a Sociedade Civil",
   "description": "O ELO.UFRB aproxima Universidade, Comunidade e Território por meio da extensão, do diálogo e da circulação de conhecimentos. Conheça o projeto e seus canais.",
@@ -59,5 +59,7 @@
       "source": "Documento original fornecido em esboço."
     }
   ],
-  "contents": []
+  "contents": [],
+  "editorialReferenceDate": "2026-10-18",
+  "featuredAction": "setembro-amarelo-2026"
 }

@@ -1,15 +1,16 @@
 [
   {
     "id": "encerramento-setembro-2026",
-    "title": "Um encontro no CAHL em 30 de setembro",
+    "title": "Encerramento no CAHL: chamada de setembro",
     "type": "Programação",
     "date": "2026-09-24",
     "year": "2026",
     "description": "A chamada para o encerramento da campanha anuncia atividades culturais e artísticas, palestras e homenagens no Auditório do CAHL/UFRB.",
     "url": "https://www.instagram.com/elo.ufrb.oficial/p/Ddrwv2fq7dJ/",
     "sourceId": "instagram-encerramento-2026",
-    "relatedUrl": "/agenda/",
-    "relatedLabel": "Consultar as agendas"
+    "relatedUrl": "/acoes/setembro-amarelo-2026/",
+    "relatedLabel": "Consultar a documentação da campanha",
+    "category": "Notícias e registros"
   },
   {
     "id": "parceria-nte21",
@@ -20,8 +21,9 @@
     "description": "O ELO registra parceria com o Núcleo Territorial de Educação 21 para pesquisa sobre violência escolar no Recôncavo e participação do núcleo na campanha de setembro.",
     "url": "https://www.instagram.com/elo.ufrb.oficial/p/DdpTBuIK8bM/",
     "sourceId": "instagram-nte21-2026",
-    "relatedUrl": "/parceira/",
-    "relatedLabel": "Conhecer a parceria"
+    "relatedUrl": "/acoes/pesquisa-escolas-reconcavo-2026/",
+    "relatedLabel": "Entender a pesquisa",
+    "category": "Notícias e registros"
   },
   {
     "id": "cahlculturando-2026",
@@ -31,7 +33,8 @@
     "year": "2026",
     "description": "Registro de uma iniciativa de autoria estudantil e das intersecções pontuais construídas com o ELO na programação de setembro.",
     "url": "https://www.instagram.com/elo.ufrb.oficial/p/DdoSlCFx54f/",
-    "sourceId": "instagram-cahlculturando-2026"
+    "sourceId": "instagram-cahlculturando-2026",
+    "category": "Notícias e registros"
   },
   {
     "id": "registro-setembro-amarelo-2026",
@@ -48,7 +51,8 @@
     "imageAvif": "/assets/img/acoes/elo-camara-cachoeira-setembro-amarelo.avif",
     "imageWidth": 504,
     "imageHeight": 640,
-    "alt": "Peça do ELO.UFRB sobre a 9ª Campanha Setembro Amarelo em Cachoeira"
+    "alt": "Peça do ELO.UFRB sobre a 9ª Campanha Setembro Amarelo em Cachoeira",
+    "category": "Notícias e registros"
   },
   {
     "id": "cientista-social-2026",
@@ -58,7 +62,8 @@
     "year": "2026",
     "description": "Publicação do ELO dedicada a Florestan Fernandes e à pesquisa em Ciências Sociais.",
     "url": "https://www.instagram.com/elo.ufrb.oficial/p/DbGRT-hRiaj/",
-    "sourceId": "instagram-cientista-social-2026"
+    "sourceId": "instagram-cientista-social-2026",
+    "category": "Conteúdos educativos"
   },
   {
     "id": "pesquisa-escolas-reconcavo-2026",
@@ -68,6 +73,66 @@
     "year": "2026",
     "description": "Registro de pesquisa em escolas públicas do Território de Identidade do Recôncavo, com colaboração entre UFRB, UFBA e UNEB.",
     "url": "https://www.instagram.com/elo.ufrb.oficial/p/DZFZ5iUDso-/",
-    "sourceId": "instagram-pesquisa-escolas-2026"
+    "sourceId": "instagram-pesquisa-escolas-2026",
+    "category": "Notícias e registros",
+    "relatedUrl": "/acoes/pesquisa-escolas-reconcavo-2026/",
+    "relatedLabel": "Entender a pesquisa"
+  },
+  {
+    "id": "cobertura-atarde-2026",
+    "title": "Saúde mental, juventudes e convivência no encerramento",
+    "type": "Cobertura jornalística",
+    "category": "Notícias e registros",
+    "date": "2026-10-05",
+    "description": "O A TARDE Educação relata o encontro no CAHL e os debates sobre cuidado, cotidiano escolar e desigualdade. Cobertura posterior à data anunciada para o encerramento.",
+    "url": "https://educacao.atarde.com.br/saude-mental-e-tema-de-campanha-em-escolas-de-cachoeira/",
+    "sourceId": "atarde-cobertura-2026",
+    "relatedUrl": "/acoes/setembro-amarelo-2026/",
+    "relatedLabel": "Ler o dossiê da campanha",
+    "featured": true
+  },
+  {
+    "id": "divulgacao-tribuna-2026",
+    "title": "Campanha no Recôncavo: divulgação na imprensa regional",
+    "type": "Notícia de divulgação",
+    "category": "Notícias e registros",
+    "date": "2026-09-24",
+    "description": "A Tribuna do Recôncavo divulgou objetivos, articulação territorial e programação prevista para 30 de setembro. Trata-se de anúncio anterior ao encontro.",
+    "url": "https://tribunadoreconcavo.com/setembro-amarelo-reconcavo-cachoeira-ufrb/",
+    "sourceId": "tribuna-setembro-2026",
+    "relatedUrl": "/acoes/setembro-amarelo-2026/"
+  },
+  {
+    "id": "video-psicoeducacao-2022",
+    "title": "Saúde Mental e Psicoeducação na TV UFRB",
+    "type": "Webconferência em vídeo",
+    "category": "Vídeos e entrevistas",
+    "date": "2022-09-29",
+    "description": "Transmissão da webconferência do ELO sobre preservação da vida, com mediação de Antônio Mateus Soares. A página da ação reúne temas e participantes divulgados.",
+    "url": "https://www.youtube.com/watch?v=e6O80rgJcUU",
+    "sourceId": "tvufrb-psicoeducacao-2022",
+    "relatedUrl": "/acoes/saude-mental-psicoeducacao-2022/"
+  },
+  {
+    "id": "cobertura-educacao-cachoeira-2026",
+    "title": "Educação de Cachoeira registra o encerramento no CAHL",
+    "type": "Registro institucional",
+    "category": "Notícias e registros",
+    "date": "2026-10-01",
+    "description": "A Secretaria Municipal de Educação confirma o encontro de 30 de setembro, a participação de sua equipe e a homenagem a Adriana Lima.",
+    "url": "https://www.instagram.com/p/Dd-dgPEAMBp/",
+    "sourceId": "instagram-cobertura-encerramento-2026",
+    "relatedUrl": "/acoes/setembro-amarelo-2026/",
+    "relatedLabel": "Ver contexto da campanha"
+  },
+  {
+    "id": "homenagem-aline-2026",
+    "title": "Reconhecimento público a Aline Brandão",
+    "type": "Registro de homenagem",
+    "category": "Notícias e registros",
+    "date": "2026-10-13",
+    "description": "O ELO publica um registro de homenagem a Aline Brandão, com participação de mulheres de Cachoeira, Neta Lira e Sandra Lomba, do NACATEA. A postagem também registra colaboração musical das filarmônicas Minerva e União Sanfelixta. A data se refere à publicação.",
+    "url": "https://www.instagram.com/reel/DebxZcnRIG1/",
+    "sourceId": "instagram-homenagem-outubro-2026"
   }
 ]

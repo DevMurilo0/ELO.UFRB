@@ -3,3 +3,4 @@ Allow: /
 Disallow: /scripts/
 Disallow: /content/
 Disallow: /docs/
+Sitemap: https://elo-ufrb.eloprototipo.workers.dev/sitemap.xml

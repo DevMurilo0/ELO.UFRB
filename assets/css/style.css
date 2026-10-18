@@ -5454,3 +5454,62 @@ body .footer-main > div.footer-socials > a {
     z-index: 1004 !important;
   }
 }
+
+/* Revisão editorial de outubro: arquivo legível e estados temporais explícitos.
+   Mantém paleta, fontes, círculos, transições e grid existentes. */
+[hidden] { display: none !important; }
+.home-research { background: #f0eee6; }
+.home-research p { max-width: 65ch; }
+.home-agenda .agenda-label h2 { font-size: clamp(30px, 4vw, 44px); }
+.agenda-empty { max-width: 760px; padding-top: 24px; }
+.agenda-empty > p { font-size: clamp(20px, 2vw, 26px); line-height: 1.5; }
+.agenda-entry > time { font-size: 19px; line-height: 1.45; font-weight: 700; }
+.record-status { font-weight: 600; color: var(--red); }
+.dossier-meta { display: flex; flex-wrap: wrap; gap: 16px 36px; padding-block: 28px; color: var(--muted); }
+.dossier-section + .dossier-section { padding-top: 0; }
+.dossier-section .lead, .campaign-history p { max-width: 66ch; font-size: 20px; line-height: 1.65; }
+.dossier-facts { margin: 0 0 24px; }
+.dossier-facts > div { padding-block: 16px; }
+.dossier-facts dt { font-weight: 700; margin-bottom: 6px; }
+.dossier-facts dd { margin: 0; line-height: 1.6; }
+.campaign-history { background: #f0eee6; }
+.action-document-image { margin: 0; }
+.action-document-image .platform-link { margin-top: 18px; }
+.archive-action-subject { background: #e8eef0; padding: 28px; display: flex; flex-direction: column; gap: 50px; }
+.archive-action-subject strong { font-size: clamp(28px, 3vw, 42px); line-height: 1.15; }
+.archive-categories { display: flex; flex-wrap: wrap; gap: 20px 32px; margin-bottom: 48px; }
+.archive-categories .text-link { margin: 0; font-size: 16px; }
+.archive-category { margin-block: 64px; scroll-margin-top: 140px; }
+.archive-category > h2 { font-size: clamp(30px, 3.2vw, 44px); margin-bottom: 24px; }
+.publication-archive .publication-record { grid-template-columns: minmax(180px, 230px) minmax(0, 1fr); gap: clamp(24px, 4vw, 64px); }
+.publication-date { display: grid; gap: 10px; font-size: 15px; }
+.publication-date time { margin: 0; color: var(--ink); }
+.publication-date > strong { color: var(--red); }
+.publication-archive .publication-record h3 { font-size: clamp(25px, 2.8vw, 36px); max-width: 35ch; }
+.publication-selected { background: #f0eee6; padding-inline: 24px; }
+.publication-archive .publication-record p { color: var(--ink); }
+.publication-archive .publication-record .source-note { font-size: 14px; color: var(--muted); }
+.founder-portrait { max-width: 320px; justify-self: center; }
+.founder-portrait img { object-fit: contain; }
+.document-cover { max-width: 150px; width: 100%; height: auto; }
+.document-feature:has(.document-cover) { display: grid; grid-template-columns: 120px minmax(0,1fr); column-gap: 24px; }
+.document-feature > picture { grid-row: 1 / 5; }
+html:not(.js-enabled) .archive-filters, html:not(.js-enabled) .search-status { display: none; }
+@media (max-width: 760px) {
+  .publication-archive .publication-record { grid-template-columns: minmax(0, 1fr); gap: 16px; padding-block: 28px; }
+  .publication-date { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+  .publication-selected { padding-inline: 18px; }
+  .archive-categories { gap: 16px 24px; margin-bottom: 32px; }
+  .dossier-meta { padding-block: 20px; }
+  .dossier-section .lead, .campaign-history p { font-size: 18px; }
+  .agenda-entry > time { max-width: 200px; }
+  .document-feature:has(.document-cover) { grid-template-columns: 80px minmax(0,1fr); gap: 16px; }
+}
+
+.media-reference { max-width: 760px; }
+.media-reference h3 { font-size: clamp(28px,3vw,40px); }
+.media-reference p { color: #eee8df; }
+.media-reference .platform-link { color: white; }
+/* Índices e anos precisam continuar legíveis sobre as superfícies existentes. */
+.archive-action-year, .work-number { color: #817b6e; }
+.research-axes .axis-number { opacity: 1; color: #fff; }

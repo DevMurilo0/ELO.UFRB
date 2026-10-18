@@ -467,6 +467,9 @@
         entry.hidden = !visible;
         if (visible) count++;
       }
+      for (const group of archive.querySelectorAll('[data-archive-group]')) {
+        group.hidden = ![...group.querySelectorAll('[data-entry]')].some(entry => !entry.hidden);
+      }
       status.textContent = `${count} ${count === 1 ? "item encontrado" : "itens encontrados"}`;
       empty.hidden = count > 0;
       const url = new URL(location.href);
