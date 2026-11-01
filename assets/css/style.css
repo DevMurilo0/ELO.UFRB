@@ -5866,3 +5866,9 @@ html:not(.js-enabled) .founder-media .video-load { display:none; }
  .home-ending-bottom span{display:block}
 }
 @media(prefers-reduced-motion:reduce){.home-discover span,.home-image-arrow{transition:none!important;transform:none!important}}
+
+/* O painel de navegação mobile utiliza camadas fora da viewport quando fechado.
+   Clip (em vez de hidden) impede a barra horizontal sem criar outro scroll container. */
+html, body { overflow-x: clip; }
+.home-manifesto-grid > *, .home-fieldnotes-grid > *, .home-reading-grid > *, .home-network-grid > * { min-width: 0; }
+@supports not (overflow: clip) { html, body { overflow-x: hidden; } }
