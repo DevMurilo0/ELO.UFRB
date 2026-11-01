@@ -2,7 +2,7 @@
   "name": "Antônio Mateus de Carvalho Soares",
   "shortName": "Antônio Mateus",
   "role": "Sociólogo, educador, professor e pesquisador da UFRB",
-  "description": "Idealizador do ELO.UFRB, atua na pesquisa, na docência e no debate público sobre questões que atravessam a escola, as juventudes, a violência e os direitos humanos.",
+  "description": "Idealizador do ELO INSTITUCIONAL, atua na pesquisa, na docência e no debate público sobre questões que atravessam a escola, as juventudes, a violência e os direitos humanos.",
   "axes": [
     {
       "title": "Violência",
@@ -38,7 +38,7 @@
     },
     {
       "year": "2022",
-      "title": "Criação do ELO.UFRB",
+      "title": "Criação do ELO INSTITUCIONAL",
       "text": "A proposta institucional registra o início do projeto em 2022. A identificação de Antônio Mateus como idealizador foi fornecida pelo responsável pelo portal.",
       "sourceId": "projeto-elo-2025-2027"
     },
@@ -165,6 +165,50 @@
       "dateLabel": "Atividade realizada",
       "description": "Registro da reunião administrativa do CEJUVE e da coordenação estadual de juventude, realizada em 14 de junho de 2025, na Fundação Hansen Bahia. A publicação vincula a abertura da reunião ao compromisso da UFRB, do Observatório Social da Juventude e da Licenciatura em Ciências Sociais com acolhimento da diversidade e políticas de juventude.",
       "sourceId": "ig-DLAZZJnRuCm"
+    }
+  ],
+  "portfolioHighlights": [
+    {
+      "type": "Trajetória e reconhecimento",
+      "title": "Título de Cidadão Cachoeirano",
+      "text": "O portfólio ilustrado apresenta o reconhecimento da Câmara Municipal de Cachoeira ao professor. O registro inclui fotografia com o diploma e imagem do documento; a data da entrega não está especificada no texto do portfólio.",
+      "pages": "24",
+      "sourceId": "portfolio-ams-2026"
+    },
+    {
+      "type": "Extensão e formação",
+      "title": "Diálogos sobre saúde mental e acolhimento",
+      "text": "O acervo reúne registros de palestras e debates na UFRB, em Cachoeira, e de atividades com a sociedade civil sobre saúde mental, autocuidado e redes de apoio. Esses registros integram a trajetória profissional do idealizador e não são automaticamente atribuídos ao projeto ELO.",
+      "pages": "41–46",
+      "sourceId": "portfolio-ams-2026"
+    },
+    {
+      "type": "Formação docente",
+      "title": "Conferências e jornadas pedagógicas",
+      "text": "O material registra apresentações sobre projeto de vida, educação e formação de professores em espaços como o ISBA, a UNEB, Porto Seguro e Serra Preta. As datas individuais não são informadas em todos os registros.",
+      "pages": "5–6 e 35–39",
+      "sourceId": "portfolio-ams-2026"
+    },
+    {
+      "type": "Atuação pública",
+      "title": "Entrevistas e debates na mídia",
+      "text": "O portfólio documenta participações do professor em entrevistas sobre educação, juventudes, violência, segurança pública e saúde mental, com imagens de programas da TV Bahia, Record, TV Aratu e outros veículos.",
+      "pages": "8–22 e 64–65",
+      "sourceId": "portfolio-ams-2026"
+    },
+    {
+      "type": "Produção intelectual",
+      "title": "Livros, capítulos e artigos",
+      "text": "O portfólio reúne imagens da obra Sociologia & Sociedade, materiais sobre educação e diversidade, violência e juventudes, mundo do trabalho e uma contribuição para a coletânea Imbricações. Os dados bibliográficos completos devem ser consultados nas fontes editoriais originais.",
+      "pages": "54–61",
+      "sourceId": "portfolio-ams-2026"
+    },
+    {
+      "type": "Debate institucional",
+      "title": "Seminário sobre assédio moral",
+      "text": "O acervo apresenta material de divulgação de um seminário organizado na UFRB sobre assédio moral no ambiente de trabalho e fora dele, com mesa multidisciplinar. O portfólio não confirma sozinho a data e a realização de todas as atividades anunciadas.",
+      "pages": "62–63",
+      "sourceId": "portfolio-ams-2026"
     }
   ]
 }

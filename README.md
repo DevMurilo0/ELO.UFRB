@@ -1,6 +1,6 @@
-# ELO.UFRB
+# ELO INSTITUCIONAL
 
-Portal institucional do ELO.UFRB, em HTML, CSS e JavaScript. Sem frameworks, bibliotecas de runtime, rastreadores, cookies ou serviços de backend. Os arquivos originais em `esboço/` estão preservados.
+Portal institucional do ELO INSTITUCIONAL, em HTML, CSS e JavaScript. Sem frameworks, bibliotecas de runtime, rastreadores, cookies ou serviços de backend. Os arquivos originais em `esboço/` estão preservados.
 
 ## Abrir localmente
 
@@ -93,7 +93,7 @@ Sirva o portal na raiz do domínio. No host estático, configure `404.html` como
 Veja [decisões editoriais](docs/decisoes-editoriais.md) para a proveniência do conteúdo, os limites do documento e os canais transcritos da capa. Veja [verificação](docs/verificacao.md) para os testes da versão.
 
 Foram preparados foco visível, link de salto, navegação por teclado, menu com Escape, HTML semântico, alternativas para imagens, fontes locais e respeito a `prefers-reduced-motion`. A navegação e os textos permanecem disponíveis sem JavaScript.
-# ELO.UFRB
+# ELO INSTITUCIONAL
 
 ## Revisão editorial de outubro de 2026
 

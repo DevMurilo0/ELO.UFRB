@@ -1,7 +1,7 @@
 [
   {
     "id": "projeto-elo-2025-2027",
-    "title": "Projeto ELO.UFRB 2025–2027",
+    "title": "Projeto ELO INSTITUCIONAL 2025–2027",
     "type": "documento institucional",
     "source": "Material original fornecido em /esboço",
     "originUrl": "/esboço/Projeto Elo UFRB 2025- 2027.pdf",
@@ -13,7 +13,7 @@
     "id": "instagram-profile",
     "title": "Perfil oficial @elo.ufrb.oficial",
     "type": "canal oficial",
-    "source": "Instagram oficial do ELO.UFRB",
+    "source": "Instagram oficial do ELO INSTITUCIONAL",
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/",
     "verified": true,
     "notes": "Descrição institucional confirmada nos metadados da página pública. O feed completo não foi varrido; a conferência de ações depende dos permalinks específicos.",
@@ -24,7 +24,7 @@
   },
   {
     "id": "instagram-setembro-amarelo-2026",
-    "title": "ELO.UFRB e Câmara de Vereadores de Cachoeira-BA na 9ª Campanha do Setembro Amarelo — 2026",
+    "title": "ELO INSTITUCIONAL e Câmara de Vereadores de Cachoeira-BA na 9ª Campanha do Setembro Amarelo — 2026",
     "type": "ação",
     "source": "Publicação visível no perfil oficial @elo.ufrb.oficial",
     "originUrl": "https://www.instagram.com/p/Db_rIESqtqY/",
@@ -37,7 +37,7 @@
     "publicationDate": "2026-08-13",
     "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado.",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/acoes/camara-cachoeira-campanha-2026-original.jpg"
     ],
@@ -56,7 +56,7 @@
   },
   {
     "id": "instagram-registro-publico",
-    "title": "Registro fotográfico de atividade do ELO.UFRB com público",
+    "title": "Registro fotográfico de atividade do ELO INSTITUCIONAL com público",
     "type": "fotografia",
     "source": "Imagem visível no perfil oficial @elo.ufrb.oficial",
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/",
@@ -109,12 +109,12 @@
   },
   {
     "id": "idealizador-informacao-projeto",
-    "title": "Identificação do idealizador do ELO.UFRB",
+    "title": "Identificação do idealizador do ELO INSTITUCIONAL",
     "type": "informação fornecida pelo projeto",
     "source": "Orientação editorial do responsável pelo portal",
     "originUrl": null,
     "verified": true,
-    "notes": "Antônio Mateus de Carvalho Soares foi identificado pelo projeto como idealizador do ELO.UFRB.",
+    "notes": "Antônio Mateus de Carvalho Soares foi identificado pelo projeto como idealizador do ELO INSTITUCIONAL.",
     "verificationStatus": "previously_documented"
   },
   {
@@ -234,7 +234,7 @@
     "id": "instagram-encerramento-2026",
     "title": "Encontro de encerramento no CAHL em 30 de setembro",
     "type": "publicação e chamada de evento",
-    "source": "ELO.UFRB · Instagram",
+    "source": "ELO INSTITUCIONAL · Instagram",
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/Ddrwv2fq7dJ/",
     "verified": true,
     "notes": "Publicação de 24/09/2026 anuncia programação no Auditório do CAHL em 30/09/2026. Horário não informado. Horário de 8h–13h confirmado nas chamadas da imprensa regional; ver fontes complementares.",
@@ -243,7 +243,7 @@
     "publicationDate": "2026-09-24",
     "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado.",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/eventos/encerramento-setembro-2026-original.jpg"
     ],
@@ -251,9 +251,9 @@
   },
   {
     "id": "instagram-nte21-2026",
-    "title": "ELO.UFRB · Parceria e integração com NTE 21",
+    "title": "ELO INSTITUCIONAL · Parceria e integração com NTE 21",
     "type": "parceria documentada",
-    "source": "ELO.UFRB · Instagram",
+    "source": "ELO INSTITUCIONAL · Instagram",
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/DdpTBuIK8bM/",
     "verified": true,
     "notes": "A publicação afirma parceria para pesquisa sobre violência escolar em 2026. Não se infere convênio ou duração permanente.",
@@ -262,7 +262,7 @@
     "publicationDate": "2026-09-23",
     "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado.",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/publicacoes/integracao-nte21-2026-original.jpg"
     ],
@@ -272,7 +272,7 @@
     "id": "instagram-cahlculturando-2026",
     "title": "Festival CAHLCULTURANDO",
     "type": "publicação cultural",
-    "source": "ELO.UFRB · Instagram",
+    "source": "ELO INSTITUCIONAL · Instagram",
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/DdoSlCFx54f/",
     "verified": true,
     "notes": "A publicação atribui a concepção ao movimento estudantil e registra intersecções pontuais com o ELO.",
@@ -282,7 +282,7 @@
     "id": "instagram-cientista-social-2026",
     "title": "Dia do Cientista Social",
     "type": "publicação informativa",
-    "source": "ELO.UFRB · Instagram",
+    "source": "ELO INSTITUCIONAL · Instagram",
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/DbGRT-hRiaj/",
     "verified": true,
     "notes": "Publicação de 22/07/2026 sobre Florestan Fernandes e Ciências Sociais.",
@@ -291,7 +291,7 @@
     "publicationDate": "2026-07-22",
     "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado.",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/publicacoes/cientista-social-2026-original.jpg"
     ],
@@ -301,7 +301,7 @@
     "id": "instagram-pesquisa-escolas-2026",
     "title": "Pesquisa sobre violência juvenil nas escolas do Recôncavo",
     "type": "registro de pesquisa",
-    "source": "ELO.UFRB · Instagram",
+    "source": "ELO INSTITUCIONAL · Instagram",
     "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/DZFZ5iUDso-/",
     "verified": true,
     "notes": "Legenda confirma pesquisa em escolas públicas do Recôncavo, colaboração UFRB/UFBA/UNEB e objetivo de compreender impactos da violência juvenil na convivência escolar. Não publica resultados.",
@@ -310,7 +310,7 @@
     "publicationDate": "2026-06-02",
     "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado.",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/acoes/pesquisa-escolas-2026-original.jpg",
       "/assets/img/acoes/pesquisa-encontro-2026-original.jpg"
@@ -331,7 +331,7 @@
     "category": "Notícia de divulgação",
     "location": "Cachoeira, BA",
     "institutions": [
-      "ELO.UFRB",
+      "ELO INSTITUCIONAL",
       "CAHL/UFRB",
       "NTE 21"
     ],
@@ -352,7 +352,7 @@
     "category": "Notícia de divulgação",
     "location": "Cachoeira, BA",
     "institutions": [
-      "ELO.UFRB",
+      "ELO INSTITUCIONAL",
       "CAHL/UFRB",
       "NTE 21"
     ],
@@ -361,9 +361,9 @@
   },
   {
     "id": "voz-movimento-setembro-2026",
-    "title": "9ª Campanha Setembro Amarelo do ELO.UFRB",
+    "title": "9ª Campanha Setembro Amarelo do ELO INSTITUCIONAL",
     "type": "fonte de pesquisa",
-    "source": "Voz do Movimento · Jobson Trindade; texto creditado ao ELO.UFRB",
+    "source": "Voz do Movimento · Jobson Trindade; texto creditado ao ELO INSTITUCIONAL",
     "originUrl": "https://vozdomovimento.com/2931-2/",
     "publicationDate": "2026-09-28",
     "verificationStatus": "third_party_verified",
@@ -373,7 +373,7 @@
     "category": "Notícia de divulgação",
     "location": "Cachoeira, BA",
     "institutions": [
-      "ELO.UFRB",
+      "ELO INSTITUCIONAL",
       "CAHL/UFRB",
       "MST/BA"
     ],
@@ -394,7 +394,7 @@
     "category": "Cobertura jornalística",
     "location": "CAHL/UFRB, Cachoeira, BA",
     "institutions": [
-      "ELO.UFRB",
+      "ELO INSTITUCIONAL",
       "UFRB",
       "NAPE"
     ],
@@ -415,7 +415,7 @@
   },
   {
     "id": "tvufrb-psicoeducacao-2022",
-    "title": "ELO.UFRB — Saúde Mental e Psicoeducação",
+    "title": "ELO INSTITUCIONAL — Saúde Mental e Psicoeducação",
     "type": "fonte de pesquisa",
     "source": "TV UFRB · YouTube",
     "originUrl": "https://www.youtube.com/watch?v=e6O80rgJcUU",
@@ -456,7 +456,7 @@
     "imageAvailability": "Reel na fonte.",
     "editorialDecision": "Seção de voz pública do idealizador.",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/idealizador/alba-entrevista-2025-original.jpg"
     ],
@@ -464,7 +464,7 @@
   },
   {
     "id": "instagram-homenagem-outubro-2026",
-    "title": "Homenagem do ELO.UFRB a Aline Brandão",
+    "title": "Homenagem do ELO INSTITUCIONAL a Aline Brandão",
     "type": "fonte de pesquisa",
     "source": "Instagram oficial · resultado indexado",
     "originUrl": "https://www.instagram.com/reel/DebxZcnRIG1/",
@@ -477,7 +477,7 @@
     "category": "Homenagem",
     "location": null,
     "institutions": [
-      "ELO.UFRB",
+      "ELO INSTITUCIONAL",
       "NACATEA",
       "Filarmônica Minerva",
       "Filarmônica União Sanfelixta"
@@ -485,7 +485,7 @@
     "imageAvailability": "Reel no post; não reproduzido localmente.",
     "editorialDecision": "Apenas publicação independente; dia e local exatos da cerimônia não confirmados.",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/publicacoes/homenagem-aline-2026-original.jpg"
     ],
@@ -506,7 +506,7 @@
     "category": "Registro institucional",
     "location": "CAHL/UFRB, Cachoeira, BA",
     "institutions": [
-      "ELO.UFRB",
+      "ELO INSTITUCIONAL",
       "Secretaria Municipal de Educação de Cachoeira",
       "UFRB"
     ],
@@ -528,7 +528,7 @@
     "category": "Convite audiovisual",
     "location": null,
     "institutions": [
-      "ELO.UFRB",
+      "ELO INSTITUCIONAL",
       "UFRB"
     ],
     "imageAvailability": "Reel na fonte.",
@@ -550,14 +550,14 @@
     "location": "Cachoeira, BA",
     "institutions": [
       "UFRB",
-      "ELO.UFRB"
+      "ELO INSTITUCIONAL"
     ],
     "imageAvailability": "Reel na fonte.",
     "editorialDecision": "Referência contextual; sem resumo de vídeo integral."
   },
   {
     "id": "capa-projeto-local",
-    "title": "Capa do projeto ELO.UFRB 2025–2027",
+    "title": "Capa do projeto ELO INSTITUCIONAL 2025–2027",
     "type": "imagem derivada do documento fornecido",
     "source": "PDF original em esboço · página 1",
     "originUrl": "/esboço/Projeto Elo UFRB 2025- 2027.pdf",
@@ -632,7 +632,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/acoes/portinari-2026-original.jpg"
     ],
@@ -650,7 +650,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/acoes/iguape-2026-original.jpg"
     ],
@@ -668,7 +668,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/acoes/assedio-moral-2026-original.jpg"
     ],
@@ -686,7 +686,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/publicacoes/abertura-campanha-2026-original.jpg"
     ],
@@ -704,7 +704,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/acoes/pesquisa-equipe-2026-original.jpg"
     ],
@@ -722,7 +722,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/publicacoes/pilula-justica-2026-original.jpg"
     ],
@@ -740,7 +740,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/publicacoes/homenagem-samira-2026-original.jpg"
     ],
@@ -758,7 +758,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/publicacoes/homenagem-mario-2026-original.jpg"
     ],
@@ -776,7 +776,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/publicacoes/homenagem-adriana-2026-original.jpg"
     ],
@@ -794,7 +794,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/publicacoes/homenagem-rita-2026-original.jpg"
     ],
@@ -812,7 +812,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/publicacoes/homenagem-andre-2026-original.jpg"
     ],
@@ -830,7 +830,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/publicacoes/homenagem-hugo-2026-original.jpg"
     ],
@@ -848,7 +848,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/publicacoes/homenagem-didi-2026-original.jpg"
     ],
@@ -866,7 +866,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/publicacoes/balanco-campanha-2026-original.jpg"
     ],
@@ -896,7 +896,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/idealizador/alas-coletivo-2026-original.jpg",
       "/assets/img/idealizador/antonio-mateus-alas-2026-original.jpg"
@@ -915,7 +915,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/idealizador/jubra-gt02-2026-original.jpg"
     ],
@@ -969,7 +969,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública integral conferida. Data do post; o dia da atividade é publicado separadamente quando explícito.",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/acoes/entrevista-ufrb-fm-2026-original.jpg",
       "/assets/img/acoes/estudio-ufrb-fm-2026-original.jpg"
@@ -988,7 +988,7 @@
     "checkedAt": "2026-10-19",
     "notes": "Legenda pública integral conferida. Data do post; o dia da atividade é publicado separadamente quando explícito.",
     "imageReuseStatus": "authorized_by_project_and_subject",
-    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO INSTITUCIONAL e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
     "imageFiles": [
       "/assets/img/eventos/curso-pesquisa-junho-2026-original.jpg"
     ],

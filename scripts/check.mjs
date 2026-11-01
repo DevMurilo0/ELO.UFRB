@@ -81,7 +81,7 @@ for (const [route, html] of pages) {
   const json = html.match(
     /<script type="application\/ld\+json">(.*?)<\/script>/s,
   )[1];
-  assert.equal(JSON.parse(json).name, "ELO.UFRB");
+  assert.equal(JSON.parse(json).name, "ELO INSTITUCIONAL");
   for (const [, attr, value] of html.matchAll(/\b(href|src)="([^"]+)"/g)) {
     if (!value.startsWith("/") && !value.startsWith("#")) continue;
     const [path, fragment] = decodeURI(value).split("#");
@@ -162,7 +162,7 @@ const editorialSource = [
 assert.doesNotMatch(
   editorialSource,
   /\b(?:a|da|na|pela|à)\s+ELO(?:\.UFRB)?\b/i,
-  "Conteúdo editorial usa O ELO.UFRB",
+  "Conteúdo editorial usa O ELO INSTITUCIONAL",
 );
 assert.ok(actions.length > 0, "Ações verificadas disponíveis");
 assert.ok(Array.isArray(events), "Agenda aceita lista vazia");

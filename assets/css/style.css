@@ -5603,3 +5603,19 @@ html:not(.js-enabled) .founder-media .video-load { display:none; }
 .founder-media .media-player.is-loading iframe { visibility:hidden; }
 .founder-media .media-outbound { display:block; }
 .founder-media .media-outbound > .video-play-icon { position:absolute; inset:0; margin:auto; }
+
+/* Atualização editorial: ELO INSTITUCIONAL (2026-11) */
+.brand {font-size:clamp(16px,1.55vw,22px);letter-spacing:-.045em}
+.brand .brand-second {font-weight:750;color:var(--red);white-space:nowrap}
+.hero-brand {font-size:clamp(52px,8vw,124px);line-height:1.02;letter-spacing:-.068em;max-width:100%;overflow-wrap:normal}
+.hero-brand .hero-brand-name {display:block;color:var(--red);font-size:.62em;letter-spacing:-.045em;overflow-wrap:anywhere}
+.portfolio-section {background:var(--paper,#f7f5ee)}
+.portfolio-section .editorial-deck {max-width:760px}
+.portfolio-highlight-grid {margin-top:40px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:32px;row-gap:0;border-top:1px solid #d3d0c8}
+.portfolio-highlight {display:grid;grid-template-columns:54px 1fr;gap:18px;padding:28px 0;border-bottom:1px solid #d3d0c8}
+.portfolio-highlight .portfolio-index {font-weight:700;color:var(--red);font-size:14px}
+.portfolio-highlight h3 {font-size:clamp(23px,2.3vw,32px);line-height:1.15;letter-spacing:-.04em;margin:10px 0 16px}
+.portfolio-highlight p {line-height:1.7}
+.portfolio-origin {display:block;margin-top:18px;font-size:12px;opacity:.7}
+@media(max-width:900px){.portfolio-highlight-grid{grid-template-columns:1fr}.hero-brand{font-size:clamp(43px,8.5vw,80px)}}
+@media(max-width:540px){.brand{font-size:18px}.brand .brand-second{font-size:.82em}.hero-brand{font-size:clamp(40px,9vw,56px)}.hero-brand .hero-brand-name{font-size:.56em}.portfolio-highlight{grid-template-columns:32px 1fr;gap:12px}}

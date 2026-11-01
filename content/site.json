@@ -1,8 +1,8 @@
 {
   "origin": "https://elo-ufrb.eloprototipo.workers.dev",
-  "name": "ELO.UFRB",
+  "name": "ELO INSTITUCIONAL",
   "fullName": "Sociabilidades Virtuais em Rede e Interatividades Coletivas com a Sociedade Civil",
-  "description": "O ELO.UFRB aproxima Universidade, Comunidade e Território por meio da extensão, do diálogo e da circulação de conhecimentos. Conheça o projeto e seus canais.",
+  "description": "O ELO INSTITUCIONAL aproxima Universidade, Comunidade e Território por meio da extensão, do diálogo e da circulação de conhecimentos. Conheça o projeto e seus canais.",
   "document": "/esboço/Projeto Elo UFRB 2025- 2027.pdf",
   "channels": [
     {
@@ -50,7 +50,7 @@
   ],
   "publications": [
     {
-      "title": "Projeto ELO.UFRB 2025 a 2027",
+      "title": "Projeto ELO INSTITUCIONAL 2025 a 2027",
       "type": "Documento institucional",
       "description": "A proposta de renovação do projeto: objetivos, fundamentos e metodologia para a construção de uma universidade em rede.",
       "period": "Dezembro de 2025 a dezembro de 2027",
@@ -61,7 +61,7 @@
       "imageAvif": "/assets/img/documentos/projeto-2025-2027.avif",
       "imageWidth": 495,
       "imageHeight": 700,
-      "alt": "Capa original do projeto institucional ELO.UFRB 2025–2027",
+      "alt": "Capa original do projeto institucional ELO INSTITUCIONAL 2025–2027",
       "imageCredit": "Capa do documento fornecido pelo projeto.",
       "imageRightsStatus": "existing_supplied_asset",
       "imageSourceId": "projeto-elo-2025-2027"
