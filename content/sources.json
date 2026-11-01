@@ -35,7 +35,13 @@
     "verificationStatus": "public_metadata_verified",
     "checkedAt": "2026-10-18",
     "publicationDate": "2026-08-13",
-    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado."
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado.",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/acoes/camara-cachoeira-campanha-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
   },
   {
     "id": "instagram-curso-extensao-2026",
@@ -235,7 +241,13 @@
     "verificationStatus": "public_metadata_verified",
     "checkedAt": "2026-10-18",
     "publicationDate": "2026-09-24",
-    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado."
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado.",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/eventos/encerramento-setembro-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
   },
   {
     "id": "instagram-nte21-2026",
@@ -248,7 +260,13 @@
     "verificationStatus": "public_metadata_verified",
     "checkedAt": "2026-10-18",
     "publicationDate": "2026-09-23",
-    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado."
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado.",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/publicacoes/integracao-nte21-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
   },
   {
     "id": "instagram-cahlculturando-2026",
@@ -271,7 +289,13 @@
     "verificationStatus": "public_metadata_verified",
     "checkedAt": "2026-10-18",
     "publicationDate": "2026-07-22",
-    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado."
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado.",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/publicacoes/cientista-social-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
   },
   {
     "id": "instagram-pesquisa-escolas-2026",
@@ -284,7 +308,14 @@
     "verificationStatus": "public_metadata_verified",
     "checkedAt": "2026-10-18",
     "publicationDate": "2026-06-02",
-    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado."
+    "retrievalMethod": "Metadados description/og:description da página pública, via requisição HTTP comum, sem sessão autenticada. Vídeo integral não analisado.",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/acoes/pesquisa-escolas-2026-original.jpg",
+      "/assets/img/acoes/pesquisa-encontro-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
   },
   {
     "id": "tribuna-setembro-2026",
@@ -423,7 +454,13 @@
     "location": null,
     "institutions": [],
     "imageAvailability": "Reel na fonte.",
-    "editorialDecision": "Seção de voz pública do idealizador."
+    "editorialDecision": "Seção de voz pública do idealizador.",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/idealizador/alba-entrevista-2025-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
   },
   {
     "id": "instagram-homenagem-outubro-2026",
@@ -446,7 +483,13 @@
       "Filarmônica União Sanfelixta"
     ],
     "imageAvailability": "Reel no post; não reproduzido localmente.",
-    "editorialDecision": "Apenas publicação independente; dia e local exatos da cerimônia não confirmados."
+    "editorialDecision": "Apenas publicação independente; dia e local exatos da cerimônia não confirmados.",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/publicacoes/homenagem-aline-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
   },
   {
     "id": "instagram-cobertura-encerramento-2026",
@@ -576,5 +619,379 @@
     "institutions": [],
     "imageAvailability": "Fotografia pública; sem autorização de reuso identificada.",
     "editorialDecision": "Excluído da página institucional; não comprova atividade do ELO."
+  },
+  {
+    "id": "ig-DUBEE64DfkL",
+    "title": "Diálogo com educadores e estudantes do Colégio Candido Portinari",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/p/DUBEE64DfkL/",
+    "publicationDate": "2026-01-27",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/acoes/portinari-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-Ddo-RZ-Oljn",
+    "title": "Escuta e cuidado no CEQBI, em Santiago do Iguape",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @ciso.ufrb",
+    "originUrl": "https://www.instagram.com/p/Ddo-RZ-Oljn/",
+    "publicationDate": "2026-09-23",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/acoes/iguape-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-DdToCjVxn7X",
+    "title": "Assédio moral no cotidiano e saúde mental: o que fazer?",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/reel/DdToCjVxn7X/",
+    "publicationDate": "2026-09-15",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/acoes/assedio-moral-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-DccAoDwKNHr",
+    "title": "Abertura da campanha: vida comunitária, trabalho e educação",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/p/DccAoDwKNHr/",
+    "publicationDate": "2026-08-24",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/publicacoes/abertura-campanha-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-DZBNQElEegq",
+    "title": "Quem constrói a pesquisa sobre violência juvenil nas escolas",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/p/DZBNQElEegq/",
+    "publicationDate": "2026-05-31",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/acoes/pesquisa-equipe-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-DeILljpqIfd",
+    "title": "Pílula I: justiça, escuta e acolhimento espiritual",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/reel/DeILljpqIfd/",
+    "publicationDate": "2026-10-05",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/publicacoes/pilula-justica-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-DepiEkvqjst",
+    "title": "Samira Jéssica e a educação quilombola no Iguape",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/reel/DepiEkvqjst/",
+    "publicationDate": "2026-10-18",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/publicacoes/homenagem-samira-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-Dec0_jgqRcR",
+    "title": "Mário do Jornal e a rede estadual de educação",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/reel/Dec0_jgqRcR/",
+    "publicationDate": "2026-10-13",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/publicacoes/homenagem-mario-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-Deg3cAkqN9m",
+    "title": "Adriana Lima: valorização docente e comunidade escolar",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/reel/Deg3cAkqN9m/",
+    "publicationDate": "2026-10-15",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/publicacoes/homenagem-adriana-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-DeXzrXoKM_Z",
+    "title": "Rita Maluf e o cuidado com crianças e adolescentes",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/reel/DeXzrXoKM_Z/",
+    "publicationDate": "2026-10-11",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/publicacoes/homenagem-rita-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-DeVJ8pcKGfh",
+    "title": "André Luís Rocha Santos e a memória musical de São Félix",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/reel/DeVJ8pcKGfh/",
+    "publicationDate": "2026-10-10",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/publicacoes/homenagem-andre-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-DeaO8nHqsyg",
+    "title": "Hugo de Ogum: ancestralidade e tradições afro-brasileiras",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/reel/DeaO8nHqsyg/",
+    "publicationDate": "2026-10-12",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/publicacoes/homenagem-hugo-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-DeReGovqNC3",
+    "title": "Didi da Saúde e os direitos das comunidades do campo",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/reel/DeReGovqNC3/",
+    "publicationDate": "2026-10-09",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/publicacoes/homenagem-didi-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-Dd82iNXIO96",
+    "title": "Balanço público da campanha: universidade e território",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/elo.ufrb.oficial/p/Dd82iNXIO96/",
+    "publicationDate": "2026-10-01",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/publicacoes/balanco-campanha-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-DeKDDWVkfrr",
+    "title": "NTE 21 confirma sua participação no encerramento",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @nte21reconcavo",
+    "originUrl": "https://www.instagram.com/p/DeKDDWVkfrr/",
+    "publicationDate": "2026-10-06",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. Publicação do próprio núcleo confirma presença de Maeve Santos e Mário do Jornal em mesa do encontro de 30/09."
+  },
+  {
+    "id": "ig-DbeSbxkEd6g",
+    "title": "Antônio Mateus no ALAS 2026",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @ams.dialogos",
+    "originUrl": "https://www.instagram.com/p/DbeSbxkEd6g/",
+    "publicationDate": "2026-07-31",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/idealizador/alas-coletivo-2026-original.jpg",
+      "/assets/img/idealizador/antonio-mateus-alas-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-DcT2X79RBor",
+    "title": "Coordenação do GT 02 no X JUBRA",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @ams.dialogos",
+    "originUrl": "https://www.instagram.com/p/DcT2X79RBor/",
+    "publicationDate": "2026-08-21",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. ",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/idealizador/jubra-gt02-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-DJ6m6vutBnO",
+    "title": "Mesa-redonda sobre Florestan Fernandes em Cachoeira",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @ciso.ufrb",
+    "originUrl": "https://www.instagram.com/reel/DJ6m6vutBnO/",
+    "publicationDate": "2025-05-21",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. "
+  },
+  {
+    "id": "ig-DLAZZJnRuCm",
+    "title": "Reunião sobre atualização do Plano Estadual da Juventude",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @ciso.ufrb",
+    "originUrl": "https://www.instagram.com/reel/DLAZZJnRuCm/",
+    "publicationDate": "2025-06-17",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. "
+  },
+  {
+    "id": "ig-DeNaKI7KE3n",
+    "title": "Articulações da campanha: atualização de 7 de outubro",
+    "type": "publicação do Instagram",
+    "source": "Instagram · @elo.ufrb.oficial",
+    "originUrl": "https://www.instagram.com/reel/DeNaKI7KE3n/",
+    "publicationDate": "2026-10-07",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública lida por permalink, comparada ao inventário anterior. A data é de publicação, salvo indicação explícita da atividade. Estimativas diferem da postagem de 01/10. Não consolidar números de discentes, docentes, movimentos e terreiros como um único total."
+  },
+  {
+    "id": "ig-DdWdA_WoIPH",
+    "title": "Entrevista da campanha na UFRB FM",
+    "type": "publicação institucional",
+    "source": "Instagram · @radioufrbfm",
+    "originUrl": "https://www.instagram.com/p/DdWdA_WoIPH/",
+    "publicationDate": "2026-09-16",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública integral conferida. Data do post; o dia da atividade é publicado separadamente quando explícito.",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/acoes/entrevista-ufrb-fm-2026-original.jpg",
+      "/assets/img/acoes/estudio-ufrb-fm-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
+  },
+  {
+    "id": "ig-DZV5nLQgC29",
+    "title": "A escola como laboratório: módulo de pesquisa em educação",
+    "type": "publicação institucional",
+    "source": "Instagram · @ciso.ufrb",
+    "originUrl": "https://www.instagram.com/p/DZV5nLQgC29/",
+    "publicationDate": "2026-06-08",
+    "verified": true,
+    "verificationStatus": "public_metadata_verified",
+    "checkedAt": "2026-10-19",
+    "notes": "Legenda pública integral conferida. Data do post; o dia da atividade é publicado separadamente quando explícito.",
+    "imageReuseStatus": "authorized_by_project_and_subject",
+    "imageAuthorizationNote": "Responsável pelo portal confirmou expressamente a autorização do ELO.UFRB e de Antônio Mateus nesta conversa, em 19/10/2026; materiais próprios ou em coautoria abrangidos por essa declaração. Não constitui licença aberta de terceiros.",
+    "imageFiles": [
+      "/assets/img/eventos/curso-pesquisa-junho-2026-original.jpg"
+    ],
+    "imageVerificationNote": "Arquivos recuperados do HTML público de incorporação oficial do Instagram ou do src/srcset público do post; versões de maior dimensão entregues, sem contornar login ou alterar parâmetros do CDN. Originais preservados e dimensões verificadas."
   }
 ]

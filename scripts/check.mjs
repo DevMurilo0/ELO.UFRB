@@ -4,6 +4,7 @@ import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { join } from "node:path";
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { calendarDay, partitionEvents, validDay } from "../assets/js/calendar.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
@@ -21,10 +22,25 @@ const routes = [
   "/acoes/reenconcavo-2023/",
   "/acoes/saude-mental-psicoeducacao-2022/",
   "/acoes/pesquisa-escolas-reconcavo-2026/",
+  "/acoes/dialogo-colegio-portinari-2026/",
+  "/acoes/escuta-cuidado-iguape-2026/",
+  "/acoes/assedio-moral-saude-mental-2026/",
+  "/acoes/saude-mental-ufrb-fm-2026/",
 ];
 const pages = new Map();
 for (const route of routes)
   pages.set(route, await readFile(join(root, route, "index.html"), "utf8"));
+const expectedNavigation = ["INÍCIO", "O ELO", "IDEALIZADOR", "AÇÕES", "AGENDAS", "PUBLICAÇÃO", "PARCEIRA", "CONTATO"];
+for (const [route, html] of pages) {
+  const primary = html.match(/<nav id="primary-nav"[\s\S]*?<\/nav>/)?.[0] || "";
+  const labels = [...primary.matchAll(/class="menu-item-label">([^<]+)<\/span>/g)].map(match => match[1]);
+  assert.deepEqual(labels, expectedNavigation, `${route}: ordem e rótulos exatos do menu`);
+  const footer = html.match(/<div class="footer-nav">([\s\S]*?)<\/div>/)?.[1] || "";
+  assert.deepEqual([...footer.matchAll(/<a href="[^"]+">([^<]+)<\/a>/g)].map(match => match[1]), expectedNavigation, `${route}: navegação compartilhada no rodapé`);
+}
+const partnerNavigation = pages.get("/parceira/").match(/<nav id="primary-nav"[\s\S]*?<\/nav>/)[0];
+assert.equal((partnerNavigation.match(/aria-current="page"/g) || []).length, 1, "Parceria: somente seu próprio item ativo");
+assert.match(partnerNavigation, /href="\/parceira\/" aria-current="page"/);
 let links = 0;
 for (const [route, html] of pages) {
   assert.match(html, /<html lang="pt-BR">/, route + ": idioma");
@@ -155,7 +171,7 @@ const archive = JSON.parse(await readFile(join(root, "content/publications.json"
 const media = JSON.parse(await readFile(join(root, "content/media.json"), "utf8"));
 const founder = JSON.parse(await readFile(join(root, "content/idealizador.json"), "utf8"));
 assert.equal(sourceIds.size, sources.length, "IDs de fonte únicos");
-for (const item of [...actions, ...events, ...archive, ...media, ...founder.works, ...founder.milestones, ...founder.profiles])
+for (const item of [...actions, ...events, ...archive, ...media, ...founder.works, ...founder.milestones, ...founder.profiles, ...(founder.activities || [])])
   assert.ok(sourceIds.has(item.sourceId), `Fonte registrada: ${item.sourceId}`);
 for (const event of events) {
   assert.ok(validDay(event.date), `Data válida: ${event.slug}`);
@@ -241,7 +257,59 @@ try {
   assert.doesNotMatch(emptyHome,/data-home-event/);
   assert.doesNotMatch(emptyHome+emptyAgenda,/undefined|Invalid Date/);
 } finally { await rm(fixtureRoot,{recursive:true,force:true}); }
+for (const action of actions.filter(item=>item.detailTemplate === "record")) {
+  assert.ok(pages.get("/acoes/").includes(action.url), `Ação visível no arquivo: ${action.slug}`);
+  assert.ok(pages.get(action.url).includes(action.title.replace(/&/g,"&amp;")), `Detalhe gerado: ${action.slug}`);
+  for (const section of action.sections) assert.ok(pages.get(action.url).includes(section.text));
+}
+for (const item of founder.activities || []) assert.ok(pages.get("/idealizador/").includes(item.title), `Registro de atuação visível: ${item.title}`);
 for (const item of archive) assert.ok(pages.get("/publicacoes/").includes(item.title), `Publicação gerada: ${item.id}`);
+// As mídias autorizadas precisam ser arquivos reais, íntegros e efetivamente renderizados.
+const imageAssets = JSON.parse(await readFile(join(root,"content/image-assets.json"),"utf8"));
+const assetByPath = new Map(imageAssets.map(asset => [asset.image, asset]));
+for (const asset of imageAssets) {
+  assert.ok(sourceIds.has(asset.imageSourceId), `Origem da imagem: ${asset.id}`);
+  assert.equal(asset.imageRightsStatus,"authorized_by_project_and_subject",asset.id);
+  const original = await readFile(join(root,asset.original));
+  assert.equal(createHash("sha256").update(original).digest("hex"),asset.sha256,`Original íntegro: ${asset.id}`);
+  assert.equal(original.length,asset.originalBytes);
+  assert.ok(original[0] === 0xff && original[1] === 0xd8,`Original JPEG real: ${asset.id}`);
+  assert.ok(asset.imageWidth <= asset.originalWidth && asset.imageHeight <= asset.originalHeight,`Sem ampliação artificial: ${asset.id}`);
+  assert.ok(Math.abs(asset.imageWidth / asset.imageHeight - asset.originalWidth / asset.originalHeight) < .005,`Proporção preservada: ${asset.id}`);
+  for (const path of [asset.image,asset.imageAvif]) {
+    await access(join(root,path));
+    assert.ok([...pages.values()].some(html => html.includes(path)),`Imagem visível no HTML: ${path}`);
+  }
+}
+for (const action of actions) {
+  assert.ok(action.image,`Ação possui material visual: ${action.slug}`);
+  assert.ok(pages.get("/acoes/").includes(action.image));
+  assert.ok(pages.get(action.url).includes(action.image),`Imagem no detalhe: ${action.slug}`);
+  for (const item of action.gallery || []) assert.ok(pages.get(action.url).includes(item.image));
+}
+for (const [items, route] of [[events,"/agenda/"],[archive,"/publicacoes/"]]) {
+  for (const item of items.filter(item=>item.image)) assert.ok(pages.get(route).includes(item.image),`Imagem renderizada: ${item.slug || item.id}`);
+}
+assert.ok(assetByPath.has(founder.portrait.image),"Retrato novo tem proveniência e arquivo original");
+assert.ok(founder.portrait.width > 320 && founder.portrait.height > 318,"Retrato de resolução superior ao anterior");
+for (const route of ["/","/idealizador/"]) {
+  assert.ok(pages.get(route).includes(founder.portrait.image));
+  assert.ok(pages.get(route).includes(founder.portrait.imageAvif));
+}
+for (const html of pages.values()) {
+  assert.doesNotMatch(html,/src="\/assets\/img\/idealizador\/antonio-mateus\.webp"/,"Sem retrato antigo nas páginas");
+  assert.doesNotMatch(html,/https?:[^" ]*(?:cdninstagram|fbcdn)/,"Renderização independente do CDN do Instagram");
+}
+// Regressão: referências do YouTube preservam a miniatura e o player sob demanda.
+for (const item of media.filter(item => item.provider === "youtube")) {
+  assert.ok(item.thumbnail?.image, `Miniatura cadastrada: ${item.videoId}`);
+  assert.equal(item.thumbnail.imageWidth / item.thumbnail.imageHeight, 16 / 9);
+  assert.ok(item.thumbnail.sourceUrl.startsWith(`https://i.ytimg.com/vi/${item.videoId}/`), "Miniatura do mesmo vídeo");
+  const html = pages.get("/idealizador/");
+  assert.ok(html.includes(`data-video="${item.videoId}"`), "Player sob demanda renderizado");
+  assert.ok(html.includes(item.thumbnail.image), "Miniatura local renderizada");
+}
+assert.doesNotMatch(pages.get("/idealizador/"), /<iframe/, "Player não carregado antes da interação");
 console.log(
   `OK: ${pages.size} páginas; ${links} referências locais; headings, metadados, âncoras, JSON-LD e integridade editorial.`,
 );

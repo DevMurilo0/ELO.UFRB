@@ -51,8 +51,8 @@
     {
       "year": "2026",
       "title": "Juventudes e desigualdades no X JUBRA",
-      "text": "Publicação pessoal de agosto anuncia mediação e debate, com Misael França, no lançamento de livro sobre juventudes brasileiras durante o X JUBRA, em Salvador. Registro de participação anunciada; a fonte não comprova a realização.",
-      "sourceId": "instagram-jubra-2026"
+      "text": "Além do anúncio de mediação e debate no lançamento de livro, as publicações posteriores registram a abertura do X JUBRA em 19 de agosto, na Faculdade de Direito da UFBA, e sua atuação na coordenação do GT 02 com Fabiana Costa e Maria Conceição.",
+      "sourceId": "ig-DcT2X79RBor"
     }
   ],
   "works": [
@@ -100,15 +100,71 @@
     }
   ],
   "portrait": {
-    "image": "/assets/img/idealizador/antonio-mateus.webp",
-    "width": 320,
-    "height": 318,
-    "sourceId": "portfolio-ams-2026",
-    "credit": "Retrato do acervo já fornecido ao portal.",
-    "rightsStatus": "existing_supplied_asset"
+    "image": "/assets/img/idealizador/antonio-mateus-alas-2026.webp",
+    "imageAvif": "/assets/img/idealizador/antonio-mateus-alas-2026.avif",
+    "width": 828,
+    "height": 828,
+    "alt": "Antônio Mateus de Carvalho Soares apresentando sua pesquisa, sentado diante de um notebook e de uma projeção, no ALAS 2026",
+    "sourceId": "ig-DbeSbxkEd6g",
+    "credit": "Antônio Mateus no ALAS 2026 · acervo @ams.dialogos, slide 11.",
+    "rightsStatus": "authorized_by_project_and_subject",
+    "sourceUrl": "https://www.instagram.com/p/DbeSbxkEd6g/",
+    "sourceSlide": 11
   },
   "trajectory": [
     "Seu percurso aproxima o estudo da cidade, das sociabilidades e das desigualdades das questões vividas na escola. O mestrado em Arquitetura e Urbanismo, na USP, investigou a inserção de conjuntos habitacionais populares em Salvador; no doutorado em Ciências Sociais, na UFBA, o foco passou às relações entre violência escolar e ação pública.",
     "Na UFRB, atua na formação em Ciências Sociais. A produção coletiva sobre docência e as interlocuções com o Observatório Social da Juventude ajudam a compreender o lugar da escola, das juventudes e do território em sua trajetória. No ELO, esses temas encontram uma proposta de extensão e comunicação com a sociedade civil."
+  ],
+  "activities": [
+    {
+      "title": "XXXV Congresso Latino-Americano de Sociologia",
+      "date": "2026-07-31",
+      "dateLabel": "Registro publicado",
+      "description": "Antônio Mateus relata sua participação no ALAS 2026 e os intercâmbios acadêmicos com pesquisadores de juventudes e violências. A publicação destaca interlocuções com a FLACSO Brasil, Miriam Abramovay, Lila Luz e Verónica Cenitagoya, além de encontros com colegas de diferentes universidades. É um registro de atuação do pesquisador, sem atribuir a participação ao ELO.",
+      "sourceId": "ig-DbeSbxkEd6g",
+      "image": "/assets/img/idealizador/alas-coletivo-2026.webp",
+      "imageAvif": "/assets/img/idealizador/alas-coletivo-2026.avif",
+      "imageWidth": 828,
+      "imageHeight": 828,
+      "alt": "Participantes do Congresso Latino-Americano de Sociologia reunidos em uma fotografia coletiva em salão de evento",
+      "imageCredit": "Registro do ALAS 2026 · acervo @ams.dialogos",
+      "imageSourceId": "ig-DbeSbxkEd6g",
+      "imageKind": "photo",
+      "imageRightsStatus": "authorized_by_project_and_subject",
+      "imageSourceUrl": "https://www.instagram.com/p/DbeSbxkEd6g/",
+      "imageSlide": 1
+    },
+    {
+      "title": "Coordenação do GT 02 no X JUBRA",
+      "date": "2026-08-21",
+      "dateLabel": "Registro publicado",
+      "description": "O registro apresenta a coordenação do GT 02 ao lado de Fabiana Costa, da UFSB, e Maria Conceição, da UnB. Documenta debates e trocas sobre juventudes brasileiras. Complementa o anúncio de participação no X JUBRA já presente nesta biografia.",
+      "sourceId": "ig-DcT2X79RBor",
+      "image": "/assets/img/idealizador/jubra-gt02-2026.webp",
+      "imageAvif": "/assets/img/idealizador/jubra-gt02-2026.avif",
+      "imageWidth": 587,
+      "imageHeight": 527,
+      "alt": "Antônio Mateus, Fabiana Costa e Maria Conceição no registro da coordenação do GT 02 do X JUBRA",
+      "imageCredit": "Registro da coordenação do GT 02 · acervo @ams.dialogos",
+      "imageSourceId": "ig-DcT2X79RBor",
+      "imageKind": "photo",
+      "imageRightsStatus": "authorized_by_project_and_subject",
+      "imageSourceUrl": "https://www.instagram.com/p/DcT2X79RBor/",
+      "imageSlide": 1
+    },
+    {
+      "title": "Florestan Fernandes e os dilemas do capitalismo periférico",
+      "date": "2025-05-20",
+      "dateLabel": "Atividade realizada",
+      "description": "A cobertura de Ciências Sociais da UFRB confirma a presença de Antônio Mateus na mesa-redonda de 20 de maio de 2025, na Fundação Hansen Bahia, em Cachoeira. A realização é atribuída ao PPGCS e à Licenciatura em Ciências Sociais. A fonte o identifica como coordenador do curso naquele contexto histórico.",
+      "sourceId": "ig-DJ6m6vutBnO"
+    },
+    {
+      "title": "Políticas de juventude no Recôncavo",
+      "date": "2025-06-14",
+      "dateLabel": "Atividade realizada",
+      "description": "Registro da reunião administrativa do CEJUVE e da coordenação estadual de juventude, realizada em 14 de junho de 2025, na Fundação Hansen Bahia. A publicação vincula a abertura da reunião ao compromisso da UFRB, do Observatório Social da Juventude e da Licenciatura em Ciências Sociais com acolhimento da diversidade e políticas de juventude.",
+      "sourceId": "ig-DLAZZJnRuCm"
+    }
   ]
 }

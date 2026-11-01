@@ -56,7 +56,15 @@
       "period": "Dezembro de 2025 a dezembro de 2027",
       "url": "/esboço/Projeto Elo UFRB 2025- 2027.pdf",
       "format": "PDF · 18 páginas",
-      "source": "Documento original fornecido em esboço."
+      "source": "Documento original fornecido em esboço.",
+      "image": "/assets/img/documentos/projeto-2025-2027.webp",
+      "imageAvif": "/assets/img/documentos/projeto-2025-2027.avif",
+      "imageWidth": 495,
+      "imageHeight": 700,
+      "alt": "Capa original do projeto institucional ELO.UFRB 2025–2027",
+      "imageCredit": "Capa do documento fornecido pelo projeto.",
+      "imageRightsStatus": "existing_supplied_asset",
+      "imageSourceId": "projeto-elo-2025-2027"
     }
   ],
   "contents": [],

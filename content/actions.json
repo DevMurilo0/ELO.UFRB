@@ -6,11 +6,11 @@
     "year": "2026",
     "location": "Cachoeira, BA",
     "description": "Saúde Mental e Ética no Cotidiano: mobilização no Recôncavo e encontro de encerramento no CAHL, com cobertura publicada em outubro.",
-    "image": "/assets/img/acoes/elo-camara-cachoeira-setembro-amarelo.webp",
-    "imageAvif": "/assets/img/acoes/elo-camara-cachoeira-setembro-amarelo.avif",
-    "imageWidth": 504,
-    "imageHeight": 640,
-    "alt": "Representantes do ELO.UFRB e da Câmara de Vereadores de Cachoeira na 9ª Campanha Setembro Amarelo de 2026",
+    "image": "/assets/img/acoes/camara-cachoeira-campanha-2026.webp",
+    "imageAvif": "/assets/img/acoes/camara-cachoeira-campanha-2026.avif",
+    "imageWidth": 1052,
+    "imageHeight": 1337,
+    "alt": "Peça do ELO sobre a parceria com a Câmara de Cachoeira na nona campanha, com Antônio Mateus e um representante da Câmara",
     "url": "/acoes/setembro-amarelo-2026/",
     "sourceUrl": "https://www.instagram.com/p/Db_rIESqtqY/",
     "sourceLabel": "Publicação oficial do ELO.UFRB",
@@ -21,7 +21,12 @@
       "tribuna-setembro-2026",
       "valente-setembro-2026",
       "atarde-cobertura-2026",
-      "instagram-cobertura-encerramento-2026"
+      "instagram-cobertura-encerramento-2026",
+      "ig-Dd82iNXIO96",
+      "ig-DeXzrXoKM_Z",
+      "ig-Dec0_jgqRcR",
+      "ig-Deg3cAkqN9m",
+      "ig-DeKDDWVkfrr"
     ],
     "status": "documented",
     "date": "2026-09-30",
@@ -46,8 +51,57 @@
         "title": "Universidade e comunidades em diálogo",
         "text": "As notícias de divulgação descrevem ações em escolas, câmaras municipais e comunidades tradicionais. O NTE 21 teve participação anunciada no encerramento. Esses registros contextualizam a articulação territorial, sem constituir uma lista completa de atividades realizadas ou de instituições presentes no encontro.",
         "sourceId": "valente-setembro-2026"
+      },
+      {
+        "title": "Da escola ao território: os registros do próprio ELO",
+        "text": "No balanço de 1º de outubro, o projeto informa que a mobilização aconteceu entre 2 e 30 de setembro e passou por universidades, escolas, câmaras municipais, comunidades quilombolas, terreiros, comunidades pesqueiras e movimentos sociais. Os números estimados nas postagens de 1º e 7 de outubro são diferentes; por isso, não são apresentados aqui como total consolidado.",
+        "sourceId": "ig-Dd82iNXIO96"
+      },
+      {
+        "title": "Reconhecimento a quem cuida e educa",
+        "text": "A homenagem a Rita Maluf, idealizadora do GAMGE, é situada pelo ELO em 30 de setembro, no auditório do CAHL. O registro informa participação universitária, da Secretaria de Saúde de Cachoeira e colaboração musical da União Sanfelixta e do Ilê Axé Ogunjá. As demais homenagens de outubro estão organizadas em Publicações, com fonte e contexto próprios.",
+        "sourceId": "ig-DeXzrXoKM_Z"
+      },
+      {
+        "title": "Participação do NTE 21 confirmada",
+        "text": "Em postagem de 6 de outubro, o NTE 21 relata que, a convite do ELO, participou do encerramento de 30 de setembro. O núcleo identifica a psicóloga Maeve Santos e o diretor Mário do Jornal como integrantes da mesa. A informação complementa os anúncios anteriores e confirma essa participação específica.",
+        "sourceId": "ig-DeKDDWVkfrr"
       }
-    ]
+    ],
+    "gallery": [
+      {
+        "image": "/assets/img/eventos/encerramento-setembro-2026.webp",
+        "imageAvif": "/assets/img/eventos/encerramento-setembro-2026.avif",
+        "imageWidth": 1254,
+        "imageHeight": 1254,
+        "alt": "Peça de divulgação do encerramento da campanha, com Adriana Lima e Antônio Mateus e a chamada para 30 de setembro",
+        "imageCredit": "Arte original de divulgação do encerramento · ELO.UFRB",
+        "imageSourceId": "instagram-encerramento-2026",
+        "imageKind": "art",
+        "imageRightsStatus": "authorized_by_project_and_subject",
+        "imageSourceUrl": "https://www.instagram.com/p/Ddrwv2fq7dJ/",
+        "imageSlide": 1
+      },
+      {
+        "image": "/assets/img/publicacoes/balanco-campanha-2026.webp",
+        "imageAvif": "/assets/img/publicacoes/balanco-campanha-2026.avif",
+        "imageWidth": 1247,
+        "imageHeight": 1262,
+        "alt": "Arte de encerramento da nona campanha, com a identidade do ELO e uma composição de registros do público",
+        "imageCredit": "Arte do balanço publicado em 1º de outubro · ELO.UFRB",
+        "imageSourceId": "ig-Dd82iNXIO96",
+        "imageKind": "art",
+        "imageRightsStatus": "authorized_by_project_and_subject",
+        "imageSourceUrl": "https://www.instagram.com/p/Dd82iNXIO96/",
+        "imageSlide": 1
+      }
+    ],
+    "imageCredit": "Peça oficial sobre a parceria com a Câmara de Cachoeira · ELO.UFRB. Não é fotografia do encerramento.",
+    "imageSourceId": "instagram-setembro-amarelo-2026",
+    "imageKind": "art",
+    "imageRightsStatus": "authorized_by_project_and_subject",
+    "imageSourceUrl": "https://www.instagram.com/p/Db_rIESqtqY/",
+    "imageSlide": 1
   },
   {
     "slug": "reenconcavo-2023",
@@ -95,7 +149,8 @@
     "sourceId": "instagram-pesquisa-escolas-2026",
     "sourceIds": [
       "instagram-pesquisa-escolas-2026",
-      "instagram-nte21-2026"
+      "instagram-nte21-2026",
+      "ig-DZBNQElEegq"
     ],
     "sourceStatus": "public_metadata_verified",
     "sections": [
@@ -108,6 +163,231 @@
         "title": "Interlocução com a rede de educação",
         "text": "Uma publicação de setembro registra a parceria com o Núcleo Territorial de Educação 21 para a pesquisa sobre violência escolar. Essa relação é específica do contexto divulgado e não implica um convênio permanente entre as instituições.",
         "sourceId": "instagram-nte21-2026"
+      },
+      {
+        "title": "Pessoas que constroem a investigação",
+        "text": "O registro de 31 de maio de 2026 apresenta parte da equipe da pesquisa: Joilma Silva, Luis Gabriel Caldas, Adinoel Machado Durval, Lucas Alves, Arõana Iakowsky e Valney dos Santos. Esses nomes são identificados na legenda da pesquisa, não cadastrados como equipe permanente de todas as ações do ELO.",
+        "sourceId": "ig-DZBNQElEegq"
+      }
+    ],
+    "image": "/assets/img/acoes/pesquisa-equipe-2026.webp",
+    "imageAvif": "/assets/img/acoes/pesquisa-equipe-2026.avif",
+    "imageWidth": 1254,
+    "imageHeight": 1254,
+    "alt": "Peça oficial da equipe da pesquisa sobre violência juvenil, com participantes reunidos à mesa",
+    "imageCredit": "Peça fotográfica da equipe da pesquisa · ELO.UFRB",
+    "imageSourceId": "ig-DZBNQElEegq",
+    "imageKind": "art",
+    "imageRightsStatus": "authorized_by_project_and_subject",
+    "imageSourceUrl": "https://www.instagram.com/p/DZBNQElEegq/",
+    "imageSlide": 1,
+    "gallery": [
+      {
+        "image": "/assets/img/acoes/pesquisa-escolas-2026.webp",
+        "imageAvif": "/assets/img/acoes/pesquisa-escolas-2026.avif",
+        "imageWidth": 828,
+        "imageHeight": 1104,
+        "alt": "Registro de encontro em um espaço escolar, com público sentado e a marca do ELO ao fundo",
+        "imageCredit": "Registro publicado com a pesquisa escolar · ELO.UFRB",
+        "imageSourceId": "instagram-pesquisa-escolas-2026",
+        "imageKind": "photo",
+        "imageRightsStatus": "authorized_by_project_and_subject",
+        "imageSourceUrl": "https://www.instagram.com/p/DZFZ5iUDso-/",
+        "imageSlide": 1
+      },
+      {
+        "image": "/assets/img/acoes/pesquisa-encontro-2026.webp",
+        "imageAvif": "/assets/img/acoes/pesquisa-encontro-2026.avif",
+        "imageWidth": 828,
+        "imageHeight": 1104,
+        "alt": "Três participantes diante do público em um registro publicado pelo ELO sobre a pesquisa escolar",
+        "imageCredit": "Registro publicado com a pesquisa escolar · ELO.UFRB",
+        "imageSourceId": "instagram-pesquisa-escolas-2026",
+        "imageKind": "photo",
+        "imageRightsStatus": "authorized_by_project_and_subject",
+        "imageSourceUrl": "https://www.instagram.com/p/DZFZ5iUDso-/",
+        "imageSlide": 2
+      }
+    ]
+  },
+  {
+    "slug": "dialogo-colegio-portinari-2026",
+    "title": "Saberes e formação no Colégio Candido Portinari",
+    "type": "Diálogo com escola",
+    "year": "2026",
+    "publicationDate": "2026-01-27",
+    "location": "Colégio Candido Portinari · localidade não informada na legenda",
+    "description": "Encontro do ELO com educadores e educandos, aproximando literatura, saberes de matriz africana e educação básica.",
+    "url": "/acoes/dialogo-colegio-portinari-2026/",
+    "sourceId": "ig-DUBEE64DfkL",
+    "status": "documented",
+    "detailTemplate": "record",
+    "institutions": [
+      "ELO.UFRB",
+      "Colégio Candido Portinari"
+    ],
+    "sections": [
+      {
+        "title": "Literatura e saberes no diálogo com a escola",
+        "text": "A publicação oficial de janeiro apresenta o encontro com educadores e educandos do Colégio Candido Portinari. Rogério Elegibô é identificado como escritor e professor de literatura e participa ao lado de Mãe Zelita de Iemanjá, integrante da Irmandade da Boa Morte. O registro situa a relação com a educação básica como parte das experiências formativas do ELO.",
+        "sourceId": "ig-DUBEE64DfkL"
+      },
+      {
+        "title": "O que o registro permite afirmar",
+        "text": "A legenda apresenta o diálogo como atividade do projeto, mas não informa o dia exato, a duração ou a cidade. A data de 27 de janeiro de 2026 identifica a postagem. A participação de Mãe Zelita não é tratada como parceria formal de toda a Irmandade da Boa Morte.",
+        "sourceId": "ig-DUBEE64DfkL"
+      }
+    ],
+    "image": "/assets/img/acoes/portinari-2026.webp",
+    "imageAvif": "/assets/img/acoes/portinari-2026.avif",
+    "imageWidth": 640,
+    "imageHeight": 1136,
+    "alt": "Capa do vídeo do diálogo no Colégio Candido Portinari, com Rogério Elegibô ao microfone e Mãe Zelita",
+    "imageCredit": "Capa original do vídeo do encontro no Portinari · ELO.UFRB",
+    "imageSourceId": "ig-DUBEE64DfkL",
+    "imageKind": "video-cover",
+    "imageRightsStatus": "authorized_by_project_and_subject",
+    "imageSourceUrl": "https://www.instagram.com/p/DUBEE64DfkL/",
+    "imageSlide": 1
+  },
+  {
+    "slug": "escuta-cuidado-iguape-2026",
+    "title": "Escuta e cuidado em Santiago do Iguape",
+    "type": "Roda de conversa",
+    "date": "2026-09-24",
+    "dateKind": "scheduled",
+    "time": "8h às 12h",
+    "year": "2026",
+    "location": "CEQBI · Santiago do Iguape, Cachoeira, BA",
+    "description": "Ação divulgada para o colégio quilombola da Bacia do Iguape: roda de conversa e apresentação cultural em diálogo com escola, universidade e comunidade.",
+    "url": "/acoes/escuta-cuidado-iguape-2026/",
+    "sourceId": "ig-Ddo-RZ-Oljn",
+    "status": "announced",
+    "detailTemplate": "record",
+    "institutions": [
+      "ELO.UFRB",
+      "Colégio Estadual de Tempo Integral Quilombola da Bacia do Iguape"
+    ],
+    "sections": [
+      {
+        "title": "Saúde mental na escola e na comunidade",
+        "text": "A divulgação de Ciências Sociais da UFRB anuncia a chegada da campanha ao Colégio Estadual de Tempo Integral Quilombola da Bacia do Iguape. A proposta é construir um encontro de escuta, reflexão e cuidado que aproxima a escola e o território das atividades da universidade.",
+        "sourceId": "ig-Ddo-RZ-Oljn"
+      },
+      {
+        "title": "Participações divulgadas",
+        "text": "A roda de conversa foi anunciada com Brenda Mota, Antônio Mateus Soares e Esther Araújo, além de apresentação cultural de Jivanildo Bispo. A programação publicada informa 24 de setembro de 2026, das 8h às 12h. Não foi localizado um relato posterior específico desta atividade; esta página preserva a programação como anúncio.",
+        "sourceId": "ig-Ddo-RZ-Oljn"
+      }
+    ],
+    "image": "/assets/img/acoes/iguape-2026.webp",
+    "imageAvif": "/assets/img/acoes/iguape-2026.avif",
+    "imageWidth": 640,
+    "imageHeight": 1136,
+    "alt": "Capa do convite de Brenda Mota para a ação no CEQBI, com a identidade amarela da campanha",
+    "imageCredit": "Capa do convite para Santiago do Iguape · campanha do ELO e Ciências Sociais/UFRB; não é registro de execução",
+    "imageSourceId": "ig-Ddo-RZ-Oljn",
+    "imageKind": "video-cover",
+    "imageRightsStatus": "authorized_by_project_and_subject",
+    "imageSourceUrl": "https://www.instagram.com/p/Ddo-RZ-Oljn/",
+    "imageSlide": 1
+  },
+  {
+    "slug": "assedio-moral-saude-mental-2026",
+    "title": "Assédio moral no cotidiano e saúde mental: o que fazer?",
+    "type": "Mesa virtual",
+    "date": "2026-09-16",
+    "dateKind": "scheduled",
+    "time": "19h",
+    "year": "2026",
+    "location": "Online · TV UFRB",
+    "description": "Mesa anunciada na programação de setembro para discutir assédios, dignidade e cuidado, com contribuições da Psicologia e do Direito.",
+    "url": "/acoes/assedio-moral-saude-mental-2026/",
+    "sourceId": "ig-DdToCjVxn7X",
+    "status": "announced",
+    "detailTemplate": "record",
+    "institutions": [
+      "ELO.UFRB",
+      "TV UFRB"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=xS5zpjohJq0",
+    "sections": [
+      {
+        "title": "Um debate sobre dignidade e cuidado",
+        "text": "O convite publicado pelo ELO apresenta Linda Pereira, licencianda em Ciências Sociais e ativista, mobilizando o público para a mesa “Assédio Moral no Cotidiano e Saúde Mental: o que fazer?”. A programação relaciona enfrentamento aos assédios, saúde mental e defesa da dignidade como compromissos coletivos.",
+        "sourceId": "ig-DdToCjVxn7X"
+      },
+      {
+        "title": "Mesa e mediação anunciadas",
+        "text": "A publicação anuncia Elda Almeida e Franklim Peixinho, do campo do Direito, a psicóloga e psicanalista Tânia Duplatt e Benedito Neto. A mediação é atribuída a Yarla Maick. Data divulgada: 16 de setembro de 2026, às 19h, com transmissão indicada pela TV UFRB. O link audiovisual é mantido como acesso ao material original, sem alegar análise integral da gravação.",
+        "sourceId": "ig-DdToCjVxn7X"
+      }
+    ],
+    "image": "/assets/img/acoes/assedio-moral-2026.webp",
+    "imageAvif": "/assets/img/acoes/assedio-moral-2026.avif",
+    "imageWidth": 828,
+    "imageHeight": 1472,
+    "alt": "Linda Pereira no vídeo-convite da mesa sobre assédio moral, com os elementos visuais da campanha",
+    "imageCredit": "Capa do convite de Linda Pereira · ELO.UFRB; não é fotografia da realização da mesa",
+    "imageSourceId": "ig-DdToCjVxn7X",
+    "imageKind": "video-cover",
+    "imageRightsStatus": "authorized_by_project_and_subject",
+    "imageSourceUrl": "https://www.instagram.com/p/DdToCjVxn7X/",
+    "imageSlide": 1
+  },
+  {
+    "slug": "saude-mental-ufrb-fm-2026",
+    "title": "Saúde mental e cuidado na UFRB FM",
+    "type": "Entrevista",
+    "publicationDate": "2026-09-16",
+    "year": "2026",
+    "location": "UFRB FM · Rádio Educativa 87,1",
+    "description": "Entrevista com Antônio Mateus, Jaime Neto e Anamélia Rocha aproxima saúde mental, juventudes e responsabilidade coletiva.",
+    "url": "/acoes/saude-mental-ufrb-fm-2026/",
+    "sourceId": "ig-DdWdA_WoIPH",
+    "status": "documented",
+    "detailTemplate": "record",
+    "institutions": [
+      "UFRB FM",
+      "UFRB",
+      "ELO.UFRB · campanha de setembro"
+    ],
+    "sections": [
+      {
+        "title": "O debate chega à rádio universitária",
+        "text": "A UFRB FM publicou registros de uma entrevista sobre saúde mental, ética no cotidiano, juventudes, sofrimento e cuidado. Participam Antônio Mateus, identificado como professor da UFRB e organizador da campanha, o estudante Jaime Neto e Anamélia Rocha, apresentada como professora de Psicologia da Unimam.",
+        "sourceId": "ig-DdWdA_WoIPH"
+      },
+      {
+        "title": "Um espaço de comunicação e escuta",
+        "text": "A divulgação da rádio relaciona o tema às condições sociais, culturais, econômicas e políticas e apresenta a responsabilidade coletiva no cuidado. A publicação de 16 de setembro de 2026 reúne fotos e vídeos; a legenda não especifica o dia da gravação. O link original permite consultar esse material sem que o portal atribua ao vídeo falas não analisadas.",
+        "sourceId": "ig-DdWdA_WoIPH"
+      }
+    ],
+    "image": "/assets/img/acoes/entrevista-ufrb-fm-2026.webp",
+    "imageAvif": "/assets/img/acoes/entrevista-ufrb-fm-2026.avif",
+    "imageWidth": 1350,
+    "imageHeight": 1800,
+    "alt": "Quatro participantes reunidos no estúdio da UFRB FM durante os registros da entrevista sobre saúde mental",
+    "imageCredit": "Fotografia da publicação em coautoria UFRB FM e ELO.UFRB",
+    "imageSourceId": "ig-DdWdA_WoIPH",
+    "imageKind": "photo",
+    "imageRightsStatus": "authorized_by_project_and_subject",
+    "imageSourceUrl": "https://www.instagram.com/p/DdWdA_WoIPH/",
+    "imageSlide": 1,
+    "gallery": [
+      {
+        "image": "/assets/img/acoes/estudio-ufrb-fm-2026.webp",
+        "imageAvif": "/assets/img/acoes/estudio-ufrb-fm-2026.avif",
+        "imageWidth": 1350,
+        "imageHeight": 1800,
+        "alt": "Participantes sentados à mesa do estúdio da UFRB FM, diante de microfones",
+        "imageCredit": "Fotografia da publicação em coautoria UFRB FM e ELO.UFRB",
+        "imageSourceId": "ig-DdWdA_WoIPH",
+        "imageKind": "photo",
+        "imageRightsStatus": "authorized_by_project_and_subject",
+        "imageSourceUrl": "https://www.instagram.com/p/DdWdA_WoIPH/",
+        "imageSlide": 3
       }
     ]
   }

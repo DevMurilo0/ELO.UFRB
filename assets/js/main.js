@@ -167,7 +167,7 @@
   };
   for (const player of videoPlayers) {
     const videoId = player.dataset.video;
-    if (videoId) {
+    if (videoId && !player.querySelector("img")) {
       player.style.setProperty(
         "--video-poster",
         `url("https://i.ytimg.com/vi/${encodeURIComponent(videoId)}/hqdefault.jpg")`,
@@ -202,8 +202,19 @@
     iframe.loading = "eager";
     iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
     iframe.allowFullscreen = true;
-    player.replaceChildren(iframe);
-    player.classList.add("is-loaded");
+    const preview = [...player.children];
+    videoButton.disabled = true;
+    videoButton.setAttribute("aria-label", "Carregando " + iframe.title);
+    player.classList.add("is-loading");
+    player.setAttribute("aria-busy", "true");
+    iframe.addEventListener("load", () => {
+      preview.forEach((node) => node.remove());
+      player.classList.remove("is-loading");
+      player.classList.add("is-loaded");
+      player.setAttribute("aria-busy", "false");
+      iframe.focus();
+    }, { once: true });
+    player.append(iframe);
   });
 
   const hero = document.querySelector(".hero-centered");

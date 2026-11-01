@@ -9,7 +9,15 @@
     "provider": "youtube",
     "videoId": "XJhqUxYRl1k",
     "url": "https://holiste.com.br/in-existencia-cultura-suicidio-video/",
-    "sourceId": "holiste-existencia-2018"
+    "sourceId": "holiste-existencia-2018",
+    "thumbnail": {
+      "image": "/assets/img/idealizador/youtube-XJhqUxYRl1k.webp",
+      "imageAvif": "/assets/img/idealizador/youtube-XJhqUxYRl1k.avif",
+      "imageWidth": 1280,
+      "imageHeight": 720,
+      "alt": "Miniatura oficial do vídeo (In) Existência, Cultura, Suicídio",
+      "sourceUrl": "https://i.ytimg.com/vi/XJhqUxYRl1k/maxresdefault.jpg"
+    }
   },
   {
     "id": "youtube-conexao-sociedade-2023",
@@ -21,7 +29,15 @@
     "provider": "youtube",
     "videoId": "N1BZwAJ1t8o",
     "url": "https://www.youtube.com/live/N1BZwAJ1t8o",
-    "sourceId": "youtube-conexao-sociedade-pendente"
+    "sourceId": "youtube-conexao-sociedade-pendente",
+    "thumbnail": {
+      "image": "/assets/img/idealizador/youtube-N1BZwAJ1t8o.webp",
+      "imageAvif": "/assets/img/idealizador/youtube-N1BZwAJ1t8o.avif",
+      "imageWidth": 1280,
+      "imageHeight": 720,
+      "alt": "Miniatura oficial do vídeo Conexão Sociedade · vídeo indicado pelo projeto",
+      "sourceUrl": "https://i.ytimg.com/vi/N1BZwAJ1t8o/maxresdefault.jpg"
+    }
   },
   {
     "id": "jornal-da-manha-2016",
@@ -32,7 +48,16 @@
     "description": "Participação de Antônio Mateus em uma conversa sobre o cenário de homicídios em Salvador e Região Metropolitana.",
     "provider": "external",
     "url": "https://globoplay.globo.com/v/4750195/",
-    "sourceId": "globoplay-4750195"
+    "sourceId": "globoplay-4750195",
+    "thumbnail": {
+      "image": "/assets/img/idealizador/globoplay-4750195.webp",
+      "imageAvif": "/assets/img/idealizador/globoplay-4750195.avif",
+      "imageWidth": 1280,
+      "imageHeight": 720,
+      "alt": "Miniatura oficial da entrevista do Jornal da Manhã sobre homicídios em Salvador e região, disponível no Globoplay",
+      "sourceUrl": "https://s04.video.glbimg.com/x720/4750195.jpg",
+      "credit": "Miniatura oficial · Globoplay / TV Bahia"
+    }
   },
   {
     "id": "alba-entrevista-indexada",
@@ -46,7 +71,18 @@
     "sourceId": "alba-entrevista-indexada",
     "verificationStatus": "public_metadata_verified",
     "date": "2025-03-30",
-    "kind": "Referência audiovisual"
+    "kind": "Referência audiovisual",
+    "image": "/assets/img/idealizador/alba-entrevista-2025.webp",
+    "imageAvif": "/assets/img/idealizador/alba-entrevista-2025.avif",
+    "imageWidth": 828,
+    "imageHeight": 1472,
+    "alt": "Capa do vídeo ALBA Entrevista com Antônio Mateus, identificado como convidado sobre interiorização da universidade",
+    "imageCredit": "Capa do vídeo compartilhado por @ams.dialogos",
+    "imageSourceId": "alba-entrevista-indexada",
+    "imageKind": "video-cover",
+    "imageRightsStatus": "authorized_by_project_and_subject",
+    "imageSourceUrl": "https://www.instagram.com/p/DH1XwaBJlai/",
+    "imageSlide": 1
   },
   {
     "id": "massa-2025",
