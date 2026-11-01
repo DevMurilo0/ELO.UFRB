@@ -103,6 +103,11 @@ assert.match(
   /<h2 id="action-feature-title">Destaques de 2026<\/h2>/,
   "Destaques de 2026 é título de seção",
 );
+assert.match(pages.get("/"), /id="home-stories-title">Muito além/, "Home apresenta frentes adicionais à campanha");
+assert.match(pages.get("/acoes/"), /class="actions-spotlight-layout"/, "Ações tem destaques distintos da campanha");
+const actionHighlight = pages.get("/acoes/").split('<section class="section action-feature"')[1]?.split('<section class="section actions-intro"')[0] || "";
+assert.doesNotMatch(actionHighlight, /9ª Campanha Setembro Amarelo/, "Campanha não se repete no destaque de Ações");
+assert.match(pages.get("/acoes/"), /<h2>Outras ações no acervo<\/h2>/, "Arquivo separa o restante do acervo");
 assert.match(
   pages.get("/"),
   /<h2 id="movement-title">O ELO em atividade<\/h2>/,
