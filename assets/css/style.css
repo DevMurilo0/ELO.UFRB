@@ -5872,3 +5872,18 @@ html:not(.js-enabled) .founder-media .video-load { display:none; }
 html, body { overflow-x: clip; }
 .home-manifesto-grid > *, .home-fieldnotes-grid > *, .home-reading-grid > *, .home-network-grid > * { min-width: 0; }
 @supports not (overflow: clip) { html, body { overflow-x: hidden; } }
+
+
+/* Home: destaque documental da pesquisa em escolas, sem o cartaz da campanha. */
+.home-featured-image { aspect-ratio: 3 / 4; background: #e8e5dc; }
+.home-featured-image img { object-fit: cover; object-position: 50% 50%; }
+.home-featured-copy .context-heading { color: var(--red); letter-spacing: .13em; }
+.home-featured-copy h3 { max-width: 620px; text-wrap: balance; }
+.home-fieldnotes-side .home-story-card:first-child .home-story-card-image { background: #e3e0d6; }
+@media (max-width: 780px) {
+  .home-featured-image { aspect-ratio: 3 / 4; }
+}
+@media (max-width: 540px) {
+  .home-featured-image { aspect-ratio: 3 / 4; }
+  .home-featured-copy h3 { font-size: clamp(32px, 8vw, 44px); }
+}

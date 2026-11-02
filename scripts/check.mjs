@@ -203,8 +203,23 @@ assert.match(
 );
 assert.match(
   pages.get("/"),
-  /class="context-heading">Campanha · 2026<\/p>/,
-  "Campanha de 2026 possui cabeçalho contextual",
+  /class="context-heading">Pesquisa · 2026<\/p>/,
+  "Pesquisa sobre escolas ocupa o destaque principal da home",
+);
+assert.match(
+  pages.get("/"),
+  /O que a escola tem a nos contar\?/,
+  "Home apresenta a pesquisa com título editorial",
+);
+assert.doesNotMatch(
+  pages.get("/"),
+  /9ª Campanha Setembro Amarelo|setembro-amarelo-2026/i,
+  "Campanha Setembro Amarelo não aparece mais na home",
+);
+assert.match(
+  pages.get("/"),
+  /Saberes e formação no Colégio Candido Portinari/,
+  "Home mantém o diálogo escolar",
 );
 assert.match(
   pages.get("/"),
