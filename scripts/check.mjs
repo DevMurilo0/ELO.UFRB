@@ -103,14 +103,18 @@ assert.match(
   /<h2 id="action-feature-title">Destaques de 2026<\/h2>/,
   "Destaques de 2026 é título de seção",
 );
-assert.match(pages.get("/"), /id="home-stories-title">Muito além/, "Home apresenta frentes adicionais à campanha");
+assert.match(pages.get("/"), /id="home-fieldnotes-title">O ELO acontece/, "Home apresenta suas ações");
+assert.match(pages.get("/"), /id="home-reading-title">Ideias que continuam/, "Home apresenta publicações");
+assert.match(pages.get("/"), /id="home-network-title">Ninguém faz/, "Home apresenta parcerias");
+assert.match(pages.get("/"), /id="home-ending-title">A próxima conversa/, "Home apresenta contato");
+assert.match(pages.get("/"), /id="trajetoria-idealizador"/, "Home apresenta idealizador");
 assert.match(pages.get("/acoes/"), /class="actions-spotlight-layout"/, "Ações tem destaques distintos da campanha");
 const actionHighlight = pages.get("/acoes/").split('<section class="section action-feature"')[1]?.split('<section class="section actions-intro"')[0] || "";
 assert.doesNotMatch(actionHighlight, /9ª Campanha Setembro Amarelo/, "Campanha não se repete no destaque de Ações");
 assert.match(pages.get("/acoes/"), /<h2>Outras ações no acervo<\/h2>/, "Arquivo separa o restante do acervo");
 assert.match(
   pages.get("/"),
-  /<h2 id="movement-title">O ELO em atividade<\/h2>/,
+  /<h2 id="movement-title">O conhecimento/,
   "O ELO em atividade é título de seção",
 );
 assert.match(
@@ -199,12 +203,27 @@ assert.match(
 );
 assert.match(
   pages.get("/"),
-  /class="context-heading">Campanha · 2026<\/p>/,
-  "Campanha de 2026 possui cabeçalho contextual",
+  /class="context-heading">Pesquisa · 2026<\/p>/,
+  "Pesquisa sobre escolas ocupa o destaque principal da home",
 );
 assert.match(
   pages.get("/"),
-  /class="section-kicker">Publicações<\/p>/,
+  /O que a escola tem a nos contar\?/,
+  "Home apresenta a pesquisa com título editorial",
+);
+assert.doesNotMatch(
+  pages.get("/"),
+  /9ª Campanha Setembro Amarelo|setembro-amarelo-2026/i,
+  "Campanha Setembro Amarelo não aparece mais na home",
+);
+assert.match(
+  pages.get("/"),
+  /Saberes e formação no Colégio Candido Portinari/,
+  "Home mantém o diálogo escolar",
+);
+assert.match(
+  pages.get("/"),
+  /id="home-reading-title">Ideias que continuam/,
   "Publicações possui cabeçalho contextual",
 );
 // Regras temporais: listas vazias, ordem, dia civil e passagem de data.
